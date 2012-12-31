@@ -1,0 +1,13 @@
+export EDITOR="mate -w"
+
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/satelite/.gem/ruby/1.8/bin:/Users/satelite/apps/apache-activemq-5.3.2/bin/macosx:$PATH" 
+export PATH=$PATH:/usr/local/git/bin
+
+
+
+# This loads RVM into a shell session.
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  
+
+
+# This loads NVM into a shell session.
+[[ -s "$HOME/.nvm/" ]] && . "$HOME/.nvm/nvm.sh"
