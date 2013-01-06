@@ -1,7 +1,6 @@
-alias ls='ls -Gl'
-alias ll='ls -tar'
+alias ll='ls -ltar'
 
-alias  tomcatUp='$HOME/apps/tomcat/bin/catalina.sh start'
+alias tomcatUp='$HOME/apps/tomcat/bin/catalina.sh start'
 alias tomcatDown='$HOME/apps/tomcat/bin/catalina.sh stop'
 alias redeploy="mvn clean tomcat:redeploy"
 alias clearlogs="rm /softlaresLogs/*; rm $HOME/apps/tomcat/logs/*"
