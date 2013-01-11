@@ -3,5 +3,9 @@ export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
 export JAVA_OPTS='-Xmx1024m -Xms512m -XX:PermSize=1024m -XX:MaxPermSize=1024m'
 export CATALINA_HOME=$HOME/apps/tomcat
 
+# Colors in the shell
+export CLICOLOR=1
+# Color schema for LS. TODO:// Find more better
+export LSCOLORS=exfxcxdxbxegedabagacad
 
-export PS1="\W \n> "
+export PS1="\n\W\n"
