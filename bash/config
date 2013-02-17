@@ -6,6 +6,5 @@ export CATALINA_HOME=$HOME/apps/tomcat
 # Colors in the shell
 export CLICOLOR=1
 # Color schema for LS. TODO:// Find more better
-export LSCOLORS=exfxcxdxbxegedabagacad
-
-export PS1="\n\W\n"
+export LSCOLORS=gxfxcxdxbxegedabagacad
+export PS1="\n\w\n------------------\n"
