@@ -2,4 +2,4 @@
 export CLICOLOR=1
 # Color schema for LS. TODO:// Find more better
 export LSCOLORS=gxfxcxdxbxegedabagacad
-export PS1="\n\w\n$ "
+export PS1="\n\w\$(__git_ps1)\n$ "

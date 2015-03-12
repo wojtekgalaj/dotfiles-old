@@ -38,12 +38,6 @@
   changed = blue
   untracked = bold magenta
 
-[merge]
-  tool = vimdiff
-
-[diff]
-  tool = vimdiff
-
 [difftool "vimdiff"]
   cmd = vim -f -d \"$LOCAL\" \"$REMOTE\"
 
