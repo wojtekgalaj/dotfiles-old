@@ -1,0 +1,22 @@
+"*":
+  editor:
+    invisibles: {}
+    fontSize: 12
+  core:
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+    disabledPackages: [
+      "language-ruby"
+      "language-python"
+      "language-objective-c"
+      "language-mustache"
+      "autoflow"
+      "background-tips"
+    ]
+  "exception-reporting":
+    userId: "06fbb90e-59ef-319b-cb58-7d751e372826"
+  welcome:
+    showOnStartup: false
+  "linter-eslint": {}
