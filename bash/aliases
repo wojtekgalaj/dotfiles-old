@@ -6,3 +6,4 @@ alias peg='ps -ef | grep -v grep | grep'
 
 alias cc='clear'
 alias xx='exit'
+alias ggu='git get upstream'
