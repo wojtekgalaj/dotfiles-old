@@ -7,4 +7,4 @@ export PATH=$PATH:/usr/local/git/bin
 
 export ORACLE_HOME=~/devel/apps/instantclient_11_2
 
-export EDITOR='subl -w'
+export EDITOR='vim'
