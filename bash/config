@@ -1,3 +1,4 @@
+set -o vi
 # Colors in the shell
 export CLICOLOR=1
 # Color schema for LS. TODO:// Find more better
