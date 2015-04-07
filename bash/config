@@ -1,6 +1,8 @@
-set -o vi
 # Colors in the shell
 export CLICOLOR=1
 # Color schema for LS. TODO:// Find more better
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export PS1="\n\w\$(__git_ps1)\n$ "
+
+export LC_ALL=en_US.utf-8
+export LANG="$LC_ALL"

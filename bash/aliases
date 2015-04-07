@@ -6,4 +6,12 @@ alias peg='ps -ef | grep -v grep | grep'
 
 alias cc='clear'
 alias xx='exit'
+
+
 alias ggu='git get upstream'
+alias diff='git difftool'
+alias merge='git mergetool'
+alias ph='git ph'
+alias gs='git stash'
+alias gsp='git stash pop'
+alias s='git status'
