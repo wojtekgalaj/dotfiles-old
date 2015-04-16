@@ -6,6 +6,6 @@ export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:/usr/local/git/bin
 export PATH=$PATH:./node_modules/.bin
 
-export ORACLE_HOME=~/devel/apps/instantclient_11_2
+export CDPATH="~/bin:~/dev"
 
 export EDITOR='vi'
