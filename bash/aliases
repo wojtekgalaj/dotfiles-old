@@ -17,5 +17,5 @@ alias gsp='git stash pop'
 alias s='git status'
 
 alias ss='npm start'
-
-alias vi='mvim'
+alias sss='gulp serve'
+alias tt='npm run test'
