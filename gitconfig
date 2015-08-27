@@ -20,7 +20,7 @@
 	tool = Kaleidoscope
 
 [user]
-  name = Wojtek G 
+  name = Wojtek G
   email = wojtek.galaj@gmail.com
   logallrefupdates = true
 
@@ -74,19 +74,9 @@
   sm = diff --name-status --diff-filter=U
   unstage = reset --
 
-  # fetch and rebase
-  # if not arguments passed, the command executed will be git fetch origin <current-branch>
-  # usage:
-  # git get
-  # or
-  # git get someOrigin someBranch
-  get = "!f() { o=origin && (($#)) && o=$1; b=$(git rev-parse --abbrev-ref HEAD) && (($#>1)) && b=$2; (git fetch $o $b && git rebase $o/$b) }; f"
 
 [http]
   sslVerify = false
-
-[url "http://github.com/"]
-  insteadOf = "gh:"
 
 [help]
   autocorrect = 1

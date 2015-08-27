@@ -7,15 +7,27 @@ alias peg='ps -ef | grep -v grep | grep'
 alias cc='clear'
 alias xx='exit'
 
+alias v='mvim'
 
-alias ggu='git get upstream'
+alias ggu='git pull --rebase upstream'
 alias diff='git difftool'
 alias merge='git mergetool'
 alias ph='git ph'
 alias gs='git stash'
 alias gsp='git stash pop'
 alias s='git status'
+alias gco='git checkout'
+alias gc='git commit'
 
 alias ss='npm start'
 alias sss='gulp serve'
 alias tt='npm run test'
+
+alias tunnel='ssh -vN xteam-dev -L 27017:mongo.service.consul:27017'
+
+alias ccf='npm run uglify && cp -rf dist ~/dev/packlink-pro-front/node_modules/pack.components/'
+alias cce='npm run uglify && cp -rf dist ~/dev/packlink-pro-ebay/node_modules/pack.components/'
+alias ccp='npm run uglify && cp -rf dist ~/dev/packoffice/node_modules/pack.components/'
+alias fwf="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp -rf dist ~/dev/packlink-pro-front/node_modules/pack.components/'"
+alias fwe="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp -rf dist ~/dev/packlink-pro-ebay/node_modules/pack.components/'"
+alias fwp="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp -rf dist ~/dev/packoffice/node_modules/pack.components/'"
