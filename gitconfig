@@ -56,6 +56,8 @@
 
   ph = push origin
   pl = pull origin
+  co = checkout
+  br = branch
 
   s = status -vsb
 
