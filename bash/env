@@ -8,4 +8,4 @@ export PATH=$PATH:./node_modules/.bin
 
 export CDPATH="~/bin:~/dev"
 
-export EDITOR='vi'
+export EDITOR='vim'
