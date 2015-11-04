@@ -32,6 +32,7 @@ alias fwf="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp
 alias fwe="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp -rf dist ~/dev/packlink-pro-ebay/node_modules/pack.components/'"
 alias fwp="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp -rf dist ~/dev/packoffice/node_modules/pack.components/'"
 
+alias server="python -m SimpleHTTPServer"
 
 alias cdf='cd ~/dev/pro-front'
 alias cde='cd ~/dev/ebay-front'
