@@ -5,8 +5,13 @@ export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:/usr/local/git/bin
 export PATH=$PATH:./node_modules/.bin
+export TRANSIFEX_USER=helpdesk@packlink.es
+export TRANSIFEX_PASSWORD=Cambiala.\!2014
+export TRANSIFEX_PROJECT_EBAY=packlinkpro-ebay
+export TRANSIFEX_PROJECT_PRO=packlink-pro
+export TRANSIFEX_PROJECT_PRO_PUBLIC=packlink-pro-public
 
-export CDPATH="~/bin:~/dev"
+export CDPATH="~/bin"
 
 export EDITOR='vim'
 

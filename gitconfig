@@ -75,6 +75,7 @@
   # show un merged
   sm = diff --name-status --diff-filter=U
   unstage = reset --
+	ac = !git add -A && git commit
 
 
 [http]
