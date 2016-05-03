@@ -40,3 +40,5 @@ alias cds='cd ~/dev/pro-shipping'
 alias cdc='cd ~/dev/pack.components'
 alias cdp='cd ~/dev/packoffice'
 alias cdt='cd ~/dev/front-tools'
+
+alias jspm='nocorrect jsmp'
