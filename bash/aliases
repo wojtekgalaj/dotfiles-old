@@ -43,3 +43,5 @@ alias cdt='cd ~/dev/front-tools'
 alias tunnel="ssh -fN ddb1-tunnel&&ssh -fN ddb1-tunnel-redis&&ssh -fN ddb1-tunnel-mongo"
 alias tunnel-kill="pkill -f ddb1-tunnel"
 alias gulp="nocorrect gulp"
+alias jspm='nocorrect jsmp'
+

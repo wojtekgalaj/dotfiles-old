@@ -15,7 +15,14 @@ export CDPATH="~/bin:~/dev:~/dotvim"
 
 export EDITOR='vim'
 
+source ~/bin/git-completion.bash
+
 export NPM_PACKAGES="~/.npm-packages"
+
 export PATH="$NPM_PACKAGES/bin:$PATH"
+
+# Unset manpath so we can inherit from /etc/manpath via the `manpath` command
+unset MANPATH # delete if you already modified MANPATH elsewhere in your config
+export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 source ~/bin/dotfiles/git-prompt.sh

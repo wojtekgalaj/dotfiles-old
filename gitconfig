@@ -28,6 +28,7 @@
   safecrlf = false
   quotepath = false
 	precomposeunicode = true
+	editor = vim
 
 [color]
   diff = true
