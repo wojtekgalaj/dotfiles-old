@@ -15,6 +15,7 @@ export CDPATH="~/bin:~/dev:~/dotvim"
 
 export EDITOR='vim'
 
-if [ -n "$BASH_VERSION" ]; then
-  source ~/bin/git-completion.bash
-fi
+export NPM_PACKAGES="~/.npm-packages"
+export PATH="$NPM_PACKAGES/bin:$PATH"
+
+source ~/bin/dotfiles/git-prompt.sh

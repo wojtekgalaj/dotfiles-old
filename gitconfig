@@ -27,7 +27,7 @@
 [core]
   safecrlf = false
   quotepath = false
-  precomposeunicode = true
+	precomposeunicode = true
 
 [color]
   diff = true

@@ -23,7 +23,6 @@ alias ss='npm start'
 alias sss='gulp serve'
 alias tt='npm run test'
 
-alias tunnel='ssh -vN xteam-dev -L 27017:mongo.service.consul:27017'
 
 alias ccf='npm run uglify && cp -rf dist ~/dev/packlink-pro-front/node_modules/pack.components/'
 alias cce='npm run uglify && cp -rf dist ~/dev/packlink-pro-ebay/node_modules/pack.components/'
@@ -40,3 +39,7 @@ alias cds='cd ~/dev/pro-shipping'
 alias cdc='cd ~/dev/pack.components'
 alias cdp='cd ~/dev/packoffice'
 alias cdt='cd ~/dev/front-tools'
+
+alias tunnel="ssh -fN ddb1-tunnel&&ssh -fN ddb1-tunnel-redis&&ssh -fN ddb1-tunnel-mongo"
+alias tunnel-kill="pkill -f ddb1-tunnel"
+alias gulp="nocorrect gulp"
