@@ -2,9 +2,6 @@
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
 	required = true
-[user]
-	name = Wojtek G
-	email = wojciechgalaj@packlink.es
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustexitcode = true
@@ -54,6 +51,8 @@
   lg = log --graph --decorate
   # log edited files per commit
   lf = log --pretty=format:'%C(yellow)%h%C(red)%d %C(reset)%s%C(blue) [%cn]' --decorate --numstat
+
+  lol = log --graph --pretty=format:\"%C(yellow)%h%Creset%C(cyan)%C(bold)%d%Creset %C(cyan)(%cd)%Creset %C(green)%ce%Creset %s\"
 
   ph = push origin
   pl = pull origin
