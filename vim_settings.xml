@@ -13,13 +13,22 @@
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1466501311558">
         <mark key="[" line="22" column="53" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466501065848">
-        <mark key="[" line="110" column="21" />
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466529889591">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="359" column="1" />
+        <mark key="]" line="121" column="0" />
+        <mark key="." line="121" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/update_user_schema/00010_up.sql" timestamp="1466496509307">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" timestamp="1466530101041">
+        <mark key="[" line="15" column="20" />
+        <mark key="]" line="15" column="20" />
+        <mark key="^" line="18" column="27" />
+        <mark key="." line="15" column="20" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466506456697">
         <mark key="'" line="18" column="21" />
@@ -51,13 +60,15 @@
       <jump line="371" column="44" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
       <jump line="18" column="21" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
       <jump line="53" column="0" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="151" column="4" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" />
+      <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygncmVzZXQgbG9jYXRpb24gZGF0YScpCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>filter</text>
@@ -65,32 +76,32 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdwYW5lbCBkYXRhIHNldCB0byAnLCB2bS5wYW5lbE1vZGVsLmRhdGEpCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygncmVzZXQgbG9jYXRpb24gZGF0YScpCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">IA==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdjdXJyZW50IGZpbHRlciBmaWx0ZXJzIGFmdGVyIHNldCBmaWx0ZXIgJywgY3VycmVudEZpbHRlci5maWx0ZXJzKQo=</text>
+      <register name="2" type="4">
+        <text>l</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdjcml0ZXJpYSB2YWx1ZXMgYWZ0ZXIgc2VsZWN0Q3JpdGVyaWEnLCBjdXJyZW50RmlsdGVyLmNyaXRlcmlhVmFsdWVzKQo=</text>
+      <register name="3" type="4">
+        <text>e</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdjYXRlZ29yaWVzIGFmdGVyIGFkZGluZycsIHZtLmFjdGl2ZUZpbHRlcnMuY2F0ZWdvcmllcykK</text>
+      <register name="4" type="4">
+        <text>n</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2codm0uYWN0aXZlRmlsdGVycy50aW1lUmFuZ2UuaXNFeHBhbmRlZCApCg==</text>
+      <register name="5" type="4">
+        <text>a</text>
       </register>
       <register name="6" type="4">
-        <text>s</text>
+        <text>p</text>
       </register>
       <register name="7" type="4">
-        <text>s</text>
+        <text>-</text>
       </register>
       <register name="8" type="4">
-        <text>s</text>
+        <text>f</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coJ2Nsb3NlIG11bHRpIHNlbGVjdCcpCg==</text>
+      <register name="9" type="4">
+        <text>r</text>
       </register>
     </registers>
     <search>
