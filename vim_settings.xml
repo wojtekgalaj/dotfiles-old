@@ -47,12 +47,8 @@
         <mark key="^" line="37" column="15" />
         <mark key="." line="37" column="16" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466609540782">
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466612408526">
         <mark key="'" line="159" column="33" />
-        <mark key="[" line="163" column="29" />
-        <mark key="]" line="165" column="35" />
-        <mark key="." line="165" column="35" />
-        <mark key="^" line="165" column="35" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1466498155150">
         <mark key="[" line="1279" column="27" />
@@ -96,8 +92,8 @@
       <jump line="159" column="33" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">PGRpdiBjbGFzcz0ibXVsdGktc2VsZWN0X19jb250cm9scyI+CiAgICAgICAgICAgICAgPHAgbmctY2xpY2s9IiRjdHJsLmZpbHRlclN0YXRlWyRpbmRleF0uaXNNdWx0aVNlbGVjdFZpc2libGUgPSBmYWxzZSIKICAgICAgICAgICAgICAgICBjbGFzcz0ibXVsdGktc2VsZWN0X19zZXQtZmlsdGVyLWJ0Ij48aSBjbGFzcz0iZmEgZmEtY2hlY2siPjwvaT4ge3snQUNDRVBUX0ZJTFRFUicgfCB0cmFuc2xhdGV9fTwvcD4KICAgICAgICAgIDwvZGl2Pg==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAkcm9vdFNjb3BlLiRicm9hZGNhc3QoJ2ZpbHRlcnMudXBkYXRlJykK</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -108,32 +104,34 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYW5lbE1vZGVsLm1lZGl1bVZhcmlhYmxlVmFsdWUgPSAkZmlsdGVyKCdudW1iZXInKShfLnN1bShfLm1hcChsb2NhdGlvbnNEYXRhLCAncHJvcGVydGllcy4nICsgdmFyaWFibGUubmFtZSkpKTsK</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">PGRpdiBjbGFzcz0ibXVsdGktc2VsZWN0X19jb250cm9scyI+CiAgICAgICAgICAgICAgPHAgbmctY2xpY2s9IiRjdHJsLmZpbHRlclN0YXRlWyRpbmRleF0uaXNNdWx0aVNlbGVjdFZpc2libGUgPSBmYWxzZSIKICAgICAgICAgICAgICAgICBjbGFzcz0ibXVsdGktc2VsZWN0X19zZXQtZmlsdGVyLWJ0Ij48aSBjbGFzcz0iZmEgZmEtY2hlY2siPjwvaT4ge3snQUNDRVBUX0ZJTFRFUicgfCB0cmFuc2xhdGV9fTwvcD4KICAgICAgICAgIDwvZGl2Pg==</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAkcm9vdFNjb3BlLiRicm9hZGNhc3QoJ2ZpbHRlcnMudXBkYXRlJykK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygncHVzaGluZyAnLCBuZXdQYW5lbCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXBwbHlGaWx0ZXIoa2V5LCBhbGxGaWx0ZXJzW2tleV0pCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdwYW5lbCBkYXRhIHNldCB0byAnLCB2bS5wYW5lbE1vZGVsLmRhdGEpCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHZtLnBhbE1vZGVsLmdyYXBoVHlwZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBtZXJnZUZpbHRlcnNBbmRBcHBseSgpCg==</text>
       </register>
       <register name="5" type="4">
-        <text />
+        <text>else {
+                    currentFilterValues = _.without(currentFilterValues, value)
+                }</text>
       </register>
-      <register name="6" type="4">
-        <text>ne</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlYnVnZ2VyCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vIFRPRE86IEltcGxlbWVudCBhdmVyYWdlIGZvciBhZ2dyYWdhdGUgb2YgYWxsIHZhcmlhYmxlcyAK</text>
+      <register name="7" type="4">
+        <text encoding="base64">PGRpdiBjbGFzcz0ibXVsdGktc2VsZWN0X19jb250cm9scyI+CiAgICAgICAgICAgICAgPHAgbmctY2xpY2s9IiRjdHJsLmZpbHRlclN0YXRlWyRpbmRleF0uaXNNdWx0aVNlbGVjdFZpc2libGUgPSBmYWxzZSIKICAgICAgICAgICAgICAgICBjbGFzcz0ibXVsdGktc2VsZWN0X19zZXQtZmlsdGVyLWJ0Ij48aSBjbGFzcz0iZmEgZmEtY2hlY2siPjwvaT4ge3snQUNDRVBUX0ZJTFRFUicgfCB0cmFuc2xhdGV9fTwvcD4KICAgICAgICAgIDwvZGl2Pg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIDxwcmUgbmctcmVwZWF0PSJwYW5lbCBpbiBwZXJmQ3RybC5hY3RpdmVQYW5lbHMgdHJhY2sgYnkgJGluZGV4Ij4KICAgICAgICB7e3BhbmVsLmlucHV0Q3JpdGVyaWF9fQogICAgPC9wcmU+Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygncHVzaGluZyAnLCBuZXdQYW5lbCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdwYW5lbCBkYXRhIHNldCB0byAnLCB2bS5wYW5lbE1vZGVsLmRhdGEpCg==</text>
       </register>
     </registers>
     <search>
