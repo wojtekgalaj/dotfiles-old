@@ -20,23 +20,22 @@
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1466501311558">
         <mark key="[" line="22" column="53" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466587668230">
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466590640102">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="374" column="0" />
-        <mark key="]" line="375" column="25" />
-        <mark key="^" line="366" column="23" />
-        <mark key="." line="374" column="0" />
+        <mark key="[" line="390" column="26" />
+        <mark key="]" line="378" column="0" />
+        <mark key="." line="378" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/update_user_schema/00010_up.sql" timestamp="1466496509307">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" timestamp="1466586777837">
-        <mark key="[" line="14" column="9" />
-        <mark key="]" line="14" column="33" />
-        <mark key="^" line="14" column="33" />
-        <mark key="." line="14" column="33" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" timestamp="1466590717412">
+        <mark key="[" line="16" column="63" />
+        <mark key="]" line="16" column="63" />
+        <mark key="^" line="16" column="69" />
+        <mark key="." line="16" column="63" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/common/_colors.scss" timestamp="1466586416132">
         <mark key="[" line="37" column="16" />
@@ -80,11 +79,11 @@
       <jump line="155" column="16" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBmb250LWZhbWlseTogTGF0bzsKICAgICAgICBmb250LXdlaWdodDogMTAwOwo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>first</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>linear</text>
@@ -92,32 +91,32 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBmb250LWZhbWlseTogTGF0bzsKICAgICAgICBmb250LXdlaWdodDogMTAwOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBiYWNrZ3JvdW5kLWltYWRnZTogJGdyLWxpZ2h0LWdyYXk7Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text />
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgIG1hcmdpbi1sZWZ0OiAyMHB4Owo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>first</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text>im</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text>linear-gradient(0deg, #0089C4 2%, #005980 100%);</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICBiYWNrZ3JvdW5kLWltYWdlOiAkZ3ItbGlnaHQtZ3JheTsK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBiYWNrZ3JvdW5kOgo=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICBiYWNrZ3JvdW5kLWltYWdlOiAkZ3ItbGlnaHQtZ3JheTsK</text>
       </register>
     </registers>
     <search>
