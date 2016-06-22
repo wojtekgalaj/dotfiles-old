@@ -47,6 +47,11 @@
         <mark key="^" line="37" column="15" />
         <mark key="." line="37" column="16" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466613733089">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466612408526">
         <mark key="'" line="159" column="33" />
       </file>
@@ -93,7 +98,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAkcm9vdFNjb3BlLiRicm9hZGNhc3QoJ2ZpbHRlcnMudXBkYXRlJykK</text>
+        <text encoding="base64">ICAgICAgICA8cHJlCiAgICAgICAgICAgICAgICBuZy1yZXBlYXQ9ImNyaXRlcmlhVmFsdWUgaW4gJGN0cmwuZmlsdGVyU3RhdGVbJGluZGV4XS5jcml0ZXJpYVZhbHVlcyB0cmFjayBieSAkaW5kZXgiCiAgICAgICAgPnt7Y3JpdGVyaWFWYWx1ZX19PC9wcmU+Cg==</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -102,36 +107,36 @@
         <text>acce</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYW5lbE1vZGVsLm1lZGl1bVZhcmlhYmxlVmFsdWUgPSAkZmlsdGVyKCdudW1iZXInKShfLnN1bShfLm1hcChsb2NhdGlvbnNEYXRhLCAncHJvcGVydGllcy4nICsgdmFyaWFibGUubmFtZSkpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5nLXJlcGVhdD0iY3JpdGVyaWFWYWx1ZSBpbiAkY3RybC5maWx0ZXJTdGF0ZVskaW5kZXhdLmNyaXRlcmlhVmFsdWVzIHRyYWNrIGJ5ICRpbmRleCIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAkcm9vdFNjb3BlLiRicm9hZGNhc3QoJ2ZpbHRlcnMudXBkYXRlJykK</text>
+        <text encoding="base64">ICAgICAgICA8cHJlCiAgICAgICAgICAgICAgICBuZy1yZXBlYXQ9ImNyaXRlcmlhVmFsdWUgaW4gJGN0cmwuZmlsdGVyU3RhdGVbJGluZGV4XS5jcml0ZXJpYVZhbHVlcyB0cmFjayBieSAkaW5kZXgiCiAgICAgICAgPnt7Y3JpdGVyaWFWYWx1ZX19PC9wcmU+Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXBwbHlGaWx0ZXIoa2V5LCBhbGxGaWx0ZXJzW2tleV0pCg==</text>
+        <text encoding="base64">ICAgICAgICAkcm9vdFNjb3BlLiRicm9hZGNhc3QoJ2ZpbHRlcnMudXBkYXRlJykK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXBwbHlGaWx0ZXIoa2V5LCBhbGxGaWx0ZXJzW2tleV0pCg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBtZXJnZUZpbHRlcnNBbmRBcHBseSgpCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>else {
                     currentFilterValues = _.without(currentFilterValues, value)
                 }</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGRlYnVnZ2VyCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">PGRpdiBjbGFzcz0ibXVsdGktc2VsZWN0X19jb250cm9scyI+CiAgICAgICAgICAgICAgPHAgbmctY2xpY2s9IiRjdHJsLmZpbHRlclN0YXRlWyRpbmRleF0uaXNNdWx0aVNlbGVjdFZpc2libGUgPSBmYWxzZSIKICAgICAgICAgICAgICAgICBjbGFzcz0ibXVsdGktc2VsZWN0X19zZXQtZmlsdGVyLWJ0Ij48aSBjbGFzcz0iZmEgZmEtY2hlY2siPjwvaT4ge3snQUNDRVBUX0ZJTFRFUicgfCB0cmFuc2xhdGV9fTwvcD4KICAgICAgICAgIDwvZGl2Pg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygncHVzaGluZyAnLCBuZXdQYW5lbCkK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdwYW5lbCBkYXRhIHNldCB0byAnLCB2bS5wYW5lbE1vZGVsLmRhdGEpCg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygncHVzaGluZyAnLCBuZXdQYW5lbCkK</text>
       </register>
     </registers>
     <search>
