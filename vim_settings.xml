@@ -3,18 +3,18 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466586447276">
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466616782433">
         <mark key="'" line="155" column="16" />
-        <mark key="[" line="22" column="20" />
-        <mark key="]" line="22" column="34" />
-        <mark key="." line="22" column="34" />
-        <mark key="^" line="22" column="34" />
+        <mark key="[" line="53" column="16" />
+        <mark key="]" line="53" column="16" />
+        <mark key="." line="53" column="16" />
+        <mark key="^" line="53" column="16" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1466608732978">
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1466615983961">
         <mark key="'" line="100" column="18" />
-        <mark key="[" line="41" column="0" />
-        <mark key="]" line="41" column="0" />
-        <mark key="." line="41" column="0" />
+        <mark key="[" line="379" column="0" />
+        <mark key="]" line="379" column="45" />
+        <mark key="." line="379" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1466608157856">
         <mark key="'" line="48" column="66" />
@@ -22,13 +22,13 @@
         <mark key="]" line="64" column="0" />
         <mark key="." line="64" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466607831567">
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466616794852">
         <mark key="p" line="278" column="14" />
         <mark key="'" line="21" column="15" />
-        <mark key="[" line="357" column="56" />
-        <mark key="]" line="357" column="51" />
-        <mark key="." line="357" column="51" />
+        <mark key="[" line="21" column="12" />
+        <mark key="]" line="21" column="13" />
         <mark key="^" line="357" column="51" />
+        <mark key="." line="21" column="13" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/update_user_schema/00010_up.sql" timestamp="1466496509307">
         <mark key="[" line="0" column="0" />
@@ -47,13 +47,17 @@
         <mark key="^" line="37" column="15" />
         <mark key="." line="37" column="16" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466613733089">
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466614357642">
         <mark key="[" line="37" column="0" />
         <mark key="]" line="37" column="0" />
         <mark key="." line="37" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466612408526">
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466615888105">
         <mark key="'" line="159" column="33" />
+        <mark key="[" line="231" column="29" />
+        <mark key="]" line="234" column="8" />
+        <mark key="." line="234" column="8" />
+        <mark key="^" line="234" column="8" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1466498155150">
         <mark key="[" line="1279" column="27" />
@@ -97,46 +101,44 @@
       <jump line="159" column="33" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICA8cHJlCiAgICAgICAgICAgICAgICBuZy1yZXBlYXQ9ImNyaXRlcmlhVmFsdWUgaW4gJGN0cmwuZmlsdGVyU3RhdGVbJGluZGV4XS5jcml0ZXJpYVZhbHVlcyB0cmFjayBieSAkaW5kZXgiCiAgICAgICAgPnt7Y3JpdGVyaWFWYWx1ZX19PC9wcmU+Cg==</text>
+      <register name="&quot;" type="4">
+        <text>p</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>p</text>
       </register>
       <register name="/" type="4">
         <text>acce</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5nLXJlcGVhdD0iY3JpdGVyaWFWYWx1ZSBpbiAkY3RybC5maWx0ZXJTdGF0ZVskaW5kZXhdLmNyaXRlcmlhVmFsdWVzIHRyYWNrIGJ5ICRpbmRleCIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB2bS5ncmFwaERhdGFSZWFkeSA9IHRydWU7Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICA8cHJlCiAgICAgICAgICAgICAgICBuZy1yZXBlYXQ9ImNyaXRlcmlhVmFsdWUgaW4gJGN0cmwuZmlsdGVyU3RhdGVbJGluZGV4XS5jcml0ZXJpYVZhbHVlcyB0cmFjayBieSAkaW5kZXgiCiAgICAgICAgPnt7Y3JpdGVyaWFWYWx1ZX19PC9wcmU+Cg==</text>
+      <register name="1" type="4">
+        <text>p</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAkcm9vdFNjb3BlLiRicm9hZGNhc3QoJ2ZpbHRlcnMudXBkYXRlJykK</text>
+      <register name="2" type="4">
+        <text>locationsDataClone.features</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXBwbHlGaWx0ZXIoa2V5LCBhbGxGaWx0ZXJzW2tleV0pCg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">CiAgICAgICAgbG9jYXRpb25zRGF0YUNsb25lLmZlYXR1cmVzID0=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnQicsIGN1cnJlbnRGaWx0ZXJWYWx1ZXMpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBtZXJnZUZpbHRlcnNBbmRBcHBseSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnQScsIGN1cnJlbnRGaWx0ZXJWYWx1ZXMpCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>else {
-                    currentFilterValues = _.without(currentFilterValues, value)
-                }</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlYnVnZ2VyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdCICcsY3VycmVudEZpbHRlci5jcml0ZXJpYVZhbHVlcykK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">PGRpdiBjbGFzcz0ibXVsdGktc2VsZWN0X19jb250cm9scyI+CiAgICAgICAgICAgICAgPHAgbmctY2xpY2s9IiRjdHJsLmZpbHRlclN0YXRlWyRpbmRleF0uaXNNdWx0aVNlbGVjdFZpc2libGUgPSBmYWxzZSIKICAgICAgICAgICAgICAgICBjbGFzcz0ibXVsdGktc2VsZWN0X19zZXQtZmlsdGVyLWJ0Ij48aSBjbGFzcz0iZmEgZmEtY2hlY2siPjwvaT4ge3snQUNDRVBUX0ZJTFRFUicgfCB0cmFuc2xhdGV9fTwvcD4KICAgICAgICAgIDwvZGl2Pg==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdCICcsY3VycmVudEZpbHRlci5jcml0ZXJpYVZhbHVlcykK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygncHVzaGluZyAnLCBuZXdQYW5lbCkK</text>
+      <register name="9" type="4">
+        <text encoding="base64">IA==</text>
       </register>
     </registers>
     <search>
