@@ -10,12 +10,11 @@
         <mark key="." line="20" column="22" />
         <mark key="^" line="20" column="22" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1466676115081">
-        <mark key="'" line="118" column="18" />
-        <mark key="[" line="43" column="44" />
-        <mark key="]" line="46" column="11" />
-        <mark key="." line="46" column="11" />
-        <mark key="^" line="46" column="11" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1466680600314">
+        <mark key="[" line="173" column="43" />
+        <mark key="]" line="173" column="43" />
+        <mark key="." line="173" column="43" />
+        <mark key="^" line="171" column="43" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-component.js" timestamp="1466675166479">
         <mark key="[" line="12" column="46" />
@@ -23,8 +22,11 @@
         <mark key="." line="24" column="49" />
         <mark key="^" line="24" column="49" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1466668961975">
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1466680961383">
         <mark key="'" line="48" column="66" />
+        <mark key="[" line="52" column="51" />
+        <mark key="]" line="177" column="61" />
+        <mark key="." line="177" column="61" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466675775454">
         <mark key="p" line="278" column="14" />
@@ -57,12 +59,10 @@
         <mark key="." line="56" column="38" />
         <mark key="^" line="56" column="38" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466675705017">
-        <mark key="'" line="155" column="33" />
-        <mark key="[" line="282" column="33" />
-        <mark key="]" line="274" column="32" />
-        <mark key="." line="274" column="32" />
-        <mark key="^" line="274" column="32" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466680214843">
+        <mark key="]" line="97" column="35" />
+        <mark key="." line="97" column="35" />
+        <mark key="^" line="97" column="35" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1466498155150">
         <mark key="[" line="1279" column="27" />
@@ -105,13 +105,14 @@
       <jump line="21" column="15" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" />
       <jump line="159" column="33" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
       <jump line="54" column="0" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" />
+      <jump line="54" column="20" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAucGVyZi1wYW5lbF9fdGltZVBlcmlvZC1zZWxlY3RvciB7ZGlzcGxheTogYmxvY2s7fQo=</text>
+      <register name="&quot;" type="4">
+        <text>Month</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text>Month</text>
       </register>
       <register name="/" type="4">
         <text>multi</text>
@@ -120,31 +121,31 @@
         <text encoding="base64">ICAgICAgICAucGVyZi1wYW5lbF9fdGltZVBlcmlvZC1zZWxlY3RvciB7ZGlzcGxheTogYmxvY2s7fQo=</text>
       </register>
       <register name="1" type="4">
-        <text>&quot;</text>
+        <text>Month</text>
       </register>
       <register name="2" type="4">
-        <text>.</text>
+        <text>Hour</text>
       </register>
       <register name="3" type="4">
-        <text>t</text>
+        <text>Day of week</text>
       </register>
       <register name="4" type="4">
-        <text>n</text>
+        <text>)</text>
       </register>
       <register name="5" type="4">
-        <text>e</text>
+        <text>panel.translateTimePeriod(</text>
       </register>
       <register name="6" type="4">
-        <text>r</text>
+        <text>Hocur</text>
       </register>
       <register name="7" type="4">
-        <text>a</text>
+        <text>Day of week</text>
       </register>
-      <register name="8" type="4">
-        <text>p</text>
+      <register name="8" type="2">
+        <text encoding="base64">ZGVidWdnZXIK</text>
       </register>
       <register name="9" type="4">
-        <text>$</text>
+        <text>panelModel</text>
       </register>
     </registers>
     <search>
@@ -177,6 +178,9 @@
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
