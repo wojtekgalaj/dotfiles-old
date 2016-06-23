@@ -3,6 +3,45 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1466691160458">
+        <mark key="[" line="14" column="34" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466675775454">
+        <mark key="p" line="278" column="14" />
+        <mark key="'" line="21" column="15" />
+        <mark key="[" line="357" column="0" />
+        <mark key="]" line="357" column="58" />
+        <mark key="^" line="359" column="51" />
+        <mark key="." line="357" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" timestamp="1466608437810">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="^" line="24" column="9" />
+        <mark key="." line="25" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/common/_colors.scss" timestamp="1466691762447">
+        <mark key="[" line="1" column="19" />
+        <mark key="]" line="3" column="19" />
+        <mark key="^" line="3" column="19" />
+        <mark key="." line="3" column="19" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466680214843">
+        <mark key="]" line="97" column="35" />
+        <mark key="." line="97" column="35" />
+        <mark key="^" line="97" column="35" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1466498155150">
+        <mark key="[" line="1279" column="27" />
+        <mark key="]" line="1279" column="27" />
+        <mark key="." line="1279" column="27" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466696605875">
+        <mark key="[" line="59" column="0" />
+        <mark key="]" line="59" column="0" />
+        <mark key="." line="59" column="0" />
+        <mark key="^" line="67" column="55" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466671828283">
         <mark key="'" line="55" column="0" />
         <mark key="[" line="18" column="3" />
@@ -10,6 +49,7 @@
         <mark key="." line="20" column="22" />
         <mark key="^" line="20" column="22" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/gulpfile.js" timestamp="1466693188461" />
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-component.js" timestamp="1466675166479">
         <mark key="[" line="12" column="46" />
         <mark key="]" line="24" column="49" />
@@ -22,30 +62,16 @@
         <mark key="]" line="177" column="61" />
         <mark key="." line="177" column="61" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466675775454">
-        <mark key="p" line="278" column="14" />
-        <mark key="'" line="21" column="15" />
-        <mark key="[" line="357" column="0" />
-        <mark key="]" line="357" column="58" />
-        <mark key="^" line="359" column="51" />
-        <mark key="." line="357" column="0" />
-      </file>
       <file name="$USER_HOME$/dev/geoblink/update_user_schema/00010_up.sql" timestamp="1466496509307">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" timestamp="1466608437810">
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="^" line="24" column="9" />
-        <mark key="." line="25" column="0" />
-      </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/common/_colors.scss" timestamp="1466586416132">
-        <mark key="[" line="37" column="16" />
-        <mark key="]" line="37" column="64" />
-        <mark key="^" line="37" column="15" />
-        <mark key="." line="37" column="16" />
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" timestamp="1466696564506">
+        <mark key="[" line="25" column="22" />
+        <mark key="]" line="25" column="20" />
+        <mark key="." line="25" column="20" />
+        <mark key="^" line="25" column="20" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466675585316">
         <mark key="[" line="56" column="38" />
@@ -53,15 +79,16 @@
         <mark key="." line="56" column="38" />
         <mark key="^" line="56" column="38" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466680214843">
-        <mark key="]" line="97" column="35" />
-        <mark key="." line="97" column="35" />
-        <mark key="^" line="97" column="35" />
+      <file name="$USER_HOME$/dev/geoblink/config.js" timestamp="1466693898293" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels.js" timestamp="1466691008922">
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1466498155150">
-        <mark key="[" line="1279" column="27" />
-        <mark key="]" line="1279" column="27" />
-        <mark key="." line="1279" column="27" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/config/config.js" timestamp="1466697081737">
+        <mark key="[" line="601" column="0" />
+        <mark key="]" line="601" column="0" />
+        <mark key="." line="601" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -102,44 +129,44 @@
       <jump line="54" column="20" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>:</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CQkJCQkJWycnXQo=</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text>multi</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAucGVyZi1wYW5lbF9fdGltZVBlcmlvZC1zZWxlY3RvciB7ZGlzcGxheTogYmxvY2s7fQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgPHA+VHJhZmljbyBwZWF0b25hbCBlbiB0cmFtbzwvcD4K</text>
       </register>
-      <register name="1" type="4">
-        <text>:</text>
+      <register name="1" type="2">
+        <text encoding="base64">CQkJCQkJWycnXQo=</text>
       </register>
       <register name="2" type="4">
-        <text>Month</text>
+        <text>;</text>
       </register>
-      <register name="3" type="4">
-        <text>Hour</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwcmU+e3trZXl9fSAtIHt7Y2F0ZWdvcmllc319PC9wcmU+Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>Day of week</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDwvZGl2Pgo=</text>
       </register>
-      <register name="5" type="4">
-        <text>)</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxkaXYgCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>panel.translateTimePeriod(</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxpbWcgc3JjPSIvcmVzb3VyY2VzL2ltYWdlcy9sb2dvcy9sb2dvLXRvbXRvbS5wbmciIGFsdD0iIj4K</text>
       </register>
-      <register name="7" type="4">
-        <text>Hocur</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>Day of week</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICA8ZGl2IGNsYXNzPSJpbnB1dCIKICAgICAgICAgICAgIG5nLXJlcGVhdD0iKGtleSwgY2F0ZWdvcmllcykgaW4gOjp0cmFmZmljSGVscGVycy50cmFmZmljQ2F0ZWdvcmllcyIKICAgICAgICAgICAgIG5nLWNsYXNzPSJ7YWN0aXZlOiB0cmFmZmljU3RhdGUuY2F0ZWdvcnk9PT1rZXl9IgogICAgICAgICAgICAgbmctbW91c2VlbnRlcj0ib2xkX2xheWVyPXRyYWZmaWNTdGF0ZS5sYXllclt0cmFmZmljU3RhdGUuY2F0ZWdvcnldIj4KICAgICAgICAgICAgPGlucHV0IHR5cGU9InJhZGlvIgogICAgICAgICAgICAgICAgICAgbmFtZT0idHJhZmZpY19sYXllciIKICAgICAgICAgICAgICAgICAgIG5nLXZhbHVlPSJrZXkiCiAgICAgICAgICAgICAgICAgICBuZy1tb2RlbD0idHJhZmZpY1N0YXRlLmNhdGVnb3J5IgogICAgICAgICAgICAgICAgICAgbmctY2xpY2s9InRyYWZmaWNIZWxwZXJzLnVwZGF0ZUNob3JvcGxldGhzKGtleSxvbGRfbGF5ZXIpIj4KICAgICAgICAgICAge3trZXkgfCB1cHBlcmNhc2UgfHRyYW5zbGF0ZX19CiAgICAgICAgICAgIDxkaXYgbmctaWY9ImNhdGVnb3JpZXMubGVuZ3RoPjEiPgogICAgICAgICAgICAgICAgPHNlbGVjdCBjbGFzcz0iZm9ybS1jb250cm9sIgogICAgICAgICAgICAgICAgICAgICAgICBuZy1vcHRpb25zPSJjYXRlZ29yeSB8IHVwcGVyY2FzZSB8IHRyYW5zbGF0ZSBmb3IgY2F0ZWdvcnkgaW4gY2F0ZWdvcmllcyB0cmFjayBieSBjYXRlZ29yeSIKICAgICAgICAgICAgICAgICAgICAgICAgbmctbW9kZWw9InRyYWZmaWNTdGF0ZS5sYXllcltrZXldIgogICAgICAgICAgICAgICAgICAgICAgICBuZy1jaGFuZ2U9InRyYWZmaWNIZWxwZXJzLnVwZGF0ZUNob3JvcGxldGhzKGtleSxvbGRfbGF5ZXIpIj4KCiAgICAgICAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ZGVidWdnZXIK</text>
+      <register name="9" type="4">
+        <text>traffic-panel__trafic-type-selectors</text>
       </register>
     </registers>
     <search>
