@@ -3,32 +3,36 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466616782433">
-        <mark key="'" line="155" column="16" />
-        <mark key="[" line="53" column="16" />
-        <mark key="]" line="53" column="16" />
-        <mark key="." line="53" column="16" />
-        <mark key="^" line="53" column="16" />
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466671828283">
+        <mark key="'" line="55" column="0" />
+        <mark key="[" line="18" column="3" />
+        <mark key="]" line="20" column="22" />
+        <mark key="." line="20" column="22" />
+        <mark key="^" line="20" column="22" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1466615983961">
-        <mark key="'" line="100" column="18" />
-        <mark key="[" line="379" column="0" />
-        <mark key="]" line="379" column="45" />
-        <mark key="." line="379" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1466676115081">
+        <mark key="'" line="118" column="18" />
+        <mark key="[" line="43" column="44" />
+        <mark key="]" line="46" column="11" />
+        <mark key="." line="46" column="11" />
+        <mark key="^" line="46" column="11" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1466608157856">
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-component.js" timestamp="1466675166479">
+        <mark key="[" line="12" column="46" />
+        <mark key="]" line="24" column="49" />
+        <mark key="." line="24" column="49" />
+        <mark key="^" line="24" column="49" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1466668961975">
         <mark key="'" line="48" column="66" />
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="0" />
-        <mark key="." line="64" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466666797041">
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466675775454">
         <mark key="p" line="278" column="14" />
         <mark key="'" line="21" column="15" />
-        <mark key="[" line="21" column="12" />
-        <mark key="]" line="21" column="13" />
-        <mark key="^" line="357" column="51" />
-        <mark key="." line="21" column="13" />
+        <mark key="[" line="357" column="0" />
+        <mark key="]" line="357" column="58" />
+        <mark key="^" line="359" column="51" />
+        <mark key="." line="357" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/update_user_schema/00010_up.sql" timestamp="1466496509307">
         <mark key="[" line="0" column="0" />
@@ -47,17 +51,18 @@
         <mark key="^" line="37" column="15" />
         <mark key="." line="37" column="16" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466614357642">
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="0" />
-        <mark key="." line="37" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466675585316">
+        <mark key="[" line="56" column="38" />
+        <mark key="]" line="56" column="38" />
+        <mark key="." line="56" column="38" />
+        <mark key="^" line="56" column="38" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466615888105">
-        <mark key="'" line="159" column="33" />
-        <mark key="[" line="231" column="29" />
-        <mark key="]" line="234" column="8" />
-        <mark key="." line="234" column="8" />
-        <mark key="^" line="234" column="8" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466675705017">
+        <mark key="'" line="155" column="33" />
+        <mark key="[" line="282" column="33" />
+        <mark key="]" line="274" column="32" />
+        <mark key="." line="274" column="32" />
+        <mark key="^" line="274" column="32" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1466498155150">
         <mark key="[" line="1279" column="27" />
@@ -99,52 +104,53 @@
       <jump line="47" column="66" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" />
       <jump line="21" column="15" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" />
       <jump line="159" column="33" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
+      <jump line="54" column="0" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>p</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAucGVyZi1wYW5lbF9fdGltZVBlcmlvZC1zZWxlY3RvciB7ZGlzcGxheTogYmxvY2s7fQo=</text>
       </register>
       <register name="-" type="4">
-        <text>p</text>
+        <text>&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>acce</text>
+        <text>multi</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB2bS5ncmFwaERhdGFSZWFkeSA9IHRydWU7Cg==</text>
+        <text encoding="base64">ICAgICAgICAucGVyZi1wYW5lbF9fdGltZVBlcmlvZC1zZWxlY3RvciB7ZGlzcGxheTogYmxvY2s7fQo=</text>
       </register>
       <register name="1" type="4">
-        <text>p</text>
+        <text>&quot;</text>
       </register>
       <register name="2" type="4">
-        <text>locationsDataClone.features</text>
+        <text>.</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">CiAgICAgICAgbG9jYXRpb25zRGF0YUNsb25lLmZlYXR1cmVzID0=</text>
+        <text>t</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnQicsIGN1cnJlbnRGaWx0ZXJWYWx1ZXMpCg==</text>
+      <register name="4" type="4">
+        <text>n</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnQScsIGN1cnJlbnRGaWx0ZXJWYWx1ZXMpCg==</text>
+      <register name="5" type="4">
+        <text>e</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
+      <register name="6" type="4">
+        <text>r</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdCICcsY3VycmVudEZpbHRlci5jcml0ZXJpYVZhbHVlcykK</text>
+      <register name="7" type="4">
+        <text>a</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdCICcsY3VycmVudEZpbHRlci5jcml0ZXJpYVZhbHVlcykK</text>
+      <register name="8" type="4">
+        <text>p</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">IA==</text>
+        <text>$</text>
       </register>
     </registers>
     <search>
-      <last-search>acce</last-search>
+      <last-search>multi</last-search>
       <last-offset />
-      <last-pattern>acce</last-pattern>
+      <last-pattern>multi</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -162,11 +168,16 @@
         <entry>label</entry>
         <entry>perf-oanel</entry>
         <entry>acce</entry>
+        <entry>multi</entry>
       </history-search>
       <history-cmd />
       <history-expr />
       <history-input />
     </history>
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
 </application>
