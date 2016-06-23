@@ -36,11 +36,11 @@
         <mark key="]" line="1279" column="27" />
         <mark key="." line="1279" column="27" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466696605875">
-        <mark key="[" line="59" column="0" />
-        <mark key="]" line="59" column="0" />
-        <mark key="." line="59" column="0" />
-        <mark key="^" line="67" column="55" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466698193478">
+        <mark key="[" line="55" column="59" />
+        <mark key="]" line="55" column="59" />
+        <mark key="." line="55" column="59" />
+        <mark key="^" line="55" column="23" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466671828283">
         <mark key="'" line="55" column="0" />
@@ -67,11 +67,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" timestamp="1466696564506">
-        <mark key="[" line="25" column="22" />
-        <mark key="]" line="25" column="20" />
-        <mark key="." line="25" column="20" />
-        <mark key="^" line="25" column="20" />
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" timestamp="1466698254823">
+        <mark key="[" line="41" column="40" />
+        <mark key="]" line="43" column="0" />
+        <mark key="." line="43" column="0" />
+        <mark key="^" line="43" column="16" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466675585316">
         <mark key="[" line="56" column="38" />
@@ -130,43 +130,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CQkJCQkJWycnXQo=</text>
+        <text encoding="base64">ICAgIG1hcmdpbjogYXV0bzsK</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>multi</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPHA+VHJhZmljbyBwZWF0b25hbCBlbiB0cmFtbzwvcD4K</text>
+      <register name="0" type="4">
+        <text>traffic-panel__trafic-type-selectors</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkJCQkJWycnXQo=</text>
+        <text encoding="base64">ICAgIG1hcmdpbjogYXV0bzsK</text>
       </register>
       <register name="2" type="4">
-        <text>;</text>
+        <text>s</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwcmU+e3trZXl9fSAtIHt7Y2F0ZWdvcmllc319PC9wcmU+Cg==</text>
+      <register name="3" type="4">
+        <text>input</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDwvZGl2Pgo=</text>
+        <text encoding="base64">CQkJCQkJWycnXQo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxkaXYgCg==</text>
+      <register name="5" type="4">
+        <text>;</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxpbWcgc3JjPSIvcmVzb3VyY2VzL2ltYWdlcy9sb2dvcy9sb2dvLXRvbXRvbS5wbmciIGFsdD0iIj4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwcmU+e3trZXl9fSAtIHt7Y2F0ZWdvcmllc319PC9wcmU+Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDwvZGl2Pgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICA8ZGl2IGNsYXNzPSJpbnB1dCIKICAgICAgICAgICAgIG5nLXJlcGVhdD0iKGtleSwgY2F0ZWdvcmllcykgaW4gOjp0cmFmZmljSGVscGVycy50cmFmZmljQ2F0ZWdvcmllcyIKICAgICAgICAgICAgIG5nLWNsYXNzPSJ7YWN0aXZlOiB0cmFmZmljU3RhdGUuY2F0ZWdvcnk9PT1rZXl9IgogICAgICAgICAgICAgbmctbW91c2VlbnRlcj0ib2xkX2xheWVyPXRyYWZmaWNTdGF0ZS5sYXllclt0cmFmZmljU3RhdGUuY2F0ZWdvcnldIj4KICAgICAgICAgICAgPGlucHV0IHR5cGU9InJhZGlvIgogICAgICAgICAgICAgICAgICAgbmFtZT0idHJhZmZpY19sYXllciIKICAgICAgICAgICAgICAgICAgIG5nLXZhbHVlPSJrZXkiCiAgICAgICAgICAgICAgICAgICBuZy1tb2RlbD0idHJhZmZpY1N0YXRlLmNhdGVnb3J5IgogICAgICAgICAgICAgICAgICAgbmctY2xpY2s9InRyYWZmaWNIZWxwZXJzLnVwZGF0ZUNob3JvcGxldGhzKGtleSxvbGRfbGF5ZXIpIj4KICAgICAgICAgICAge3trZXkgfCB1cHBlcmNhc2UgfHRyYW5zbGF0ZX19CiAgICAgICAgICAgIDxkaXYgbmctaWY9ImNhdGVnb3JpZXMubGVuZ3RoPjEiPgogICAgICAgICAgICAgICAgPHNlbGVjdCBjbGFzcz0iZm9ybS1jb250cm9sIgogICAgICAgICAgICAgICAgICAgICAgICBuZy1vcHRpb25zPSJjYXRlZ29yeSB8IHVwcGVyY2FzZSB8IHRyYW5zbGF0ZSBmb3IgY2F0ZWdvcnkgaW4gY2F0ZWdvcmllcyB0cmFjayBieSBjYXRlZ29yeSIKICAgICAgICAgICAgICAgICAgICAgICAgbmctbW9kZWw9InRyYWZmaWNTdGF0ZS5sYXllcltrZXldIgogICAgICAgICAgICAgICAgICAgICAgICBuZy1jaGFuZ2U9InRyYWZmaWNIZWxwZXJzLnVwZGF0ZUNob3JvcGxldGhzKGtleSxvbGRfbGF5ZXIpIj4KCiAgICAgICAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxkaXYgCg==</text>
       </register>
-      <register name="9" type="4">
-        <text>traffic-panel__trafic-type-selectors</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxpbWcgc3JjPSIvcmVzb3VyY2VzL2ltYWdlcy9sb2dvcy9sb2dvLXRvbXRvbS5wbmciIGFsdD0iIj4K</text>
       </register>
     </registers>
     <search>
