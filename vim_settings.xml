@@ -36,11 +36,10 @@
         <mark key="]" line="1279" column="27" />
         <mark key="." line="1279" column="27" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466765885094">
-        <mark key="[" line="55" column="59" />
-        <mark key="]" line="55" column="59" />
-        <mark key="." line="55" column="59" />
-        <mark key="^" line="55" column="23" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466775704658">
+        <mark key="[" line="49" column="53" />
+        <mark key="]" line="49" column="54" />
+        <mark key="." line="49" column="54" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466671828283">
         <mark key="'" line="55" column="0" />
@@ -66,11 +65,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" timestamp="1466698254823">
-        <mark key="[" line="41" column="40" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
-        <mark key="^" line="43" column="16" />
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" timestamp="1466774793734">
+        <mark key="'" line="70" column="1" />
+        <mark key="[" line="52" column="1" />
+        <mark key="]" line="66" column="19" />
+        <mark key="." line="66" column="19" />
+        <mark key="^" line="66" column="19" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466675585316">
         <mark key="[" line="56" column="38" />
@@ -126,52 +126,54 @@
       <jump line="159" column="33" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
       <jump line="54" column="0" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" />
       <jump line="54" column="20" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
+      <jump line="60" column="1" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIG1hcmdpbjogYXV0bzsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>graph-container</text>
       </register>
       <register name="/" type="4">
-        <text>multi</text>
+        <text>main.css</text>
       </register>
       <register name="0" type="4">
-        <text>traffic-panel__trafic-type-selectors</text>
+        <text>percent-bars</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIG1hcmdpbjogYXV0bzsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>s</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
-        <text>input</text>
+        <text>graph-container</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">CQkJCQkJWycnXQo=</text>
+      <register name="4" type="4">
+        <text>graph-container</text>
       </register>
       <register name="5" type="4">
-        <text>;</text>
+        <text>compare</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwcmU+e3trZXl9fSAtIHt7Y2F0ZWdvcmllc319PC9wcmU+Cg==</text>
+        <text encoding="base64">ICAgICAgICA8IS0tIHNpbmdsZSBhcmVhIHRpcHMgLS0+CiAgICAgICAgPGRpdiBjbGFzcz0idGlwcy1jb250YWluZXIiIG5nLWlmPSJjb21wYXJlZEFyZWFzLmxlbmd0aDw9MSI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPCEtLSBjb21wYXJlIGFyZWFzIHRpcHMgLS0+CiAgICAgICAgPGRpdiBjbGFzcz0idGlwcy1jb250YWluZXIiIG5nLWlmPSJjb21wYXJlZEFyZWFzLmxlbmd0aD4xIj4KICAgICAgICAgICAgPHAgY2xhc3M9InRpcHMiPgogICAgICAgICAgICAgICAge3sgJ1BFREVTVFJJQU5fVFJBRkZJQycgfCB0cmFuc2xhdGUgfX0ge3sgJ0lOX1RISVNfQVJFQScgfCB0cmFuc2xhdGUgfX0ge3sgJ0lTJyB8IHRyYW5zbGF0ZSB9fSA8c3Ryb25nPnt7JHJvb3QudHJhZmZpY2RpZmZbMV0gfCBncmVhdGVyb3Jsb3dlcn19PC9zdHJvbmc+IHt7ICdQRURFU1RSSUFOX1RSQUZGSUMnIHwgdHJhbnNsYXRlIHwgbG93ZXJjYXNlIH19IHt7ICdJTl9USEVfQVJFQScgfCB0cmFuc2xhdGUgfX0gMQogICAgICAgICAgICAgICAgPHNwYW4gbmctaWY9ImNvbXBhcmVkQXJlYXMubGVuZ3RoPT0zIj57eyAnQU5EJyB8IHRyYW5zbGF0ZSB9fSA8c3Ryb25nPnt7JHJvb3QudHJhZmZpY2RpZmZbMl0gfCBncmVhdGVyb3Jsb3dlcn19IDwvc3Ryb25nPiB7eyAnSU5fVEhFX0FSRUEnIHwgdHJhbnNsYXRlIH19IDI8L3NwYW4+LgogICAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDwvZGl2Pgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxkaXYgCg==</text>
+        <text encoding="base64">ICAgICAgICA8ZGl2IGNsYXNzPSJncmFwaC1jb250YWluZXIiIG5nLXJlcGVhdD0idCBpbiBnZXRUaW1lcyhjb21wYXJlZEFyZWFzLmxlbmd0aHx8MSkgdHJhY2sgYnkgJGluZGV4IiBuZy1pZj0idHJhZmZpY1N0YXRlLm1hcFN0YXRlLmNlbnRlclskaW5kZXhdIj4KICAgICAgICAgICAgPGxlYWZsZXQgaWQ9InRyYWZmaWMtbWFwLXt7JGluZGV4fX0iIGNsYXNzPSJtYXAiIGxmLWNlbnRlcj0idHJhZmZpY1N0YXRlLm1hcFN0YXRlLmNlbnRlclskaW5kZXhdIiBsYXllcnM9InRyYWZmaWNTdGF0ZS5tYXBTdGF0ZS5sYXllcnMiIG1hcmtlcnM9InRyYWZmaWNTdGF0ZS5tYXBTdGF0ZS5tYXJrZXJzWyRpbmRleF0iIGRlZmF1bHRzPSJ0cmFmZmljU3RhdGUubWFwU3RhdGUuZGVmYXVsdHMiIGxlZ2VuZD0idHJhZmZpY1N0YXRlLm1hcFN0YXRlLmxlZ2VuZCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSI+PC9sZWFmbGV0PgogICAgICAgIDwvZGl2Pgo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxpbWcgc3JjPSIvcmVzb3VyY2VzL2ltYWdlcy9sb2dvcy9sb2dvLXRvbXRvbS5wbmciIGFsdD0iIj4K</text>
+      <register name="9" type="4">
+        <text>12px</text>
       </register>
     </registers>
     <search>
-      <last-search>multi</last-search>
+      <last-search>main.css</last-search>
       <last-offset />
-      <last-pattern>multi</last-pattern>
+      <last-pattern>main.css</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -190,6 +192,7 @@
         <entry>perf-oanel</entry>
         <entry>acce</entry>
         <entry>multi</entry>
+        <entry>main.css</entry>
       </history-search>
       <history-cmd />
       <history-expr />
