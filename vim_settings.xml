@@ -36,10 +36,11 @@
         <mark key="]" line="1279" column="27" />
         <mark key="." line="1279" column="27" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466776785703">
-        <mark key="[" line="96" column="0" />
-        <mark key="]" line="96" column="0" />
-        <mark key="." line="96" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466779414918">
+        <mark key="[" line="80" column="31" />
+        <mark key="]" line="80" column="99" />
+        <mark key="." line="80" column="31" />
+        <mark key="^" line="80" column="29" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466671828283">
         <mark key="'" line="55" column="0" />
@@ -65,12 +66,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" timestamp="1466774793734">
-        <mark key="'" line="70" column="1" />
-        <mark key="[" line="52" column="1" />
-        <mark key="]" line="66" column="19" />
-        <mark key="." line="66" column="19" />
-        <mark key="^" line="66" column="19" />
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" timestamp="1466781635432">
+        <mark key="[" line="101" column="15" />
+        <mark key="]" line="127" column="0" />
+        <mark key="." line="127" column="0" />
+        <mark key="^" line="122" column="16" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466675585316">
         <mark key="[" line="56" column="38" />
@@ -128,46 +128,47 @@
       <jump line="54" column="20" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
       <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
       <jump line="60" column="1" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
+      <jump line="98" column="18" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bmctaWY9ImNvbXBhcmVkQXJlYXMubGVuZ3RoPjEi</text>
+        <text>none</text>
       </register>
       <register name="/" type="4">
         <text>main.css</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwPjwvcD4K</text>
+        <text encoding="base64">ICAubmV3IC5tYXAgLmxlZ2VuZCB7CiAgICBkaXNwbGF5OiBub25lOwogIH0K</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">LnRyYWZmaWMtcGFuZWxfX21hcC1ibG9jayB7CiAgLnBhbmVsLWNvbnRlbnQtcmlnaHQgLm5ldyAubWFwIC5sZWdlbmQgewogICAgZGlzcGxheTogbm9uZTsKICB9CiAgJjpmaXJzdC1jaGlsZCB7CiAgICAucGFuZWwtY29udGVudC1yaWdodCAubmV3IC5tYXAgLmxlZ2VuZCB7CiAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgfQogIH0KfQ==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICRyb290U2NvcGUub3Blbl9yaWdodF9wYW5lbCA9IHRydWU7Cg==</text>
+        <text encoding="base64">LnRyYWZmaWMtcGFuZWxfX21hcC1ibG9jayB7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CgogICAgICAgIDxkaXYgY2xhc3M9InBhbmVsLW1vZHVsZS1yaWdodC1yb3cgdHJhZmZpYy1wYW5lbF9fbWFwLWJsb2NrIiBuZy1pZj0iY29tcGFyZWRBcmVhcy5sZW5ndGggPD0gMSI+CiAgICAgICAgPC9kaXY+CgoKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwPjwvcD4K</text>
+      <register name="5" type="4">
+        <text>none</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwPnt7J2NvbWFwcmUnfX08L3A+Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwPnt7J2NvbWFwcmUnfX08L3A+CiAgICAgICAgICAgICAgICA8cD48L3A+Cg==</text>
+        <text encoding="base64">ICAgICAgICBmb250LXdlaWdodDogMjAwOwogICAgICAgIGZvbnQtc2l6ZTogMTJweDsK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">bmctaWY9ImNvbXBhcmVkQXJlYXMubGVuZ3RoPjEi</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBmb250LXdlaWdodDogMjAwOwogICAgICAgIGZvbnQtc2l6ZTogMTJweDsK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwZXJjZW50LWJhcnMiPgogICAgICAgICAgICAgICAgICAgIHt7J1BFREVTVFJJQU5fVFJBRkZJQ19BVkcnIHwgdHJhbnNsYXRlfX0ge3snSU5fVEhFX0FSRUEnIHwgdHJhbnNsYXRlfX0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwcm9ncmVzcyByZWZDb2xvclRyYW5zIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJvZ3Jlc3MtYmFyIHJlZkNvbG9yIiBuZy1zdHlsZT0ie3dpZHRoOiArJyUnfSI+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIHt7J1BFREVTVFJJQU5fVFJBRkZJQycgfCB0cmFuc2xhdGV9fSB7eydBTE9OR19TVFJFVENIJyB8IHRyYW5zbGF0ZX19CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJvZ3Jlc3MgcmVmQ29sb3JUcmFucyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InByb2dyZXNzLWJhciByZWZDb2xvciIgbmctc3R5bGU9Int3aWR0aDogJHJvb3QuQ1NELnBvaW50X2RhdGEudHJhZmZpY19ub3JtYWxpemVkICsnJSd9Ij48L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2Pgo=</text>
+      <register name="9" type="4">
+        <text>display</text>
       </register>
     </registers>
     <search>
