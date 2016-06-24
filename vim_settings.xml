@@ -36,10 +36,10 @@
         <mark key="]" line="1279" column="27" />
         <mark key="." line="1279" column="27" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466775704658">
-        <mark key="[" line="49" column="53" />
-        <mark key="]" line="49" column="54" />
-        <mark key="." line="49" column="54" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466776785703">
+        <mark key="[" line="96" column="0" />
+        <mark key="]" line="96" column="0" />
+        <mark key="." line="96" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-multi-filters.scss" timestamp="1466671828283">
         <mark key="'" line="55" column="0" />
@@ -79,10 +79,10 @@
         <mark key="^" line="56" column="38" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/backup.html" timestamp="1466763987611" />
-      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels.js" timestamp="1466691008922">
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels.js" timestamp="1466776843209">
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
+        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/config/config.js" timestamp="1466697081737">
         <mark key="[" line="601" column="0" />
@@ -134,13 +134,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>graph-container</text>
+        <text encoding="base64">bmctaWY9ImNvbXBhcmVkQXJlYXMubGVuZ3RoPjEi</text>
       </register>
       <register name="/" type="4">
         <text>main.css</text>
       </register>
-      <register name="0" type="4">
-        <text>percent-bars</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwPjwvcD4K</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -148,26 +148,26 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>graph-container</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICRyb290U2NvcGUub3Blbl9yaWdodF9wYW5lbCA9IHRydWU7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>graph-container</text>
+      <register name="4" type="2">
+        <text encoding="base64">CgogICAgICAgIDxkaXYgY2xhc3M9InBhbmVsLW1vZHVsZS1yaWdodC1yb3cgdHJhZmZpYy1wYW5lbF9fbWFwLWJsb2NrIiBuZy1pZj0iY29tcGFyZWRBcmVhcy5sZW5ndGggPD0gMSI+CiAgICAgICAgPC9kaXY+CgoKCg==</text>
       </register>
-      <register name="5" type="4">
-        <text>compare</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwPjwvcD4K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICA8IS0tIHNpbmdsZSBhcmVhIHRpcHMgLS0+CiAgICAgICAgPGRpdiBjbGFzcz0idGlwcy1jb250YWluZXIiIG5nLWlmPSJjb21wYXJlZEFyZWFzLmxlbmd0aDw9MSI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPCEtLSBjb21wYXJlIGFyZWFzIHRpcHMgLS0+CiAgICAgICAgPGRpdiBjbGFzcz0idGlwcy1jb250YWluZXIiIG5nLWlmPSJjb21wYXJlZEFyZWFzLmxlbmd0aD4xIj4KICAgICAgICAgICAgPHAgY2xhc3M9InRpcHMiPgogICAgICAgICAgICAgICAge3sgJ1BFREVTVFJJQU5fVFJBRkZJQycgfCB0cmFuc2xhdGUgfX0ge3sgJ0lOX1RISVNfQVJFQScgfCB0cmFuc2xhdGUgfX0ge3sgJ0lTJyB8IHRyYW5zbGF0ZSB9fSA8c3Ryb25nPnt7JHJvb3QudHJhZmZpY2RpZmZbMV0gfCBncmVhdGVyb3Jsb3dlcn19PC9zdHJvbmc+IHt7ICdQRURFU1RSSUFOX1RSQUZGSUMnIHwgdHJhbnNsYXRlIHwgbG93ZXJjYXNlIH19IHt7ICdJTl9USEVfQVJFQScgfCB0cmFuc2xhdGUgfX0gMQogICAgICAgICAgICAgICAgPHNwYW4gbmctaWY9ImNvbXBhcmVkQXJlYXMubGVuZ3RoPT0zIj57eyAnQU5EJyB8IHRyYW5zbGF0ZSB9fSA8c3Ryb25nPnt7JHJvb3QudHJhZmZpY2RpZmZbMl0gfCBncmVhdGVyb3Jsb3dlcn19IDwvc3Ryb25nPiB7eyAnSU5fVEhFX0FSRUEnIHwgdHJhbnNsYXRlIH19IDI8L3NwYW4+LgogICAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwPnt7J2NvbWFwcmUnfX08L3A+Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxwPnt7J2NvbWFwcmUnfX08L3A+CiAgICAgICAgICAgICAgICA8cD48L3A+Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICA8ZGl2IGNsYXNzPSJncmFwaC1jb250YWluZXIiIG5nLXJlcGVhdD0idCBpbiBnZXRUaW1lcyhjb21wYXJlZEFyZWFzLmxlbmd0aHx8MSkgdHJhY2sgYnkgJGluZGV4IiBuZy1pZj0idHJhZmZpY1N0YXRlLm1hcFN0YXRlLmNlbnRlclskaW5kZXhdIj4KICAgICAgICAgICAgPGxlYWZsZXQgaWQ9InRyYWZmaWMtbWFwLXt7JGluZGV4fX0iIGNsYXNzPSJtYXAiIGxmLWNlbnRlcj0idHJhZmZpY1N0YXRlLm1hcFN0YXRlLmNlbnRlclskaW5kZXhdIiBsYXllcnM9InRyYWZmaWNTdGF0ZS5tYXBTdGF0ZS5sYXllcnMiIG1hcmtlcnM9InRyYWZmaWNTdGF0ZS5tYXBTdGF0ZS5tYXJrZXJzWyRpbmRleF0iIGRlZmF1bHRzPSJ0cmFmZmljU3RhdGUubWFwU3RhdGUuZGVmYXVsdHMiIGxlZ2VuZD0idHJhZmZpY1N0YXRlLm1hcFN0YXRlLmxlZ2VuZCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSI+PC9sZWFmbGV0PgogICAgICAgIDwvZGl2Pgo=</text>
+      <register name="8" type="4">
+        <text encoding="base64">bmctaWY9ImNvbXBhcmVkQXJlYXMubGVuZ3RoPjEi</text>
       </register>
-      <register name="9" type="4">
-        <text>12px</text>
+      <register name="9" type="2">
+        <text encoding="base64">CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwZXJjZW50LWJhcnMiPgogICAgICAgICAgICAgICAgICAgIHt7J1BFREVTVFJJQU5fVFJBRkZJQ19BVkcnIHwgdHJhbnNsYXRlfX0ge3snSU5fVEhFX0FSRUEnIHwgdHJhbnNsYXRlfX0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwcm9ncmVzcyByZWZDb2xvclRyYW5zIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJvZ3Jlc3MtYmFyIHJlZkNvbG9yIiBuZy1zdHlsZT0ie3dpZHRoOiArJyUnfSI+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIHt7J1BFREVTVFJJQU5fVFJBRkZJQycgfCB0cmFuc2xhdGV9fSB7eydBTE9OR19TVFJFVENIJyB8IHRyYW5zbGF0ZX19CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJvZ3Jlc3MgcmVmQ29sb3JUcmFucyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InByb2dyZXNzLWJhciByZWZDb2xvciIgbmctc3R5bGU9Int3aWR0aDogJHJvb3QuQ1NELnBvaW50X2RhdGEudHJhZmZpY19ub3JtYWxpemVkICsnJSd9Ij48L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2Pgo=</text>
       </register>
     </registers>
     <search>
