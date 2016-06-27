@@ -6,6 +6,11 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1466691160458">
         <mark key="[" line="14" column="34" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/time-range-selector/time-range-selector-tmpl.html" timestamp="1467044560057">
+        <mark key="[" line="6" column="12" />
+        <mark key="]" line="6" column="12" />
+        <mark key="." line="6" column="12" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1466675775454">
         <mark key="p" line="278" column="14" />
         <mark key="'" line="21" column="15" />
@@ -14,11 +19,12 @@
         <mark key="^" line="359" column="51" />
         <mark key="." line="357" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" timestamp="1466608437810">
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="^" line="24" column="9" />
-        <mark key="." line="25" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" timestamp="1467044837522">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="22" column="109" />
+        <mark key="]" line="20" column="138" />
+        <mark key="^" line="20" column="138" />
+        <mark key="." line="20" column="138" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/common/_colors.scss" timestamp="1466691762447">
         <mark key="[" line="1" column="19" />
@@ -26,16 +32,16 @@
         <mark key="^" line="3" column="19" />
         <mark key="." line="3" column="19" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/package.json" timestamp="1467015955294" />
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466680214843">
         <mark key="]" line="97" column="35" />
         <mark key="." line="97" column="35" />
         <mark key="^" line="97" column="35" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1466498155150">
-        <mark key="[" line="1279" column="27" />
-        <mark key="]" line="1279" column="27" />
-        <mark key="." line="1279" column="27" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1467044728347">
+        <mark key="[" line="1359" column="57" />
+        <mark key="]" line="1362" column="25" />
+        <mark key="." line="1362" column="25" />
+        <mark key="^" line="1362" column="25" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466779414918">
         <mark key="[" line="80" column="31" />
@@ -50,7 +56,6 @@
         <mark key="." line="20" column="22" />
         <mark key="^" line="20" column="22" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/package.json" timestamp="1467016011386" />
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-component.js" timestamp="1466675166479">
         <mark key="[" line="12" column="46" />
         <mark key="]" line="24" column="49" />
@@ -79,7 +84,6 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/index.html" timestamp="1467016361718" />
       <file name="$USER_HOME$/dev/geoblink/private/app/config/config.js" timestamp="1466697081737">
         <mark key="[" line="601" column="0" />
         <mark key="]" line="601" column="0" />
@@ -125,13 +129,15 @@
       <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
       <jump line="60" column="1" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
       <jump line="98" column="18" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
+      <jump line="18" column="108" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" />
+      <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>Totals</text>
       </register>
       <register name="-" type="4">
-        <text>none</text>
+        <text>Totals</text>
       </register>
       <register name="/" type="4">
         <text>main.css</text>
@@ -139,32 +145,32 @@
       <register name="0" type="2">
         <text encoding="base64">ICAubmV3IC5tYXAgLmxlZ2VuZCB7CiAgICBkaXNwbGF5OiBub25lOwogIH0K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>Totals</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">LnRyYWZmaWMtcGFuZWxfX21hcC1ibG9jayB7CiAgLnBhbmVsLWNvbnRlbnQtcmlnaHQgLm5ldyAubWFwIC5sZWdlbmQgewogICAgZGlzcGxheTogbm9uZTsKICB9CiAgJjpmaXJzdC1jaGlsZCB7CiAgICAucGFuZWwtY29udGVudC1yaWdodCAubmV3IC5tYXAgLmxlZ2VuZCB7CiAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgfQogIH0KfQ==</text>
+        <text>From</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">LnRyYWZmaWMtcGFuZWxfX21hcC1ibG9jayB7Cg==</text>
+      <register name="3" type="4">
+        <text>Toggle all</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="4">
-        <text>none</text>
+        <text encoding="base64">LnRyYWZmaWMtcGFuZWxfX21hcC1ibG9jayB7CiAgLnBhbmVsLWNvbnRlbnQtcmlnaHQgLm5ldyAubWFwIC5sZWdlbmQgewogICAgZGlzcGxheTogbm9uZTsKICB9CiAgJjpmaXJzdC1jaGlsZCB7CiAgICAucGFuZWwtY29udGVudC1yaWdodCAubmV3IC5tYXAgLmxlZ2VuZCB7CiAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgfQogIH0KfQ==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">LnRyYWZmaWMtcGFuZWxfX21hcC1ibG9jayB7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBmb250LXdlaWdodDogMjAwOwogICAgICAgIGZvbnQtc2l6ZTogMTJweDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmb250LXdlaWdodDogMjAwOwogICAgICAgIGZvbnQtc2l6ZTogMTJweDsK</text>
+      <register name="8" type="4">
+        <text>none</text>
       </register>
-      <register name="9" type="4">
-        <text>display</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
     </registers>
     <search>
