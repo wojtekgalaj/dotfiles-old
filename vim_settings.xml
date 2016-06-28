@@ -51,12 +51,12 @@
         <mark key="." line="97" column="35" />
         <mark key="^" line="97" column="35" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1467109270064">
+      <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1467109942447">
         <mark key="'" line="448" column="20" />
-        <mark key="[" line="675" column="35" />
-        <mark key="]" line="679" column="34" />
-        <mark key="." line="679" column="34" />
-        <mark key="^" line="679" column="34" />
+        <mark key="[" line="683" column="31" />
+        <mark key="]" line="683" column="29" />
+        <mark key="." line="683" column="29" />
+        <mark key="^" line="683" column="29" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466779414918">
         <mark key="[" line="80" column="31" />
@@ -169,7 +169,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBBTEw6ICdUb2RvcycK</text>
       </register>
       <register name="-" type="4">
         <text>QUARTER_TO_DATE</text>
@@ -181,28 +181,28 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6IHRyYW5zbGF0ZSgnUVVBUlRFUl9UT19EQVRFJyksCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBBTEw6ICdUb2RvcycK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IGRheScsCg==</text>
+        <text encoding="base64">ICAgICAgICBBTEw6ICdBbGwnCg==</text>
       </register>
-      <register name="3" type="4">
-        <text>QUARTER_TO_DATE</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHdlZWsnLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IGRheScsCg==</text>
       </register>
       <register name="5" type="4">
         <text>QUARTER_TO_DATE</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHF1YXJ0ZXInLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHdlZWsnLAo=</text>
       </register>
       <register name="7" type="4">
         <text>QUARTER_TO_DATE</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IG1vbnRoJywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHF1YXJ0ZXInLAo=</text>
       </register>
       <register name="9" type="4">
         <text>QUARTER_TO_DATE</text>
