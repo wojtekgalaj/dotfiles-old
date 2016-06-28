@@ -6,12 +6,11 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1466691160458">
         <mark key="[" line="14" column="34" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1467109347620">
-        <mark key="'" line="490" column="40" />
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="21" column="0" />
-        <mark key="^" line="20" column="39" />
-        <mark key="." line="21" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1467110103953">
+        <mark key="'" line="554" column="50" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/time-range-selector/time-range-selector-tmpl.html" timestamp="1467044560057">
         <mark key="[" line="6" column="12" />
@@ -166,52 +165,59 @@
       <jump line="78" column="1" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
       <jump line="195" column="70" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
       <jump line="112" column="45" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
+      <jump line="20" column="27" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="240" column="20" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="351" column="44" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="367" column="8" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="411" column="54" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="477" column="54" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="556" column="50" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBBTEw6ICdUb2RvcycK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>QUARTER_TO_DATE</text>
       </register>
       <register name="/" type="4">
-        <text>ALL</text>
+        <text>filter</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6IHRyYW5zbGF0ZSgnUVVBUlRFUl9UT19EQVRFJyksCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBBTEw6ICdUb2RvcycK</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBBTEw6ICdBbGwnCg==</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IGRheScsCg==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHZhciB0cmFuc2xhdGUgPSAkZmlsdGVyKCd0cmFuc2xhdGUnKQo=</text>
       </register>
-      <register name="5" type="4">
-        <text>QUARTER_TO_DATE</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBBTEw6ICdUb2RvcycK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBBTEw6ICdBbGwnCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHdlZWsnLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IGRheScsCg==</text>
       </register>
       <register name="7" type="4">
         <text>QUARTER_TO_DATE</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHF1YXJ0ZXInLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHdlZWsnLAo=</text>
       </register>
       <register name="9" type="4">
         <text>QUARTER_TO_DATE</text>
       </register>
     </registers>
     <search>
-      <last-search>ALL</last-search>
+      <last-search>filter</last-search>
       <last-offset />
-      <last-pattern>ALL</last-pattern>
+      <last-pattern>filter</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -221,7 +227,6 @@
         <entry encoding="base64">XDx7XD4=</entry>
         <entry encoding="base64">XDxjcml0ZXJpYVw+</entry>
         <entry encoding="base64">XDxncmFwaERhdGFSZWFkeVw+</entry>
-        <entry>filter</entry>
         <entry>linear</entry>
         <entry>KPI</entry>
         <entry>dispatch</entry>
@@ -232,6 +237,8 @@
         <entry>multi</entry>
         <entry>main.css</entry>
         <entry>ALL</entry>
+        <entry>filtyer</entry>
+        <entry>filter</entry>
       </history-search>
       <history-cmd />
       <history-expr />
