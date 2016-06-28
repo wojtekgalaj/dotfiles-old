@@ -6,6 +6,13 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1466691160458">
         <mark key="[" line="14" column="34" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1467109347620">
+        <mark key="'" line="490" column="40" />
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="^" line="20" column="39" />
+        <mark key="." line="21" column="0" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/time-range-selector/time-range-selector-tmpl.html" timestamp="1467044560057">
         <mark key="[" line="6" column="12" />
         <mark key="]" line="6" column="12" />
@@ -32,16 +39,24 @@
         <mark key="^" line="3" column="19" />
         <mark key="." line="3" column="19" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1466680214843">
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/time-range-selector/time-range-selector-component.js" timestamp="1467109168629">
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="0" />
+        <mark key="^" line="61" column="40" />
+        <mark key="." line="60" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" timestamp="1467109321162">
+        <mark key="'" line="112" column="45" />
         <mark key="]" line="97" column="35" />
         <mark key="." line="97" column="35" />
         <mark key="^" line="97" column="35" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1467044728347">
-        <mark key="[" line="1359" column="57" />
-        <mark key="]" line="1362" column="25" />
-        <mark key="." line="1362" column="25" />
-        <mark key="^" line="1362" column="25" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/config/lang.js" timestamp="1467109270064">
+        <mark key="'" line="448" column="20" />
+        <mark key="[" line="675" column="35" />
+        <mark key="]" line="679" column="34" />
+        <mark key="." line="679" column="34" />
+        <mark key="^" line="679" column="34" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466779414918">
         <mark key="[" line="80" column="31" />
@@ -131,52 +146,72 @@
       <jump line="98" column="18" filename="$USER_HOME$/dev/geoblink/private/resources/css/_right-panels-phase-one.scss" />
       <jump line="18" column="108" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" />
       <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance.html" />
+      <jump line="1341" column="26" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="1356" column="15" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="25" column="8" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="26" column="8" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="62" column="9" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="83" column="17" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="338" column="29" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="363" column="17" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="397" column="28" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="406" column="26" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="444" column="19" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="445" column="14" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="446" column="17" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="447" column="15" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="448" column="20" filename="$USER_HOME$/dev/geoblink/private/app/config/lang.js" />
+      <jump line="155" column="43" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="489" column="40" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="78" column="1" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
+      <jump line="195" column="70" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
+      <jump line="112" column="45" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>Totals</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>Totals</text>
+        <text>QUARTER_TO_DATE</text>
       </register>
       <register name="/" type="4">
-        <text>main.css</text>
+        <text>ALL</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAubmV3IC5tYXAgLmxlZ2VuZCB7CiAgICBkaXNwbGF5OiBub25lOwogIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6IHRyYW5zbGF0ZSgnUVVBUlRFUl9UT19EQVRFJyksCg==</text>
       </register>
-      <register name="1" type="4">
-        <text>Totals</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text>From</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IGRheScsCg==</text>
       </register>
       <register name="3" type="4">
-        <text>Toggle all</text>
+        <text>QUARTER_TO_DATE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHdlZWsnLAo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">LnRyYWZmaWMtcGFuZWxfX21hcC1ibG9jayB7CiAgLnBhbmVsLWNvbnRlbnQtcmlnaHQgLm5ldyAubWFwIC5sZWdlbmQgewogICAgZGlzcGxheTogbm9uZTsKICB9CiAgJjpmaXJzdC1jaGlsZCB7CiAgICAucGFuZWwtY29udGVudC1yaWdodCAubmV3IC5tYXAgLmxlZ2VuZCB7CiAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgfQogIH0KfQ==</text>
+        <text>QUARTER_TO_DATE</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">LnRyYWZmaWMtcGFuZWxfX21hcC1ibG9jayB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IHF1YXJ0ZXInLAo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>QUARTER_TO_DATE</text>
       </register>
-      <register name="8" type="4">
-        <text>none</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRleHQ6ICdMYXN0IG1vbnRoJywK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="9" type="4">
+        <text>QUARTER_TO_DATE</text>
       </register>
     </registers>
     <search>
-      <last-search>main.css</last-search>
+      <last-search>ALL</last-search>
       <last-offset />
-      <last-pattern>main.css</last-pattern>
+      <last-pattern>ALL</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -196,6 +231,7 @@
         <entry>acce</entry>
         <entry>multi</entry>
         <entry>main.css</entry>
+        <entry>ALL</entry>
       </history-search>
       <history-cmd />
       <history-expr />
