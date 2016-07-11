@@ -51,11 +51,10 @@
         <mark key="]" line="177" column="61" />
         <mark key="." line="177" column="61" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering/clustering.html" timestamp="1468228039486">
-        <mark key="[" line="3" column="22" />
-        <mark key="]" line="3" column="23" />
-        <mark key="^" line="3" column="23" />
-        <mark key="." line="3" column="23" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering/clustering.html" timestamp="1468230078183">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="8" column="8" />
+        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-clustering.scss" timestamp="1468227728938">
         <mark key="[" line="0" column="0" />
@@ -65,22 +64,30 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-clustering.scss" timestamp="1468228054774">
-        <mark key="[" line="7" column="19" />
-        <mark key="]" line="3" column="12" />
-        <mark key="^" line="3" column="12" />
-        <mark key="." line="3" column="12" />
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-clustering.scss" timestamp="1468240191752">
+        <mark key="'" line="22" column="2" />
+        <mark key="[" line="0" column="24" />
+        <mark key="]" line="9" column="23" />
+        <mark key="." line="9" column="23" />
+        <mark key="^" line="9" column="23" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1468227946132">
         <mark key="[" line="16" column="9" />
         <mark key="]" line="16" column="9" />
         <mark key="." line="16" column="9" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering-table/clustering-table-component.js" timestamp="1468226626832">
-        <mark key="[" line="9" column="51" />
-        <mark key="]" line="9" column="51" />
-        <mark key="." line="9" column="51" />
-        <mark key="^" line="9" column="51" />
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering-table/clustering-table-component.js" timestamp="1468229535549">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-performance.scss" timestamp="1468239376824">
+        <mark key="p" line="278" column="14" />
+        <mark key="'" line="21" column="15" />
+        <mark key="[" line="216" column="4" />
+        <mark key="]" line="220" column="4" />
+        <mark key="^" line="359" column="51" />
+        <mark key="." line="357" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering/clustering-controller.js" timestamp="1468225947445">
         <mark key="[" line="0" column="0" />
@@ -109,6 +116,12 @@
         <mark key="[" line="56" column="0" />
         <mark key="]" line="56" column="0" />
         <mark key="." line="56" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering-table/clustering-table-tmpl.html" timestamp="1468240221311">
+        <mark key="[" line="22" column="8" />
+        <mark key="]" line="22" column="74" />
+        <mark key="." line="22" column="74" />
+        <mark key="^" line="22" column="74" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/bi-entry.js" timestamp="1468226284272">
         <mark key="[" line="15" column="23" />
@@ -201,46 +214,47 @@
       <jump line="411" column="54" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
       <jump line="477" column="54" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
       <jump line="556" column="50" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="22" column="2" filename="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-clustering.scss" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>right-panels-phase-one</text>
+        <text>1440px</text>
       </register>
       <register name="-" type="4">
-        <text>right-panels-phase-one</text>
+        <text>1440px</text>
       </register>
       <register name="/" type="4">
         <text>filter</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">QGltcG9ydCAncmlnaHQtcGFuZWxzLXBoYXNlLW9uZSc7Cg==</text>
+        <text encoding="base64">JGNvbC1jbHVzdGVyLTE6ICM2RTVFNUU7Cg==</text>
       </register>
       <register name="1" type="4">
-        <text>right-panels-phase-one</text>
+        <text>1440px</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">PGgxPkNsdXN0ZXJpbmcgVGFibGU8L2gxPgo=</text>
+      <register name="2" type="4">
+        <text>#6E5E5E, #5D8A8D, #BD4F4F, #A8C327, #C39D4B</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>darkgoldenrod</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PGNsdXN0ZXJpbmctdGFibGU+PC9jbHVzdGVyaW5nLXRhYmxlPgo=</text>
+        <text encoding="base64">ICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PGgxPldURjwvaDE+Cg==</text>
+        <text encoding="base64">ICBwIHsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBiaW5kaW5nczogewogICAgICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PGNsdXN0ZXJpbmctdGFibGU+PC9jbHVzdGVyaW5nLXRhYmxlPgo=</text>
+        <text encoding="base64">ICAgIGZvbnQtd2VpZ2h0OiAxMDA7Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>time-range-selector/time-range-selector-component</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICY6Zmlyc3QtY2hpbGQgewogICAgICBmb250LXdlaWdodDogMTAwOwogICAgfQo=</text>
       </register>
-      <register name="9" type="4">
-        <text>WTF</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
     </registers>
     <search>
