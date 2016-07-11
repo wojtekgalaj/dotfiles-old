@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
