@@ -21,11 +21,11 @@
         <mark key="^" line="20" column="138" />
         <mark key="." line="20" column="138" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468341740229">
-        <mark key="[" line="17" column="45" />
-        <mark key="]" line="29" column="23" />
-        <mark key="." line="29" column="23" />
-        <mark key="^" line="29" column="23" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468396940587">
+        <mark key="[" line="46" column="44" />
+        <mark key="]" line="46" column="42" />
+        <mark key="." line="46" column="42" />
+        <mark key="^" line="46" column="42" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/common/_colors.scss" timestamp="1466691762447">
         <mark key="[" line="1" column="19" />
@@ -154,6 +154,7 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/config/variableFilters.js" timestamp="1468397202092" />
       <file name="$USER_HOME$/dev/geoblink/private/app/config/config.js" timestamp="1466697081737">
         <mark key="[" line="601" column="0" />
         <mark key="]" line="601" column="0" />
@@ -243,7 +244,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgPHAgbmctY2xhc3M9InsKICAgICAgICAnY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldF9fdGl0bGUnOiAkaW5kZXggPT09IDAsCiAgICAgICAgJ2NsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSc6ICRpbmRleCA+IDAKICAgICAgfSI+TGF5b3V0PC9wPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdW5pdDogJycK</text>
       </register>
       <register name="-" type="4">
         <text>===</text>
@@ -255,31 +256,31 @@
         <text encoding="base64">ICAgICAgPHAgbmctaWY9IiRpbmRleCA9PT0gMCIgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2JpZy1idWNrZXRfX3RpdGxlIj57e2J1Y2tldC5uYW1lfX08L3A+Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgPHAgbmctY2xhc3M9InsKICAgICAgICAnY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldF9fdGl0bGUnOiAkaW5kZXggPT09IDAsCiAgICAgICAgJ2NsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSc6ICRpbmRleCA+IDAKICAgICAgfSI+TGF5b3V0PC9wPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdW5pdDogJycK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdW5pdDogJ00yJyAvLyBUT0tFTgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGwgY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19iaWctYnVja2V0X190aXRsZSI+TGF5b3V0PC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbF9fdGl0bGUiPkxvdzwvcD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGwiPgogICAgICA8cCBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGxfX3RpdGxlIj5NZWRpdW08L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsIj4KICAgICAgPHAgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSI+TG93PC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbF9fdGl0bGUiPkhpZ2g8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsIj4KICAgICAgPHAgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSI+TG93PC9wPgogICAgPC9kaXY+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdW5pdDogJycK</text>
       </register>
-      <register name="4" type="4">
-        <text>===</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgPHAgbmctY2xhc3M9InsKICAgICAgICAnY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldF9fdGl0bGUnOiAkaW5kZXggPT09IDAsCiAgICAgICAgJ2NsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSc6ICRpbmRleCA+IDAKICAgICAgfSI+TGF5b3V0PC9wPgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICAgICAgT3V0bGV0CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBTdWJ1cmIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICAgIE1lZGl1bSBDaXR5CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBUb3VyaXN0IENpdHkKICAgIDwvZGl2Pgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>Str</text>
+      <register name="6" type="2">
+        <text encoding="base64">CgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGwgY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19iaWctYnVja2V0X190aXRsZSI+TGF5b3V0PC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbF9fdGl0bGUiPkxvdzwvcD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGwiPgogICAgICA8cCBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGxfX3RpdGxlIj5NZWRpdW08L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsIj4KICAgICAgPHAgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSI+TG93PC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbF9fdGl0bGUiPkhpZ2g8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsIj4KICAgICAgPHAgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSI+TG93PC9wPgogICAgPC9kaXY+Cg==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">UHJlbWl1bSA=</text>
+        <text>===</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">TmFtZSA=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICAgICAgT3V0bGV0CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBTdWJ1cmIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICAgIE1lZGl1bSBDaXR5CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBUb3VyaXN0IENpdHkKICAgIDwvZGl2Pgo=</text>
       </register>
       <register name="9" type="4">
-        <text>.</text>
+        <text>Str</text>
       </register>
     </registers>
     <search>
