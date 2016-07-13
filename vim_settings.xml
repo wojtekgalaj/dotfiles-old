@@ -22,10 +22,11 @@
         <mark key="^" line="20" column="138" />
         <mark key="." line="20" column="138" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468417742536">
-        <mark key="[" line="151" column="0" />
-        <mark key="]" line="151" column="0" />
-        <mark key="." line="151" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468420801913">
+        <mark key="[" line="1" column="18" />
+        <mark key="]" line="2" column="1" />
+        <mark key="." line="2" column="1" />
+        <mark key="^" line="2" column="1" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/common/_colors.scss" timestamp="1466691762447">
         <mark key="[" line="1" column="19" />
@@ -73,22 +74,22 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-clustering.scss" timestamp="1468243549552">
         <mark key="[" line="159" column="26" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-tmpl.html" timestamp="1468417737417">
-        <mark key="[" line="12" column="8" />
-        <mark key="]" line="9" column="27" />
-        <mark key="." line="9" column="27" />
-        <mark key="^" line="9" column="27" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-tmpl.html" timestamp="1468421242294">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
+        <mark key="^" line="37" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1468227946132">
         <mark key="[" line="16" column="9" />
         <mark key="]" line="16" column="9" />
         <mark key="." line="16" column="9" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" timestamp="1468406459486">
-        <mark key="'" line="178" column="10" />
-        <mark key="[" line="161" column="0" />
-        <mark key="]" line="161" column="0" />
-        <mark key="." line="161" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" timestamp="1468420645341">
+        <mark key="'" line="104" column="0" />
+        <mark key="[" line="156" column="19" />
+        <mark key="]" line="104" column="0" />
+        <mark key="." line="104" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering-table/clustering-table-component.js" timestamp="1468229535549">
         <mark key="[" line="10" column="0" />
@@ -241,58 +242,58 @@
       <jump line="71" column="4" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
       <jump line="14" column="0" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
       <jump line="182" column="10" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
+      <jump line="104" column="0" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdISUdIJywK</text>
+        <text encoding="base64">PAo=</text>
       </register>
       <register name="-" type="4">
-        <text>ng-repeat=&quot;totals in cluster.totals track by $index&quot;</text>
+        <text>clustering-table__footer-cell</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjaGlsZFw+</text>
+        <text>hidden</text>
       </register>
       <register name="0" type="4">
-        <text>clustering-table__header</text>
+        <text>clustering-table__footer-cell</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdISUdIJywK</text>
+        <text encoding="base64">PAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdMT1cnLAo=</text>
+      <register name="2" type="4">
+        <text encoding="base64">ZGl2IG5nLWlmPSJmYWxzZSIgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGUiPgogIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlciI+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgUHJlbWl1bXIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICBPdXRsZXQKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICBTdWJ1cmIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICBNZWRpdW0gQ2l0eQogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICAgIFRvdXJpc3QgQ2l0eQogICAgPC9kaXY+CiAgPC9kaXY+CiAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93Ij4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsIGNsdXN0ZXJpbmctdGFibGVfX2JpZy1idWNrZXQiPgogICAgICA8cCBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldF9fdGl0bGUiPkxheW91dDwvcD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGwiPgogICAgICA8cCBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGxfX3RpdGxlIj5Mb3c8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsIj4KICAgICAgPHAgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSI+TWVkaXVtPC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbF9fdGl0bGUiPkxvdzwvcD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGwiPgogICAgICA8cCBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGxfX3RpdGxlIj5IaWdoPC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbF9fdGl0bGUiPkxvdzwvcD4KICAgIDwvZGl2PgogIDwvZGl2PgogIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2Zvb3RlciI+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19mb290ZXItY2VsbCBjbHVzdGVyaW5nLXRhYmxlX19mb290ZXItbGVnZW5kIj4KICAgICAgPHA+QXZnLiBzYWxlczwvcD4KICAgICAgPHA+QXZnLiBzYWxlcyAvIG08c3VwPjI8L3N1cD48L3A+CiAgICAgIDxwPlBPUyBjb3VudDwvcD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fZm9vdGVyLWNlbGwiPgogICAgICA8cD4xNDMuMjMzLDAwPC9wPgogICAgICA8cD44Nzc8L3A+CiAgICAgIDxwPjEyPC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19mb290ZXItY2VsbCI+CiAgICAgIDxwPjE0My4yMzMsMDA8L3A+CiAgICAgIDxwPjg3NzwvcD4KICAgICAgPHA+MTI8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2Zvb3Rlci1jZWxsIj4KICAgICAgPHA+MTQzLjIzMywwMDwvcD4KICAgICAgPHA+ODc3PC9wPgogICAgICA8cD4xMjwvcD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fZm9vdGVyLWNlbGwiPgogICAgICA8cD4xNDMuMjMzLDAwPC9wPgogICAgICA8cD44Nzc8L3A+CiAgICAgIDxwPjEyPC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19mb290ZXItY2VsbCI+CiAgICAgIDxwPjE0My4yMzMsMDA8L3A+CiAgICAgIDxwPjg3NzwvcD4KICAgICAgPHA+MTI8L3A+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC9kaXY+</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdISUdIJywK</text>
+        <text encoding="base64">ICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdNSUQnLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdMT1cnLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAge3tjbHVzdGVyLnN1bW1hcnl9ZGR9Cg==</text>
+        <text encoding="base64">ICAgIC8vIGNvbnNvbGUubG9nKCdoaScpCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAmOmZpcnN0LWNoaWxkIHsKICAgIGJhY2tncm91bmQ6IG5vbmU7CiAgICBib3JkZXI6IG5vbmU7CiAgfQo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">IHZtLnRhYmxlU3RhdGUgPSB7CgogICAgfQ==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgPGgxPiEhITwvaDE+Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgYQo=</text>
+        <text encoding="base64">ICAgICAgYmFja2dyb3VuZDogbnRoKCRjb2wtY2x1c3RlcnMsICRpKTsK</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjaGlsZFw+</last-search>
+      <last-search>hidden</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjaGlsZFw+</last-pattern>
+      <last-pattern>hidden</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjcml0ZXJpYVw+</entry>
         <entry encoding="base64">XDxncmFwaERhdGFSZWFkeVw+</entry>
         <entry>linear</entry>
         <entry>KPI</entry>
@@ -312,6 +313,7 @@
         <entry>cell-title</entry>
         <entry>row-cell</entry>
         <entry encoding="base64">XDxjaGlsZFw+</entry>
+        <entry>hidden</entry>
       </history-search>
       <history-cmd />
       <history-expr />
