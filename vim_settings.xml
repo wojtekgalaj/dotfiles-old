@@ -21,11 +21,11 @@
         <mark key="^" line="20" column="138" />
         <mark key="." line="20" column="138" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468340036443">
-        <mark key="[" line="2" column="18" />
-        <mark key="]" line="34" column="30" />
-        <mark key="^" line="34" column="30" />
-        <mark key="." line="34" column="30" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468341740229">
+        <mark key="[" line="17" column="45" />
+        <mark key="]" line="29" column="23" />
+        <mark key="." line="29" column="23" />
+        <mark key="^" line="29" column="23" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/common/_colors.scss" timestamp="1466691762447">
         <mark key="[" line="1" column="19" />
@@ -72,6 +72,12 @@
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-clustering.scss" timestamp="1468243549552">
         <mark key="[" line="159" column="26" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-tmpl.html" timestamp="1468341613792">
+        <mark key="[" line="6" column="16" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="6" column="19" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1468227946132">
         <mark key="[" line="16" column="9" />
@@ -236,43 +242,45 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICAgICAgT3V0bGV0CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBTdWJ1cmIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICAgIE1lZGl1bSBDaXR5CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBUb3VyaXN0IENpdHkKICAgIDwvZGl2Pgo=</text>
       </register>
       <register name="-" type="4">
-        <text>bold</text>
+        <text>Str</text>
       </register>
       <register name="/" type="4">
         <text>big-bu</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">JGNvbC1jbHVzdGVyLTE6ICM2RTVFNUU7Cg==</text>
+        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICAgICAgT3V0bGV0CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBTdWJ1cmIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICAgIE1lZGl1bSBDaXR5CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBUb3VyaXN0IENpdHkKICAgIDwvZGl2Pgo=</text>
       </register>
       <register name="2" type="4">
-        <text>bold</text>
+        <text>Str</text>
       </register>
       <register name="3" type="4">
-        <text>bold</text>
+        <text encoding="base64">UHJlbWl1bSA=</text>
       </register>
       <register name="4" type="4">
-        <text>bold</text>
+        <text encoding="base64">TmFtZSA=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICB0ZXh0LWFsaWduOiBjZW50ZXI7Cg==</text>
+      <register name="5" type="4">
+        <text>.</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Lgo=</text>
+      <register name="6" type="4">
+        <text>[
+
+    ]</text>
       </register>
       <register name="7" type="4">
-        <text>20px</text>
+        <text>,</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgQGRlYnVnICRpOwo=</text>
+      <register name="8" type="4">
+        <text>LOW</text>
       </register>
       <register name="9" type="4">
-        <text>1440px</text>
+        <text>Medium City</text>
       </register>
     </registers>
     <search>
