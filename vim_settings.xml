@@ -73,19 +73,19 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-clustering.scss" timestamp="1468243549552">
         <mark key="[" line="159" column="26" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-tmpl.html" timestamp="1468341613792">
-        <mark key="[" line="6" column="16" />
-        <mark key="]" line="8" column="0" />
-        <mark key="^" line="6" column="19" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-tmpl.html" timestamp="1468394948565">
+        <mark key="[" line="17" column="8" />
+        <mark key="]" line="18" column="1" />
+        <mark key="^" line="18" column="1" />
+        <mark key="." line="18" column="1" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1468227946132">
         <mark key="[" line="16" column="9" />
         <mark key="]" line="16" column="9" />
         <mark key="." line="16" column="9" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" timestamp="1468338816153">
-        <mark key="'" line="68" column="4" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" timestamp="1468394653831">
+        <mark key="'" line="14" column="0" />
         <mark key="[" line="14" column="0" />
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
@@ -239,60 +239,58 @@
       <jump line="188" column="6" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
       <jump line="193" column="4" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
       <jump line="71" column="4" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
+      <jump line="14" column="0" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICAgICAgT3V0bGV0CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBTdWJ1cmIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICAgIE1lZGl1bSBDaXR5CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBUb3VyaXN0IENpdHkKICAgIDwvZGl2Pgo=</text>
+        <text encoding="base64">ICAgICAgPHAgbmctY2xhc3M9InsKICAgICAgICAnY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldF9fdGl0bGUnOiAkaW5kZXggPT09IDAsCiAgICAgICAgJ2NsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSc6ICRpbmRleCA+IDAKICAgICAgfSI+TGF5b3V0PC9wPgo=</text>
       </register>
       <register name="-" type="4">
-        <text>Str</text>
+        <text>===</text>
       </register>
       <register name="/" type="4">
-        <text>big-bu</text>
+        <text>row-cell</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+Cg==</text>
+        <text encoding="base64">ICAgICAgPHAgbmctaWY9IiRpbmRleCA9PT0gMCIgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2JpZy1idWNrZXRfX3RpdGxlIj57e2J1Y2tldC5uYW1lfX08L3A+Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICAgICAgT3V0bGV0CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBTdWJ1cmIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICAgIE1lZGl1bSBDaXR5CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBUb3VyaXN0IENpdHkKICAgIDwvZGl2Pgo=</text>
+        <text encoding="base64">ICAgICAgPHAgbmctY2xhc3M9InsKICAgICAgICAnY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldF9fdGl0bGUnOiAkaW5kZXggPT09IDAsCiAgICAgICAgJ2NsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSc6ICRpbmRleCA+IDAKICAgICAgfSI+TGF5b3V0PC9wPgo=</text>
       </register>
-      <register name="2" type="4">
-        <text>Str</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">UHJlbWl1bSA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">CgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGwgY2x1c3RlcmluZy10YWJsZV9fYmlnLWJ1Y2tldCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19iaWctYnVja2V0X190aXRsZSI+TGF5b3V0PC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbF9fdGl0bGUiPkxvdzwvcD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGwiPgogICAgICA8cCBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9fcm93LWNlbGxfX3RpdGxlIj5NZWRpdW08L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsIj4KICAgICAgPHAgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSI+TG93PC9wPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbCI+CiAgICAgIDxwIGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19yb3ctY2VsbF9fdGl0bGUiPkhpZ2g8L3A+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsIj4KICAgICAgPHAgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX3Jvdy1jZWxsX190aXRsZSI+TG93PC9wPgogICAgPC9kaXY+Cg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">TmFtZSA=</text>
+        <text>===</text>
       </register>
-      <register name="5" type="4">
-        <text>.</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBQcmVtaXVtIFN0cgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjbHVzdGVyaW5nLXRhYmxlX19oZWFkZXItY2VsbCI+CiAgICAgICAgT3V0bGV0CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBTdWJ1cmIKICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY2x1c3RlcmluZy10YWJsZV9faGVhZGVyLWNlbGwiPgogICAgICAgIE1lZGl1bSBDaXR5CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNsdXN0ZXJpbmctdGFibGVfX2hlYWRlci1jZWxsIj4KICAgICAgICBUb3VyaXN0IENpdHkKICAgIDwvZGl2Pgo=</text>
       </register>
       <register name="6" type="4">
-        <text>[
-
-    ]</text>
+        <text>Str</text>
       </register>
       <register name="7" type="4">
-        <text>,</text>
+        <text encoding="base64">UHJlbWl1bSA=</text>
       </register>
       <register name="8" type="4">
-        <text>LOW</text>
+        <text encoding="base64">TmFtZSA=</text>
       </register>
       <register name="9" type="4">
-        <text>Medium City</text>
+        <text>.</text>
       </register>
     </registers>
     <search>
-      <last-search>big-bu</last-search>
+      <last-search>row-cell</last-search>
       <last-offset />
-      <last-pattern>big-bu</last-pattern>
+      <last-pattern>row-cell</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>delete</entry>
         <entry encoding="base64">XDx7XD4=</entry>
         <entry encoding="base64">XDxjcml0ZXJpYVw+</entry>
         <entry encoding="base64">XDxncmFwaERhdGFSZWFkeVw+</entry>
@@ -311,6 +309,8 @@
         <entry>debug</entry>
         <entry>font-weight</entry>
         <entry>big-bu</entry>
+        <entry>cell-title</entry>
+        <entry>row-cell</entry>
       </history-search>
       <history-cmd />
       <history-expr />
