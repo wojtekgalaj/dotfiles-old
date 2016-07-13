@@ -22,11 +22,10 @@
         <mark key="^" line="20" column="138" />
         <mark key="." line="20" column="138" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468407190472">
-        <mark key="[" line="115" column="35" />
-        <mark key="]" line="46" column="42" />
-        <mark key="." line="46" column="42" />
-        <mark key="^" line="46" column="42" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468417742536">
+        <mark key="[" line="151" column="0" />
+        <mark key="]" line="151" column="0" />
+        <mark key="." line="151" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/common/_colors.scss" timestamp="1466691762447">
         <mark key="[" line="1" column="19" />
@@ -74,11 +73,11 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-clustering.scss" timestamp="1468243549552">
         <mark key="[" line="159" column="26" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-tmpl.html" timestamp="1468414916158">
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-tmpl.html" timestamp="1468417737417">
         <mark key="[" line="12" column="8" />
-        <mark key="]" line="11" column="9" />
-        <mark key="." line="11" column="9" />
-        <mark key="^" line="14" column="14" />
+        <mark key="]" line="9" column="27" />
+        <mark key="." line="9" column="27" />
+        <mark key="^" line="9" column="27" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1468227946132">
         <mark key="[" line="16" column="9" />
@@ -244,8 +243,8 @@
       <jump line="182" column="10" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>ng-repeat=&quot;totals in cluster.totals track by $index&quot;</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdISUdIJywK</text>
       </register>
       <register name="-" type="4">
         <text>ng-repeat=&quot;totals in cluster.totals track by $index&quot;</text>
@@ -257,31 +256,31 @@
         <text>clustering-table__header</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAge3tjbHVzdGVyLnN1bW1hcnl9ZGR9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdISUdIJywK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAmOmZpcnN0LWNoaWxkIHsKICAgIGJhY2tncm91bmQ6IG5vbmU7CiAgICBib3JkZXI6IG5vbmU7CiAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdMT1cnLAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgPGgxPiEhITwvaDE+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdISUdIJywK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgYQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdNSUQnLAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAmOmZpcnN0LWNoaWxkIHsKICAgIHdpZHRoOiAxMTBweDsKICAgIGZsZXg6IDAgMCBhdXRvOwogICAgdGV4dC1hbGlnbjogcmlnaHQ7CiAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN1bW1hcnk6ICdMT1cnLAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PGgxPiEhPC9oMXMK</text>
+        <text encoding="base64">ICAgICAge3tjbHVzdGVyLnN1bW1hcnl9ZGR9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAmOmZpcnN0LWNoaWxkIHsKICAgIGJhY2tncm91bmQ6IG5vbmU7CiAgICBib3JkZXI6IG5vbmU7CiAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICB3aWR0aDogMjAlOwo=</text>
+        <text encoding="base64">ICAgICAgPGgxPiEhITwvaDE+Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC5yYW5nby0jeyRpfQo=</text>
+        <text encoding="base64">ICAgICAgYQo=</text>
       </register>
     </registers>
     <search>
