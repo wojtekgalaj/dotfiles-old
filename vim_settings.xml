@@ -14,10 +14,11 @@
         <mark key="^" line="571" column="114" />
         <mark key="." line="571" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-tmpl.html" timestamp="1468833237490">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-tmpl.html" timestamp="1468836061068">
+        <mark key="[" line="9" column="81" />
+        <mark key="]" line="9" column="43" />
+        <mark key="." line="9" column="43" />
+        <mark key="^" line="9" column="43" />
       </file>
       <file name="/a.dummy" timestamp="1468828189963">
         <mark key="[" line="0" column="0" />
@@ -44,6 +45,11 @@
         <mark key="[" line="30" column="16" />
         <mark key="]" line="5" column="10" />
         <mark key="." line="5" column="10" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/index.html" timestamp="1468836573328">
+        <mark key="[" line="20" column="49" />
+        <mark key="]" line="20" column="49" />
+        <mark key="." line="20" column="49" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-component.js" timestamp="1468225663571">
         <mark key="[" line="12" column="46" />
@@ -123,10 +129,10 @@
         <mark key="." line="80" column="31" />
         <mark key="^" line="80" column="29" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-overwiew-box.scss" timestamp="1468834475453">
-        <mark key="[" line="61" column="14" />
-        <mark key="]" line="61" column="14" />
-        <mark key="." line="61" column="14" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-overwiew-box.scss" timestamp="1468835931246">
+        <mark key="[" line="61" column="22" />
+        <mark key="]" line="69" column="0" />
+        <mark key="." line="69" column="0" />
         <mark key="^" line="53" column="18" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_style.scss" timestamp="1468828814371">
@@ -173,6 +179,13 @@
         <mark key="]" line="143" column="16" />
         <mark key="^" line="143" column="16" />
         <mark key="." line="143" column="16" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/main-module.js" timestamp="1468836920758">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="22" column="53" />
+        <mark key="]" line="22" column="53" />
+        <mark key="." line="22" column="53" />
+        <mark key="^" line="9" column="10" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/config/config.js" timestamp="1466697081737">
         <mark key="[" line="601" column="0" />
@@ -264,13 +277,15 @@
       <jump line="104" column="0" filename="$USER_HOME$/dev/geoblink/app-client/resources/css/_style-bi-clustering.scss" />
       <jump line="11" column="21" filename="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/right-panel-tmpl.html" />
       <jump line="272" column="16" filename="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/right-panel-tmpl.html" />
+      <jump line="16" column="1" filename="$USER_HOME$/dev/geoblink/app-client/main-module.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/app-client/main-module.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>$col-light-medium</text>
+        <text>;</text>
       </register>
       <register name="-" type="4">
-        <text>$col-light-medium</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text>data</text>
@@ -279,31 +294,31 @@
         <text encoding="base64">Lm92ZXJ2aWV3LWJveF9fc2NhbGUtMSB7CiAgQGV4dGVuZCAub3ZlcnZpZXctYm94X19zY2FsZS1pdGVtOwogIGhlaWdodDogMTBweDsKfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBleHRlbmQgLm92ZXJ2aWV3LWJveF9fc2NhbGUtaXRlbTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICA8c3BhbiBjbGFzcz0ib3ZlcnZpZXctYm94X19jb25jZXB0Ij57eyBvYi52YXJpYWJsZSB8IHRyYW5zbGF0ZSB9fTwvc3Bhbj4KICAgICAgICA8cCBjbGFzcz0ib3ZlcnZpZXctYm94X192YWx1ZSI+e3tvYi52YWx1ZSB8IHZhcmlhYmxlVmFsdWU6b2IudmFyaWFibGVGb3JGaWx0ZXJ9fTwvcD4K</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICA8cD57e29iLnZhbHVlIHwgdmFyaWFibGVWYWx1ZTpvYi52YXJpYWJsZUZvckZpbHRlcn19PC9wPgo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICB6LWluZGV4OiAwOwo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgdG9wOiAxMHB4OwogIGxlZnQ6IDEwcHg7Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICA8c3BhbiBjbGFzcz0ib3ZlcnZpZXctYm94X19jb25jZXB0Ij57eyBvYi52YXJpYWJsZSB8IHRyYW5zbGF0ZSB9fTwvc3Bhbj4KICAgICAgICA8cCBjbGFzcz0ib3ZlcnZpZXctYm94X192YWx1ZSI+e3tvYi52YWx1ZSB8IHZhcmlhYmxlVmFsdWU6b2IudmFyaWFibGVGb3JGaWx0ZXJ9fTwvcD4K</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICA8cD57e29iLnZhbHVlIHwgdmFyaWFibGVWYWx1ZTpvYi52YXJpYWJsZUZvckZpbHRlcn19PC9wPgo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICB6LWluZGV4OiAwOwo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIDxpIGNsYXNzPSJvdmVydmlldy1ib3hfX2JnLWljb24gZmEgZmEte3tvYi52YXJpYWJsZSB8IHZhcmlhYmxlSWNvbn19IGZhLTJ4Ij48L2k+Cg==</text>
+        <text encoding="base64">ICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgdG9wOiAxMHB4OwogIGxlZnQ6IDEwcHg7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9Im92ZXJ2aWV3LWJveF9fc2NhbGUge3tvYi5wZXJjZW50aWxlIHwgaGlnaGxvdzonY2xhc3MnfX0iIG5nLWNsYXNzPSJ7J25vcGUnOiAhb2IucGVyY2VudGlsZX0iPgogICAgICAgIDxkaXYgbmctcmVwZWF0PSJ0IGluICRyb290LmdldFRpbWVzKDUpIHRyYWNrIGJ5ICRpbmRleCIKICAgICAgICAgICAgIGNsYXNzPSJvdmVydmlldy1ib3hfX3NjYWxlLXt7JGluZGV4KzF9fSIKICAgICAgICAgICAgIHRvb2x0aXAtcGxhY2VtZW50PSJ0b3AiCiAgICAgICAgICAgICB1aWItdG9vbHRpcD0ie3tvYi50b29sdGlwVGV4dH19IgogICAgICAgICAgICAgdG9vbHRpcC1jbGFzcz0iY3VzdG9tQ2xhc3MgY2l0eSIKICAgICAgICA+PC9kaXY+CiAgICA8L2Rpdj4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/Column/column/g</text>
