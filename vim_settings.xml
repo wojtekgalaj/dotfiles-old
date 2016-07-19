@@ -62,6 +62,12 @@
         <mark key="]" line="20" column="49" />
         <mark key="." line="20" column="49" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-box-pob-total/detailview-box-pob-total-component.js" timestamp="1468924917936">
+        <mark key="[" line="6" column="18" />
+        <mark key="]" line="18" column="25" />
+        <mark key="^" line="18" column="25" />
+        <mark key="." line="18" column="25" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-component.js" timestamp="1468225663571">
         <mark key="[" line="12" column="46" />
         <mark key="]" line="24" column="49" />
@@ -72,6 +78,11 @@
         <mark key="[" line="2" column="0" />
         <mark key="]" line="8" column="8" />
         <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-entry.js" timestamp="1468925028606">
+        <mark key="[" line="16" column="23" />
+        <mark key="]" line="16" column="23" />
+        <mark key="." line="16" column="23" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-clustering.scss" timestamp="1468227728938">
         <mark key="[" line="0" column="0" />
@@ -84,6 +95,9 @@
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-controller.js" timestamp="1468584715149">
         <mark key="[" line="2926" column="45" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-pob-total/detailview-pob-total-tmpl.html" timestamp="1468924992563">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-bi-clustering.scss" timestamp="1468243549552">
         <mark key="[" line="159" column="26" />
       </file>
@@ -93,7 +107,7 @@
         <mark key="." line="37" column="0" />
         <mark key="^" line="37" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-box/detailview-box-component.js" timestamp="1468921972930">
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-box/detailview-box-component.js" timestamp="1468924804797">
         <mark key="[" line="7" column="17" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-component.js" timestamp="1468921597984">
@@ -286,16 +300,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>content</text>
+        <text>overview-box/overview-box-component</text>
       </register>
       <register name="-" type="4">
-        <text>content</text>
+        <text>overview-box/overview-box-component</text>
       </register>
       <register name="/" type="4">
         <text>data</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICB0cmFuc2l0aW9uLWRlbGF5OiAuNnM7Cg==</text>
+        <text encoding="base64">cmVxdWlyZSgnLi9yaWdodC1wYW5lbC9vdmVydmlldy1ib3gvb3ZlcnZpZXctYm94LWNvbXBvbmVudCcpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIDxoMT5ZT1lPe3tkdi52YXJpYWJsZX19PC9oMT4K</text>
