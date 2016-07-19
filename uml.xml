@@ -1,0 +1,10 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="categories">
+      <map>
+        <entry id="Angular-ui-router" categories="States;Views;Templates;TemplatePlaceholders;TopLevelTemplate" />
+        <entry id="DIFF" categories="Details" />
+      </map>
+    </option>
+  </component>
+</application>
