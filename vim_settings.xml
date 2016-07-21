@@ -57,11 +57,11 @@
         <mark key="]" line="5" column="10" />
         <mark key="." line="5" column="10" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/report-template/index.html" timestamp="1469086230814">
-        <mark key="[" line="43" column="12" />
-        <mark key="]" line="43" column="23" />
-        <mark key="^" line="43" column="23" />
-        <mark key="." line="43" column="23" />
+      <file name="$USER_HOME$/dev/geoblink/report-template/index.html" timestamp="1469089292224">
+        <mark key="[" line="52" column="41" />
+        <mark key="]" line="52" column="41" />
+        <mark key="^" line="52" column="13" />
+        <mark key="." line="52" column="41" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/index.html" timestamp="1468836573328">
         <mark key="[" line="20" column="49" />
@@ -310,16 +310,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>overview-box/overview-box-component</text>
+        <text>w</text>
       </register>
       <register name="-" type="4">
-        <text>overview-box/overview-box-component</text>
+        <text>w</text>
       </register>
       <register name="/" type="4">
         <text>data</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">cmVxdWlyZSgnLi9yaWdodC1wYW5lbC9vdmVydmlldy1ib3gvb3ZlcnZpZXctYm94LWNvbXBvbmVudCcpCg==</text>
+        <text encoding="base64">ICAgICAgICA8ZGl2IGNsYXNzPSJzdW1tYXJ5LW51bWJlciI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJudW1iZXIiPjc8c21hbGw+JTwvc21hbGw+PC9kaXY+CiAgICAgICAgICA8bGFiZWw+Rm9yZWlnbmVyczwvbGFiZWw+CiAgICAgICAgPC9kaXY+Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIDxoMT5ZT1lPe3tkdi52YXJpYWJsZX19PC9oMT4K</text>
