@@ -15,9 +15,9 @@
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-box/detailview-box-tmpl.html" timestamp="1468922028548">
         <mark key="[" line="7" column="30" />
-        <mark key="]" line="9" column="7" />
-        <mark key="." line="9" column="7" />
-        <mark key="^" line="9" column="7" />
+        <mark key="]" line="7" column="7" />
+        <mark key="." line="7" column="7" />
+        <mark key="^" line="7" column="7" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" timestamp="1468584688943">
         <mark key="[" line="571" column="0" />
@@ -26,10 +26,10 @@
         <mark key="." line="571" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-tmpl.html" timestamp="1468921925664">
-        <mark key="[" line="26" column="30" />
-        <mark key="]" line="26" column="28" />
-        <mark key="." line="26" column="28" />
-        <mark key="^" line="26" column="28" />
+        <mark key="[" line="23" column="30" />
+        <mark key="]" line="23" column="28" />
+        <mark key="." line="23" column="28" />
+        <mark key="^" line="23" column="28" />
       </file>
       <file name="/a.dummy" timestamp="1468828189963">
         <mark key="[" line="0" column="0" />
@@ -57,6 +57,12 @@
         <mark key="]" line="5" column="10" />
         <mark key="." line="5" column="10" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/report-template/index.html" timestamp="1469086230814">
+        <mark key="[" line="43" column="12" />
+        <mark key="]" line="43" column="23" />
+        <mark key="^" line="43" column="23" />
+        <mark key="." line="43" column="23" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/index.html" timestamp="1468836573328">
         <mark key="[" line="20" column="49" />
         <mark key="]" line="20" column="49" />
@@ -80,9 +86,9 @@
         <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-entry.js" timestamp="1468925028606">
-        <mark key="[" line="16" column="23" />
-        <mark key="]" line="16" column="23" />
-        <mark key="." line="16" column="23" />
+        <mark key="[" line="6" column="23" />
+        <mark key="]" line="6" column="23" />
+        <mark key="." line="6" column="23" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-clustering.scss" timestamp="1468227728938">
         <mark key="[" line="0" column="0" />
@@ -112,11 +118,6 @@
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-box/detailview-box-component.js" timestamp="1468924804797">
         <mark key="[" line="7" column="17" />
-      </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-component.js" timestamp="1468921597984">
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="." line="25" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/main-styles.scss" timestamp="1468227946132">
         <mark key="[" line="16" column="9" />
