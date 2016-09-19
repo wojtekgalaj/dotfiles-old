@@ -25,12 +25,17 @@
         <mark key="^" line="571" column="114" />
         <mark key="." line="571" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474279444707">
+      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474282195722">
         <mark key="'" line="127" column="0" />
-        <mark key="[" line="164" column="67" />
-        <mark key="]" line="165" column="86" />
-        <mark key="." line="165" column="86" />
-        <mark key="^" line="165" column="86" />
+        <mark key="[" line="227" column="34" />
+        <mark key="]" line="227" column="34" />
+        <mark key="." line="227" column="34" />
+        <mark key="^" line="186" column="29" />
+      </file>
+      <file name="$USER_HOME$/dev/angular-d3-directive/demo/demo.js" timestamp="1474282638118">
+        <mark key="[" line="14" column="4" />
+        <mark key="]" line="14" column="4" />
+        <mark key="." line="14" column="4" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-tmpl.html" timestamp="1468921925664">
         <mark key="[" line="23" column="30" />
@@ -53,7 +58,11 @@
         <mark key="^" line="3" column="19" />
         <mark key="." line="3" column="19" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/demo/index.html" timestamp="1474279727672" />
+      <file name="$USER_HOME$/dev/angular-d3-directive/demo/index.html" timestamp="1474282882094">
+        <mark key="[" line="37" column="34" />
+        <mark key="]" line="37" column="34" />
+        <mark key="." line="37" column="34" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/time-range-selector/time-range-selector-component.js" timestamp="1467109168629">
         <mark key="[" line="60" column="0" />
         <mark key="]" line="60" column="0" />
@@ -328,43 +337,51 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ition</text>
+        <text>d3a-origin-point=&quot;0&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>ition</text>
+        <text>d3a-origin-point=&quot;0&quot;</text>
       </register>
       <register name="/" type="4">
         <text>console</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICByZXR1cm4gY2xhc3NlcyArICdiYXIgZGF0YS1wb2ludCAnICsgZFtvcHRpb25zLnldIDwgMCA/ICcgbmVnYXRpdmUgJyA6ICcnICsgKHNjb3BlLiRldmFsKG9wdGlvbnMuZDNhRWxlbWVudENsYXNzLCB7Cg==</text>
+        <text encoding="base64">ICAgIDxhcnRpY2xlPgogICAgICA8ZGl2IGNsYXNzPSJncmFwaC1jb250YWluZXIiCiAgICAgICAgICAgIGQzYS1jaGFydCBkM2EtZGF0YT0iYmFzaWNEYXRhIgogICAgICAgICAgICBkM2EtbWFyZ2luPSJ7IHRvcDogNDAsIHJpZ2h0OiA2MCwgYm90dG9tOiA4MCwgbGVmdDogODB9IgogICAgICAgICAgICBkM2Etd2F0Y2g9IiI+CgogICAgICAgICAgICA8ZDNhLWF4aXMKICAgICAgICAgICAgICAgICAgICBuYW1lPSJ4IgogICAgICAgICAgICAgICAgICAgIGQzYS1yZWxhdGl2ZT0ieSIKICAgICAgICAgICAgICAgICAgICBwcmlvcml0eT0iMC41IgogICAgICAgICAgICAgICAgICAgIHRpY2tzPSI2IgogICAgICAgICAgICAgICAgICAgIG9yaWVudGF0aW9uPSJib3R0b20iCiAgICAgICAgICAgICAgICAgICAgbGFiZWw9InBlcnNvbiIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgIDwvZDNhLWF4aXM+CiAgICAgICAgICAgIDxkM2EtYXhpcwogICAgICAgICAgICAgICAgICAgIG5hbWU9InkiCiAgICAgICAgICAgICAgICAgICAgZXh0ZW50PSJ0cnVlIgogICAgICAgICAgICAgICAgICAgIG9yaWVudGF0aW9uPSJsZWZ0IgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgPC9kM2EtYXhpcz4KICAgICAgICAgICAgPGQzYS1iYXJzIHg9IngiIHk9InkiIGQzYS1vcmlnaW4tcG9pbnQ9IjAiPjwvZDNhLWJhcnM+CiAgICAgIDwvZGl2PgogICAgPC9hcnRpY2xlPgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBpZiAoZFtvcHRpb25zLnldIDwgMCkgewogICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ25lZ2F0aXZlIGJlY2F1c2UgJywgZFtvcHRpb25zLnldKQogICAgICAgICAgICAgICAgY2xhc3NlcyArPSAnbmVnYXRpdmUnCiAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkM2EtcmVsYXRpdmU9InkiCg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBpZiAoZFtvcHRpb25zLnldIDwgMCkgewogICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ25lZ2F0aXZlIGJlY2F1c2UgJywgZFtvcHRpb25zLnldKQogICAgICAgICAgICAgICAgY2xhc3NlcyArPSAnbmVnYXRpdmUnCiAgICAgICAgICAgICAgfQo=</text>
+      <register name="2" type="4">
+        <text>{
+      x: 1,
+      y: -2,
+      z: 1000,
+      name: 'a',
+      text: 'Some description of this element'
+    },</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdjbGFzc2VzICcsIGNsYXNzZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICByZXR1cm4gY2hhcnRDb250cm9sbGVyLmlubmVySGVpZ2h0IC0geShkWyBvcHRpb25zLnkgXSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIAo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdjbGFzc2VzICcsIGNsYXNzZXMpCg==</text>
+      <register name="5" type="4">
+        <text>{
+              barHeight = 
+            }</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIGNvbnNvbGUubG9nKCdvZmZzZXRIZWlnaHQnLCBvZmZzZXRIZWlnaHQpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGNoYXJ0Q29udHJvbGxlci5pbm5lckhlaWdodCAtIG9mZnNldEhlaWdodCAtIHkoZFsgb3B0aW9ucy55IF0pCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKGlucHV0IDwgMCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG9yaWdpblBvaW50ID0gb2Zmc2V0Q29vcmRpbmF0ZXMgLSAoZ2V0QmFySGVpZ2h0KGQpKQogICAgICAgICAgICAgICAgb3JpZ2luUG9pbnQgPSBpc1lOZWdhdGl2ZShkKSA/IG9yaWdpblBvaW50ICsgb2Zmc2V0SGVpZ2h0IDogb3JpZ2luUG9pbnQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coJ2QgaW4gZ2V0SGVpZ2h0JywgZCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIHZhciBvZmZzZXRIZWlnaHQgPSBjaGFydENvbnRyb2xsZXIuZ2V0U2NhbGUob3B0aW9ucy55KShvcHRpb25zLmQzYU9yaWdpblBvaW50KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBpZiAob3B0aW9ucy5kM2FPcmlnaW5Qb2ludCkgewogICAgICAgICAgICAgICAgcmV0dXJuIGNoYXJ0Q29udHJvbGxlci5pbm5lckhlaWdodCAtIHkoZFsgb3B0aW9ucy55IF0pCiAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/Column/column/g</text>
