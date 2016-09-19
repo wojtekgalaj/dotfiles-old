@@ -25,12 +25,12 @@
         <mark key="^" line="571" column="114" />
         <mark key="." line="571" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474277873051">
+      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474279444707">
         <mark key="'" line="127" column="0" />
-        <mark key="[" line="95" column="80" />
-        <mark key="]" line="95" column="89" />
-        <mark key="." line="95" column="89" />
-        <mark key="^" line="95" column="89" />
+        <mark key="[" line="164" column="67" />
+        <mark key="]" line="165" column="86" />
+        <mark key="." line="165" column="86" />
+        <mark key="^" line="165" column="86" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-tmpl.html" timestamp="1468921925664">
         <mark key="[" line="23" column="30" />
@@ -53,6 +53,7 @@
         <mark key="^" line="3" column="19" />
         <mark key="." line="3" column="19" />
       </file>
+      <file name="$USER_HOME$/dev/angular-d3-directive/demo/index.html" timestamp="1474279727672" />
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/time-range-selector/time-range-selector-component.js" timestamp="1467109168629">
         <mark key="[" line="60" column="0" />
         <mark key="]" line="60" column="0" />
@@ -326,53 +327,53 @@
       <jump line="126" column="0" filename="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKGlucHV0IDwgMCkK</text>
+      <register name="&quot;" type="4">
+        <text>ition</text>
       </register>
       <register name="-" type="4">
-        <text>Height</text>
+        <text>ition</text>
       </register>
       <register name="/" type="4">
-        <text>data</text>
+        <text>console</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICByZXR1cm4gY2hhcnRDb250cm9sbGVyLmlubmVySGVpZ2h0IC0geShkWyBvcHRpb25zLnkgXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICByZXR1cm4gY2xhc3NlcyArICdiYXIgZGF0YS1wb2ludCAnICsgZFtvcHRpb25zLnldIDwgMCA/ICcgbmVnYXRpdmUgJyA6ICcnICsgKHNjb3BlLiRldmFsKG9wdGlvbnMuZDNhRWxlbWVudENsYXNzLCB7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKGlucHV0IDwgMCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBpZiAoZFtvcHRpb25zLnldIDwgMCkgewogICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ25lZ2F0aXZlIGJlY2F1c2UgJywgZFtvcHRpb25zLnldKQogICAgICAgICAgICAgICAgY2xhc3NlcyArPSAnbmVnYXRpdmUnCiAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coJ2QgaW4gZ2V0SGVpZ2h0JywgZCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBpZiAoZFtvcHRpb25zLnldIDwgMCkgewogICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ25lZ2F0aXZlIGJlY2F1c2UgJywgZFtvcHRpb25zLnldKQogICAgICAgICAgICAgICAgY2xhc3NlcyArPSAnbmVnYXRpdmUnCiAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIHZhciBvZmZzZXRIZWlnaHQgPSBjaGFydENvbnRyb2xsZXIuZ2V0U2NhbGUob3B0aW9ucy55KShvcHRpb25zLmQzYU9yaWdpblBvaW50KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdjbGFzc2VzICcsIGNsYXNzZXMpCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVidWdnZXIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdjbGFzc2VzICcsIGNsYXNzZXMpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgIGNvbnNvbGUubG9nKCdvZmZzZXRIZWlnaHQnLCBvZmZzZXRIZWlnaHQpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdISScsIHkoZFswXSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGlucHV0IDwgMCkK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">PHN0eWxlIHR5cGU9InRleHQvY3NzIiBtZWRpYT0ic3R5bGUuY3NzIj4KCjwvc3R5bGU+</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coJ2QgaW4gZ2V0SGVpZ2h0JywgZCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIDxoMT5ZT1lPe3tkdi52YXJpYWJsZX19PC9oMT4K</text>
+        <text encoding="base64">ICAgICAgICAgIHZhciBvZmZzZXRIZWlnaHQgPSBjaGFydENvbnRyb2xsZXIuZ2V0U2NhbGUob3B0aW9ucy55KShvcHRpb25zLmQzYU9yaWdpblBvaW50KQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/Column/column/g</text>
       </register>
     </registers>
     <search>
-      <last-search>data</last-search>
+      <last-search>console</last-search>
       <last-offset />
-      <last-pattern>data</last-pattern>
+      <last-pattern>console</last-pattern>
       <last-replace>column</last-replace>
       <last-substitute>Column</last-substitute>
       <last-dir>1</last-dir>
@@ -380,7 +381,6 @@
     </search>
     <history>
       <history-search>
-        <entry>dispatch</entry>
         <entry encoding="base64">XDxzZXRQb3NzaWJsZURyb3Bkb3duT3B0aW9uc1w+</entry>
         <entry>label</entry>
         <entry>perf-oanel</entry>
@@ -400,6 +400,7 @@
         <entry>Row</entry>
         <entry>Column</entry>
         <entry>data</entry>
+        <entry>console</entry>
       </history-search>
       <history-cmd>
         <entry>%s/Row/row/g</entry>
