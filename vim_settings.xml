@@ -139,12 +139,12 @@
         <mark key="]" line="6" column="12" />
         <mark key="." line="6" column="12" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474282195722">
+      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474378408204">
         <mark key="'" line="127" column="0" />
-        <mark key="[" line="227" column="34" />
-        <mark key="]" line="227" column="34" />
-        <mark key="." line="227" column="34" />
-        <mark key="^" line="186" column="29" />
+        <mark key="[" line="165" column="15" />
+        <mark key="]" line="165" column="15" />
+        <mark key="." line="165" column="15" />
+        <mark key="^" line="142" column="18" />
       </file>
       <file name="$USER_HOME$/dev/angular-d3-directive/demo/demo.js" timestamp="1474375029349">
         <mark key="[" line="22" column="9" />
@@ -164,10 +164,8 @@
         <mark key="^" line="3" column="19" />
         <mark key="." line="3" column="19" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/demo/index.html" timestamp="1474375302481">
-        <mark key="[" line="289" column="0" />
-        <mark key="]" line="289" column="0" />
-        <mark key="." line="289" column="0" />
+      <file name="$USER_HOME$/dev/angular-d3-directive/demo/index.html" timestamp="1474378660287">
+        <mark key="[" line="15" column="10" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/time-range-selector/time-range-selector-component.js" timestamp="1467109168629">
         <mark key="[" line="60" column="0" />
@@ -175,7 +173,7 @@
         <mark key="^" line="61" column="40" />
         <mark key="." line="60" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/test/axis-test.js" timestamp="1474365379779">
+      <file name="$USER_HOME$/dev/angular-d3-directive/test/axis-test.js" timestamp="1474377038799">
         <mark key="'" line="416" column="2" />
         <mark key="[" line="446" column="0" />
         <mark key="]" line="447" column="24" />
@@ -369,43 +367,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>the bar should grow to correct height</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>the bar should grow to correct height</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>console</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgdmFyIHNlY29uZEJhciA9IHRlc3RIZWxwZXIuZ2V0UmVjdChkMy5zZWxlY3RBbGwoJy5iYXInKVswXVsxXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgdmFyIGNoYXJ0ID0gdGVzdEhlbHBlci5nZXRSZWN0KGQzLnNlbGVjdCgnLmNoYXJ0JykpCiAgICAgIHZhciBsZWZ0QXhpcyA9IHRlc3RIZWxwZXIuZ2V0UmVjdChkMy5zZWxlY3QoJy5heGlzLWxlZnQnKSkKICAgICAgdmFyIGZpcnN0QmFyID0gdGVzdEhlbHBlci5nZXRSZWN0KGQzLnNlbGVjdCgnLmJhcicpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KE1hdGguZmxvb3IobGVmdEF4aXMuYm90dG9tKSkudG9CZUdyZWF0ZXJUaGFuKE1hdGguZmxvb3Ioc2Vjb25kQmFyLmJvdHRvbSksCiAgICAgICAgJ1NlY29uZCBiYXIgZG9lcyBub3QgcmVhY2ggdGhlIGJvdHRvbSBvZiB0aGUgeSBheGlzJwogICAgICApCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICh5Q29vcmRpbmF0ZXMgPCBvZmZzZXRDb29yZGluYXRlcyApIHsKICAgICAgICAgICAgICAgICAgb3JpZ2luUG9pbnQgPSB5Q29vcmRpbmF0ZXMKICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ2QzYS1vcmlnaW4tcG9pbnQnOiAnMCcK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ2QzYS1vcmlnaW4tcG9pbnQnOiAnMCcK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpb3JpdHk6ICcwLjUnLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGJhckhlaWdodAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ2QzYS1yZWxhdGl2ZSc6ICd5JywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFyIGJhckhlaWdodAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgZG9uZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZG9uZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBiYXJIZWlnaHQgPSBjaGFydENvbnRyb2xsZXIuaW5uZXJIZWlnaHQgLSB5Q29vcmRpbmF0ZXMK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBleHBhbmQ9InRydWUiCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgfSBlbHNlIHsK</text>
       </register>
       <register name=":" type="4">
         <text>%s/Column/column/g</text>
