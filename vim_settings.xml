@@ -45,6 +45,11 @@
         <mark key="]" line="17" column="0" />
         <mark key="." line="17" column="0" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-controller.js" timestamp="1474468869505">
+        <mark key="[" line="146" column="0" />
+        <mark key="]" line="146" column="0" />
+        <mark key="." line="146" column="0" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering/clustering.html" timestamp="1468230078183">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="8" column="8" />
@@ -81,6 +86,12 @@
         <mark key="[" line="2614" column="0" />
         <mark key="]" line="2614" column="0" />
         <mark key="." line="2614" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1474467979948" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1474468886119">
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="0" />
+        <mark key="." line="29" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/package.json" timestamp="1467374242845">
         <mark key="[" line="56" column="0" />
@@ -243,7 +254,7 @@
         <mark key="^" line="28" column="48" />
         <mark key="." line="28" column="45" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance.html" timestamp="1474466492863" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance.html" timestamp="1474468723735" />
       <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466779414918">
         <mark key="[" line="80" column="31" />
         <mark key="]" line="80" column="99" />
@@ -366,8 +377,8 @@
       <jump line="416" column="2" filename="$USER_HOME$/dev/angular-d3-directive/test/axis-test.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -379,31 +390,31 @@
         <text encoding="base64">ICAgICAgICAgICAK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICh5Q29vcmRpbmF0ZXMgPCBvZmZzZXRDb29yZGluYXRlcyApIHsKICAgICAgICAgICAgICAgICAgb3JpZ2luUG9pbnQgPSB5Q29vcmRpbmF0ZXMKICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWUoKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWUoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGJhckhlaWdodAo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFyIGJhckhlaWdodAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICh5Q29vcmRpbmF0ZXMgPCBvZmZzZXRDb29yZGluYXRlcyApIHsKICAgICAgICAgICAgICAgICAgb3JpZ2luUG9pbnQgPSB5Q29vcmRpbmF0ZXMKICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBiYXJIZWlnaHQgPSBjaGFydENvbnRyb2xsZXIuaW5uZXJIZWlnaHQgLSB5Q29vcmRpbmF0ZXMK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfSBlbHNlIHsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/Column/column/g</text>
