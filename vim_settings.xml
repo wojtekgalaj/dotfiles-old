@@ -40,7 +40,6 @@
         <mark key="]" line="5" column="10" />
         <mark key="." line="5" column="10" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/test/chart-test.js" timestamp="1474368246317" />
       <file name="$USER_HOME$/dev/comparebars/index.html" timestamp="1470781271794">
         <mark key="[" line="17" column="0" />
         <mark key="]" line="17" column="0" />
@@ -244,6 +243,7 @@
         <mark key="^" line="28" column="48" />
         <mark key="." line="28" column="45" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance.html" timestamp="1474466492863" />
       <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466779414918">
         <mark key="[" line="80" column="31" />
         <mark key="]" line="80" column="99" />
