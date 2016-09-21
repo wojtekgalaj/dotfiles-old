@@ -88,10 +88,12 @@
         <mark key="." line="2614" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-tmpl.html" timestamp="1474467979948" />
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1474468886119">
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-component.js" timestamp="1474470169892">
+        <mark key="'" line="378" column="4" />
+        <mark key="[" line="377" column="74" />
+        <mark key="]" line="378" column="4" />
+        <mark key="." line="378" column="4" />
+        <mark key="^" line="377" column="73" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/package.json" timestamp="1467374242845">
         <mark key="[" line="56" column="0" />
@@ -375,13 +377,14 @@
       <jump line="126" column="0" filename="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" />
       <jump line="420" column="68" filename="$USER_HOME$/dev/angular-d3-directive/test/axis-test.js" />
       <jump line="416" column="2" filename="$USER_HOME$/dev/angular-d3-directive/test/axis-test.js" />
+      <jump line="378" column="4" filename="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-component.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
+      <register name="&quot;" type="4">
+        <text>.</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>console</text>
