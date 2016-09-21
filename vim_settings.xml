@@ -202,6 +202,11 @@
         <mark key="^" line="52" column="13" />
         <mark key="." line="52" column="41" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_bi-performance.scss" timestamp="1474471425425">
+        <mark key="[" line="47" column="0" />
+        <mark key="]" line="47" column="0" />
+        <mark key="." line="47" column="0" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/index.html" timestamp="1468836573328">
         <mark key="[" line="20" column="49" />
         <mark key="]" line="20" column="49" />
@@ -380,8 +385,8 @@
       <jump line="378" column="4" filename="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-component.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>.</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>.</text>
@@ -393,31 +398,31 @@
         <text encoding="base64">ICAgICAgICAgICAK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWUoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWUoKQo=</text>
+        <text encoding="base64">ICAgICYubmctYW5pbWF0ZSB7CiAgICAgICAgdHJhbnNpdGlvbjogMC4ycyBvcGFjaXR5OwogICAgfQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWUoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWUoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICh5Q29vcmRpbmF0ZXMgPCBvZmZzZXRDb29yZGluYXRlcyApIHsKICAgICAgICAgICAgICAgICAgb3JpZ2luUG9pbnQgPSB5Q29vcmRpbmF0ZXMKICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
+        <text encoding="base64">ICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLnRpbWVFbmQoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>%s/Column/column/g</text>
