@@ -139,13 +139,6 @@
         <mark key="^" line="24" column="34" />
         <mark key="." line="24" column="34" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/main-module.js" timestamp="1468917499032">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="15" column="14" />
-        <mark key="]" line="15" column="12" />
-        <mark key="." line="15" column="12" />
-        <mark key="^" line="15" column="12" />
-      </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/config/config.js" timestamp="1466697081737">
         <mark key="[" line="601" column="0" />
         <mark key="]" line="601" column="0" />
@@ -156,12 +149,12 @@
         <mark key="]" line="6" column="12" />
         <mark key="." line="6" column="12" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474378408204">
+      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474620070957">
         <mark key="'" line="127" column="0" />
-        <mark key="[" line="165" column="15" />
-        <mark key="]" line="165" column="15" />
-        <mark key="." line="165" column="15" />
-        <mark key="^" line="142" column="18" />
+        <mark key="[" line="177" column="72" />
+        <mark key="]" line="177" column="73" />
+        <mark key="." line="177" column="73" />
+        <mark key="^" line="177" column="46" />
       </file>
       <file name="$USER_HOME$/dev/angular-d3-directive/demo/demo.js" timestamp="1474375029349">
         <mark key="[" line="22" column="9" />
@@ -202,9 +195,9 @@
         <mark key="^" line="9" column="12" />
         <mark key="." line="9" column="12" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/src/axisDirective.js" timestamp="1474364492889">
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="77" column="56" />
+      <file name="$USER_HOME$/dev/angular-d3-directive/src/axisDirective.js" timestamp="1474619889217">
+        <mark key="[" line="73" column="0" />
+        <mark key="]" line="76" column="26" />
         <mark key="." line="77" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/report-template/index.html" timestamp="1469089292224">
@@ -396,16 +389,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>C</text>
+        <text>options.d3aRelative</text>
       </register>
       <register name="-" type="4">
-        <text>C</text>
+        <text>options.d3aRelative</text>
       </register>
       <register name="/" type="4">
         <text>console</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgIHZhciBib3R0b21Qb3NpdGlvbgogICAgICAgICAgdmFyIGRhdGEKICAgICAgICAgIHZhciBtaW5EYXRhUG9pbnQKICAgICAgICAgIHZhciBtYXhEYXRhUG9pbnQK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAK</text>
