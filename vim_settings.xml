@@ -45,6 +45,11 @@
         <mark key="]" line="32" column="64" />
         <mark key="." line="32" column="64" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/config/lang.js" timestamp="1474992857119">
+        <mark key="[" line="648" column="0" />
+        <mark key="]" line="648" column="45" />
+        <mark key="." line="648" column="0" />
+      </file>
       <file name="$USER_HOME$/dev/comparebars/index.html" timestamp="1470781271794">
         <mark key="[" line="17" column="0" />
         <mark key="]" line="17" column="0" />
@@ -82,10 +87,10 @@
         <mark key="]" line="123" column="0" />
         <mark key="." line="123" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/report-server/report/resources/css/report/_main.scss" timestamp="1474991258630">
+      <file name="$USER_HOME$/dev/geoblink/report-server/report/resources/css/report/_main.scss" timestamp="1474992587383">
         <mark key="[" line="4" column="10" />
         <mark key="]" line="4" column="11" />
-        <mark key="^" line="120" column="3" />
+        <mark key="^" line="65" column="12" />
         <mark key="." line="4" column="11" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/utils/seteable-counter.js" timestamp="1474535090252">
@@ -251,10 +256,10 @@
         <mark key="]" line="6" column="23" />
         <mark key="." line="6" column="23" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/report-server/report/package.json" timestamp="1474987643918">
+      <file name="$USER_HOME$/dev/geoblink/report-server/report/package.json" timestamp="1474992276344">
         <mark key="[" line="10" column="33" />
-        <mark key="]" line="10" column="36" />
-        <mark key="." line="10" column="36" />
+        <mark key="]" line="10" column="33" />
+        <mark key="." line="10" column="33" />
         <mark key="^" line="10" column="36" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-clustering.scss" timestamp="1468227728938">
@@ -304,6 +309,12 @@
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/geoblink/report-server/report/app/config/lang.js" timestamp="1474992816935">
+        <mark key="[" line="648" column="0" />
+        <mark key="]" line="648" column="45" />
+        <mark key="." line="648" column="42" />
+        <mark key="^" line="648" column="42" />
       </file>
       <file name="$USER_HOME$/dev/angular-d3-directive/test/bar-test.js" timestamp="1474375572094">
         <mark key="[" line="168" column="77" />
@@ -423,17 +434,17 @@
       <jump line="378" column="4" filename="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-component.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">PGRpdiBjbGFzcz0idHdvLWdyYXBocyI+CiAgICAgIDxkaXYgY2xhc3M9ImRldGFpbHZpZXdfX2dyYXBoIj4KICAgICAgICA8cCBjbGFzcz0iZ3JhcGhfX3RpdGxlIj57e2R2eC5kd2VsbGluZ1R5cGVHcmFwaC50aXRsZVRyYW5zfX08L3A+CiAgICAgICAgPHBpZS1ncmFwaCBkYXRhcz0iZHZ4LmRhdGFzIiBncmFwaC1kYXRhPSJkdnguZHdlbGxpbmdUeXBlR3JhcGgiIGNsYXNzPSJ0ZXJyYWluLWdyYXBoIiBvbi1leHBhbmQ9ImR2eC5vbkV4cGFuZChpc0V4cGFuZGVkLCB0aXRsZU9iaikiPjwvcGllLWdyYXBoPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZGV0YWlsdmlld19fZ3JhcGgiPgogICAgICAgIDxwIGNsYXNzPSJncmFwaF9fdGl0bGUiPnt7ZHZ4LnRlbnVyZVJlZ2ltZW5HcmFwaC50aXRsZVRyYW5zfX08L3A+CiAgICAgICAgPHBpZS1ncmFwaCBkYXRhcz0iZHZ4LmRhdGFzIiBncmFwaC1kYXRhPSJkdngudGVudXJlUmVnaW1lbkdyYXBoIiBjbGFzcz0idGVycmFpbi1ncmFwaCIgb24tZXhwYW5kPSJkdngub25FeHBhbmQoaXNFeHBhbmRlZCwgdGl0bGVPYmopIj48L3BpZS1ncmFwaD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIFNPQ0lPRUNPTk9NSUNfREFUQTogJ1NvY2lvZWNvbm9taWMgZGF0YScsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>, page: this.isExpress ? '7' : '10'</text>
+        <text>Datos socioeconómicos</text>
       </register>
       <register name="/" type="4">
         <text>console</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIHZhciBib3R0b21Qb3NpdGlvbgogICAgICAgICAgdmFyIGRhdGEKICAgICAgICAgIHZhciBtaW5EYXRhUG9pbnQKICAgICAgICAgIHZhciBtYXhEYXRhUG9pbnQK</text>
+        <text encoding="base64">ICAgIFNPQ0lPRUNPTk9NSUNfREFUQTogJ1NvY2lvZWNvbm9taWMgZGF0YScsCg==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">PGRpdiBjbGFzcz0idHdvLWdyYXBocyI+CiAgICAgIDxkaXYgY2xhc3M9ImRldGFpbHZpZXdfX2dyYXBoIj4KICAgICAgICA8cCBjbGFzcz0iZ3JhcGhfX3RpdGxlIj57e2R2eC5kd2VsbGluZ1R5cGVHcmFwaC50aXRsZVRyYW5zfX08L3A+CiAgICAgICAgPHBpZS1ncmFwaCBkYXRhcz0iZHZ4LmRhdGFzIiBncmFwaC1kYXRhPSJkdnguZHdlbGxpbmdUeXBlR3JhcGgiIGNsYXNzPSJ0ZXJyYWluLWdyYXBoIiBvbi1leHBhbmQ9ImR2eC5vbkV4cGFuZChpc0V4cGFuZGVkLCB0aXRsZU9iaikiPjwvcGllLWdyYXBoPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZGV0YWlsdmlld19fZ3JhcGgiPgogICAgICAgIDxwIGNsYXNzPSJncmFwaF9fdGl0bGUiPnt7ZHZ4LnRlbnVyZVJlZ2ltZW5HcmFwaC50aXRsZVRyYW5zfX08L3A+CiAgICAgICAgPHBpZS1ncmFwaCBkYXRhcz0iZHZ4LmRhdGFzIiBncmFwaC1kYXRhPSJkdngudGVudXJlUmVnaW1lbkdyYXBoIiBjbGFzcz0idGVycmFpbi1ncmFwaCIgb24tZXhwYW5kPSJkdngub25FeHBhbmQoaXNFeHBhbmRlZCwgdGl0bGVPYmopIj48L3BpZS1ncmFwaD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4=</text>
