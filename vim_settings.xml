@@ -20,11 +20,11 @@
         <mark key="." line="50" column="0" />
         <mark key="^" line="54" column="25" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" timestamp="1468584688943">
-        <mark key="[" line="571" column="0" />
-        <mark key="]" line="571" column="0" />
-        <mark key="^" line="571" column="114" />
-        <mark key="." line="571" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" timestamp="1475163730642">
+        <mark key="[" line="41" column="36" />
+        <mark key="]" line="41" column="36" />
+        <mark key="^" line="41" column="31" />
+        <mark key="." line="41" column="36" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-tmpl.html" timestamp="1468921925664">
         <mark key="[" line="23" column="30" />
@@ -32,7 +32,7 @@
         <mark key="." line="23" column="28" />
         <mark key="^" line="23" column="28" />
       </file>
-      <file name="/a.dummy" timestamp="1474368183631">
+      <file name="/a.dummy" timestamp="1475163301858">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/resources/css/_right-panel.scss" timestamp="1468585583066">
@@ -44,11 +44,6 @@
         <mark key="[" line="32" column="64" />
         <mark key="]" line="32" column="64" />
         <mark key="." line="32" column="64" />
-      </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/config/lang.js" timestamp="1474992857119">
-        <mark key="[" line="648" column="0" />
-        <mark key="]" line="648" column="45" />
-        <mark key="." line="648" column="0" />
       </file>
       <file name="$USER_HOME$/dev/comparebars/index.html" timestamp="1470781271794">
         <mark key="[" line="17" column="0" />
@@ -152,6 +147,9 @@
         <mark key="^" line="24" column="34" />
         <mark key="." line="24" column="34" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-server/models/locationUtils.js" timestamp="1475163262207">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/config/config.js" timestamp="1466697081737">
         <mark key="[" line="601" column="0" />
         <mark key="]" line="601" column="0" />
@@ -196,12 +194,6 @@
         <mark key="^" line="61" column="40" />
         <mark key="." line="60" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/angular-d3-directive/test/axis-test.js" timestamp="1474377038799">
-        <mark key="'" line="416" column="2" />
-        <mark key="[" line="446" column="0" />
-        <mark key="]" line="447" column="24" />
-        <mark key="." line="445" column="16" />
-      </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/utils/resetable-counter.js" timestamp="1474534926289">
         <mark key="[" line="0" column="4" />
         <mark key="]" line="9" column="12" />
@@ -223,6 +215,7 @@
         <mark key="]" line="21" column="4" />
         <mark key="." line="21" column="4" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-module.js" timestamp="1475162357107" />
       <file name="$USER_HOME$/dev/geoblink/report-template/index.html" timestamp="1469089292224">
         <mark key="[" line="52" column="41" />
         <mark key="]" line="52" column="41" />
@@ -265,8 +258,11 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-clustering.scss" timestamp="1468227728938">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-controller.js" timestamp="1468584715149">
-        <mark key="[" line="2926" column="45" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-controller.js" timestamp="1475163100807">
+        <mark key="[" line="130" column="108" />
+        <mark key="]" line="138" column="0" />
+        <mark key="^" line="138" column="0" />
+        <mark key="." line="138" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-pob-total/detailview-pob-total-tmpl.html" timestamp="1468924992563">
         <mark key="[" line="0" column="0" />
@@ -322,6 +318,7 @@
         <mark key="^" line="211" column="6" />
         <mark key="." line="168" column="77" />
       </file>
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/left-panel-category/left-panel-category-tmpl.html" timestamp="1475163272646" />
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466675585316">
         <mark key="[" line="56" column="38" />
         <mark key="]" line="56" column="38" />
@@ -432,19 +429,20 @@
       <jump line="420" column="68" filename="$USER_HOME$/dev/angular-d3-directive/test/axis-test.js" />
       <jump line="416" column="2" filename="$USER_HOME$/dev/angular-d3-directive/test/axis-test.js" />
       <jump line="378" column="4" filename="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-component.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/app-server/models/locationUtils.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIFNPQ0lPRUNPTk9NSUNfREFUQTogJ1NvY2lvZWNvbm9taWMgZGF0YScsCg==</text>
+      <register name="&quot;" type="4">
+        <text>r</text>
       </register>
       <register name="-" type="4">
-        <text>Datos socioeconómicos</text>
+        <text>r</text>
       </register>
       <register name="/" type="4">
-        <text>console</text>
+        <text>getBra</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIFNPQ0lPRUNPTk9NSUNfREFUQTogJ1NvY2lvZWNvbm9taWMgZGF0YScsCg==</text>
+        <text encoding="base64">ICAgIDwhLS0gTWFwIE1hcmtlciBJY29uIC0tPgogICAgPGRpdiBuZy1jbGljaz0ibGVmdFBhbmVsU3RhdGUuZW50ZXJUYWIoJ21hcmtlcicpIiB0b29sdGlwLXBsYWNlbWVudD0icmlnaHQiIHVpYi10b29sdGlwPSJ7eyAnU0hPV19NQVJLRVJTJyB8IHRyYW5zbGF0ZSB9fSIgdG9vbHRpcC1jbGFzcz0iY3VzdG9tQ2xhc3MiPgogICAgICAgIDxzcGFuIGNsYXNzPSJmYS1zdGFjayBmYS1sZyIgbmctY2xhc3M9InthY3RpdmUgOiBsZWZ0UGFuZWxTdGF0ZS5wYW5lbFRhYj09PSdtYXJrZXInIH0iPgogICAgICAgICAgICA8aSBjbGFzcz0iZmEgZmEtc3F1YXJlIGZhLXN0YWNrLTJ4Ij48L2k+CiAgICAgICAgICAgIDxpIGNsYXNzPSJmYSBmYS1tYXAtbWFya2VyIGZhLXN0YWNrLTF4IGZhLWludmVyc2UiPjwvaT4KICAgICAgICA8L3NwYW4+CiAgICA8L2Rpdj4K</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">PGRpdiBjbGFzcz0idHdvLWdyYXBocyI+CiAgICAgIDxkaXYgY2xhc3M9ImRldGFpbHZpZXdfX2dyYXBoIj4KICAgICAgICA8cCBjbGFzcz0iZ3JhcGhfX3RpdGxlIj57e2R2eC5kd2VsbGluZ1R5cGVHcmFwaC50aXRsZVRyYW5zfX08L3A+CiAgICAgICAgPHBpZS1ncmFwaCBkYXRhcz0iZHZ4LmRhdGFzIiBncmFwaC1kYXRhPSJkdnguZHdlbGxpbmdUeXBlR3JhcGgiIGNsYXNzPSJ0ZXJyYWluLWdyYXBoIiBvbi1leHBhbmQ9ImR2eC5vbkV4cGFuZChpc0V4cGFuZGVkLCB0aXRsZU9iaikiPjwvcGllLWdyYXBoPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZGV0YWlsdmlld19fZ3JhcGgiPgogICAgICAgIDxwIGNsYXNzPSJncmFwaF9fdGl0bGUiPnt7ZHZ4LnRlbnVyZVJlZ2ltZW5HcmFwaC50aXRsZVRyYW5zfX08L3A+CiAgICAgICAgPHBpZS1ncmFwaCBkYXRhcz0iZHZ4LmRhdGFzIiBncmFwaC1kYXRhPSJkdngudGVudXJlUmVnaW1lbkdyYXBoIiBjbGFzcz0idGVycmFpbi1ncmFwaCIgb24tZXhwYW5kPSJkdngub25FeHBhbmQoaXNFeHBhbmRlZCwgdGl0bGVPYmopIj48L3BpZS1ncmFwaD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4=</text>
@@ -478,9 +476,9 @@
       </register>
     </registers>
     <search>
-      <last-search>console</last-search>
+      <last-search>getBra</last-search>
       <last-offset />
-      <last-pattern>console</last-pattern>
+      <last-pattern>getBra</last-pattern>
       <last-replace>column</last-replace>
       <last-substitute>Column</last-substitute>
       <last-dir>1</last-dir>
@@ -488,7 +486,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzZXRQb3NzaWJsZURyb3Bkb3duT3B0aW9uc1w+</entry>
         <entry>label</entry>
         <entry>perf-oanel</entry>
         <entry>acce</entry>
@@ -508,6 +505,7 @@
         <entry>Column</entry>
         <entry>data</entry>
         <entry>console</entry>
+        <entry>getBra</entry>
       </history-search>
       <history-cmd>
         <entry>%s/Row/row/g</entry>
