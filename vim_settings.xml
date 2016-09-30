@@ -20,11 +20,12 @@
         <mark key="." line="50" column="0" />
         <mark key="^" line="54" column="25" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" timestamp="1475164946164">
-        <mark key="[" line="90" column="19" />
-        <mark key="]" line="41" column="36" />
-        <mark key="^" line="41" column="31" />
-        <mark key="." line="41" column="36" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" timestamp="1475222232536">
+        <mark key="'" line="88" column="32" />
+        <mark key="[" line="38" column="47" />
+        <mark key="]" line="39" column="74" />
+        <mark key="^" line="39" column="74" />
+        <mark key="." line="39" column="74" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-tmpl.html" timestamp="1468921925664">
         <mark key="[" line="23" column="30" />
@@ -160,6 +161,13 @@
         <mark key="]" line="6" column="12" />
         <mark key="." line="6" column="12" />
       </file>
+      <file name="$USER_HOME$/dev/angular-d3-directive/src/barsDirective.js" timestamp="1474620070957">
+        <mark key="'" line="127" column="0" />
+        <mark key="[" line="177" column="72" />
+        <mark key="]" line="177" column="73" />
+        <mark key="." line="177" column="73" />
+        <mark key="^" line="177" column="46" />
+      </file>
       <file name="$USER_HOME$/dev/angular-d3-directive/demo/demo.js" timestamp="1474375029349">
         <mark key="[" line="22" column="9" />
         <mark key="]" line="22" column="9" />
@@ -257,11 +265,12 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-clustering.scss" timestamp="1468227728938">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-controller.js" timestamp="1475163100807">
-        <mark key="[" line="130" column="108" />
-        <mark key="]" line="138" column="0" />
-        <mark key="^" line="138" column="0" />
-        <mark key="." line="138" column="0" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-controller.js" timestamp="1475222008216">
+        <mark key="'" line="201" column="2" />
+        <mark key="[" line="1569" column="6" />
+        <mark key="]" line="1569" column="6" />
+        <mark key="^" line="1570" column="54" />
+        <mark key="." line="1569" column="6" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-pob-total/detailview-pob-total-tmpl.html" timestamp="1468924992563">
         <mark key="[" line="0" column="0" />
@@ -283,9 +292,9 @@
         <mark key="]" line="6" column="16" />
         <mark key="." line="6" column="16" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/my-panel/my-panel-tmpl.html" timestamp="1475220856497">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="23" column="6" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/my-panel/my-panel-tmpl.html" timestamp="1475222083698">
+        <mark key="[" line="9" column="22" />
+        <mark key="]" line="24" column="6" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering-table/clustering-table-component.js" timestamp="1468229535549">
@@ -300,11 +309,11 @@
         <mark key="." line="28" column="45" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/map-markers/map-markers-component.js" timestamp="1475164452190" />
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/my-panel/my-panel-component.js" timestamp="1475165016045">
-        <mark key="[" line="12" column="28" />
-        <mark key="]" line="12" column="34" />
-        <mark key="." line="12" column="34" />
-        <mark key="^" line="12" column="34" />
+      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/my-panel/my-panel-component.js" timestamp="1475221595944">
+        <mark key="[" line="5" column="15" />
+        <mark key="]" line="6" column="29" />
+        <mark key="." line="6" column="29" />
+        <mark key="^" line="6" column="29" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466779414918">
         <mark key="[" line="80" column="31" />
@@ -350,13 +359,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="95" column="18" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
-      <jump line="112" column="29" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-tmpl.html" />
-      <jump line="191" column="18" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
-      <jump line="192" column="18" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
-      <jump line="206" column="40" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
-      <jump line="210" column="34" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
-      <jump line="212" column="32" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
       <jump line="213" column="42" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-controller.js" />
       <jump line="442" column="23" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
       <jump line="463" column="15" filename="$USER_HOME$/dev/geoblink/private/app/bi/performance/performance-panel/perf-panel-component.js" />
@@ -442,22 +444,37 @@
       <jump line="378" column="4" filename="$USER_HOME$/dev/geoblink/app-client/app/bi/performance/performance-panel/perf-panel-component.js" />
       <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/app-server/models/locationUtils.js" />
       <jump line="0" column="0" filename="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/map-markers/map-markers-tmpl.html" />
+      <jump line="201" column="2" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map-controller.js" />
+      <jump line="92" column="36" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="96" column="55" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="240" column="52" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="242" column="48" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="39" column="72" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="47" column="72" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="55" column="73" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="63" column="72" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="73" column="84" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="79" column="68" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="82" column="33" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="83" column="33" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="84" column="33" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
+      <jump line="88" column="32" filename="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>markers</text>
       </register>
       <register name="-" type="4">
-        <text>$rootScope, $element, locationService, configData, $filter, $q, $scope, userService, markersService</text>
+        <text>markers</text>
       </register>
       <register name="/" type="4">
-        <text>getBra</text>
+        <text encoding="base64">XDxwYW5lbFRhYlw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">PGRpdiBjbGFzcz0ianMtY29udGVudC1zaXplLW1hcmtlciBwYW5lbC1jb250ZW50IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogI2Y0ZjRmNDsiPgogIDwhLS0gU3RhcnQgTXkgU3RvcmVzIE1vZHVsZSAtLT4KICA8ZGl2IGNsYXNzPSJtb2R1bGUgZGFyayI+CiAgICA8ZGl2IGNsYXNzPSJsZWZ0IGNvbG9yLXNlY3Rpb25fX215LXN0b3JlcyI+CiAgICAgIDxpIGNsYXNzPSJmYSBmYS1tYXAtbWFya2VyIj48L2k+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImhlYWRlciI+CiAgICAgIHt7ICdNWV9TVE9SRVMnIHwgdHJhbnNsYXRlIH19CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImJvZHkiPgogICAgICA8c3BhbiBuZy1yZXBlYXQ9ImJyYW5kIGluIG1tLmF1dGhCcmFuZHNDb21wbGV0ZSI+CiAgICAgICAgPGlucHV0IHR5cGU9ImNoZWNrYm94IiBuZy1tb2RlbD0ibW0ubWFya2Vyc0NoZWNrZWRbYnJhbmQuYnJhbmRdIiBuZy1jbGljaz0ibW0ubG9hZENvbXBldGl0b3IoYnJhbmQuYnJhbmQpIj4ge3ticmFuZC5icmFuZH19CiAgICAgIDwvc3Bhbj4KICAgICAgPHNwYW4+PGlucHV0IHR5cGU9ImNoZWNrYm94IiBuZy1tb2RlbD0ibW0ubWFya2Vyc0NoZWNrZWRbJ01hcmtlcnMnXSIgbmctY2xpY2s9Im1tLmxvYWRDb21wZXRpdG9yKCdNYXJrZXJzJykiPiB7eyAnTVlfTUFSS0VSUycgfCB0cmFuc2xhdGUgfX08L3NwYW4+CiAgICA8L2Rpdj4KICA8L2Rpdj4KICA8bGVmdC1wYW5lbC1jYXRlZ29yeSBjbGFzcz0ibW9kdWxlIiBuZy1yZXBlYXQ9InNlY3RvciBpbiBtbS5icmFuZHMiCiAgICBrZXk9Im1tLmtleSIKICAgIHJvdy10eXBlPSJzZWN0b3IiCiAgICBvbi1jaGVja2JveC1oYW5kbGVyPSJtbS5sb2FkQ29tcGV0aXRvcihuYW1lLCBpc1NpbGVudCkiCiAgICBtYXJrZXJzLWNoZWNrZWQ9Im1tLm1hcmtlcnNDaGVja2VkIgogICAgbmctaWY9InNlY3Rvci5uYW1lICE9PSAnbWFya2VycyciCiAgPjwvbGVmdC1wYW5lbC1jYXRlZ29yeT4KPC9kaXY+Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgbWFya2Vyc0NoZWNrZWQ6ICc9Jwo=</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
@@ -475,22 +492,22 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cmVxdWlyZSgnLi9sZWZ0LXBhbmVsL215LXBhbmVsL215LXBhbmVsLWNvbXBvbmVudCcpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8gbW0ua2V5ID0gJ2lkX2JyYW5kJwo=</text>
+        <text encoding="base64">cmVxdWlyZSgnLi9sZWZ0LXBhbmVsL215LXBhbmVsL215LXBhbmVsLWNvbXBvbmVudCcpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">bXktcGFuZWwtdG1wbC5odG1sCg==</text>
+        <text encoding="base64">Ly8gbW0ua2V5ID0gJ2lkX2JyYW5kJwo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/Column/column/g</text>
       </register>
     </registers>
     <search>
-      <last-search>getBra</last-search>
+      <last-search encoding="base64">XDxwYW5lbFRhYlw+</last-search>
       <last-offset />
-      <last-pattern>getBra</last-pattern>
+      <last-pattern encoding="base64">XDxwYW5lbFRhYlw+</last-pattern>
       <last-replace>column</last-replace>
       <last-substitute>Column</last-substitute>
       <last-dir>1</last-dir>
@@ -498,8 +515,6 @@
     </search>
     <history>
       <history-search>
-        <entry>label</entry>
-        <entry>perf-oanel</entry>
         <entry>acce</entry>
         <entry>multi</entry>
         <entry>main.css</entry>
@@ -518,6 +533,8 @@
         <entry>data</entry>
         <entry>console</entry>
         <entry>getBra</entry>
+        <entry>onDis</entry>
+        <entry encoding="base64">XDxwYW5lbFRhYlw+</entry>
       </history-search>
       <history-cmd>
         <entry>%s/Row/row/g</entry>
