@@ -1,5 +1,6 @@
 alias ll='ls -ltr'
 alias la='ls -ltar'
+alias lh='ls -ltarph'
 alias lg='la | grep '
 
 alias peg='ps -ef | grep -v grep | grep'
@@ -40,8 +41,17 @@ alias cdc='cd ~/dev/pack.components'
 alias cdp='cd ~/dev/packoffice'
 alias cdt='cd ~/dev/front-tools'
 
-alias tunnel="ssh -fN ddb1-tunnel&&ssh -fN ddb1-tunnel-redis&&ssh -fN ddb1-tunnel-mongo"
-alias tunnel-kill="pkill -f ddb1-tunnel"
+alias reset-tunnel="tunnel-kill && tunnel"
 alias gulp="nocorrect gulp"
 alias jspm='nocorrect jsmp'
 
+appStart() {
+  local APP_DIR="$HOME/dev/geoblink"
+  export NODE_ENV="local"
+  [ -d "$APP_DIR" ] && npm run local --prefix $APP_DIR
+}
+
+alias tunnel="ssh -fN dev-tunnel-postgresql && ssh -fN dev-tunnel-redis && ssh -fN dev-tunnel-mongodb"
+alias tunnel-kill="pkill -f dev-tunnel"
+
+alias app-go="tunnel-kill && tunnel && appStart"
