@@ -21,11 +21,7 @@
         <mark key="^" line="54" column="25" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map.html" timestamp="1475222232536">
-        <mark key="'" line="88" column="32" />
         <mark key="[" line="38" column="47" />
-        <mark key="]" line="39" column="74" />
-        <mark key="^" line="39" column="74" />
-        <mark key="." line="39" column="74" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/overview-box/overview-box-tmpl.html" timestamp="1468921925664">
         <mark key="[" line="23" column="30" />
@@ -177,7 +173,7 @@
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/map-markers/map-markers-tmpl.html" timestamp="1475164295850">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="23" column="5" />
+        <mark key="]" line="2" column="5" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/bi/clustering/clustering-table/clustering-table-component.js" timestamp="1468420801913">
         <mark key="[" line="1" column="18" />
@@ -221,7 +217,6 @@
         <mark key="]" line="21" column="4" />
         <mark key="." line="21" column="4" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-module.js" timestamp="1475162357107" />
       <file name="$USER_HOME$/dev/geoblink/report-template/index.html" timestamp="1469089292224">
         <mark key="[" line="52" column="41" />
         <mark key="]" line="52" column="41" />
@@ -265,13 +260,6 @@
       <file name="$USER_HOME$/dev/geoblink/private/resources/css/_style-clustering.scss" timestamp="1468227728938">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/map-controller.js" timestamp="1475222008216">
-        <mark key="'" line="201" column="2" />
-        <mark key="[" line="1569" column="6" />
-        <mark key="]" line="1569" column="6" />
-        <mark key="^" line="1570" column="54" />
-        <mark key="." line="1569" column="6" />
-      </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/right-panel/detailview-pob-total/detailview-pob-total-tmpl.html" timestamp="1468924992563">
         <mark key="[" line="0" column="0" />
       </file>
@@ -293,8 +281,7 @@
         <mark key="." line="6" column="16" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/my-panel/my-panel-tmpl.html" timestamp="1475222083698">
-        <mark key="[" line="9" column="22" />
-        <mark key="]" line="24" column="6" />
+        <mark key="]" line="1" column="6" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/clustering-table/clustering-table-component.js" timestamp="1468229535549">
@@ -307,13 +294,6 @@
         <mark key="]" line="28" column="45" />
         <mark key="^" line="28" column="48" />
         <mark key="." line="28" column="45" />
-      </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/map-markers/map-markers-component.js" timestamp="1475164452190" />
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/my-panel/my-panel-component.js" timestamp="1475221595944">
-        <mark key="[" line="5" column="15" />
-        <mark key="]" line="6" column="29" />
-        <mark key="." line="6" column="29" />
-        <mark key="^" line="6" column="29" />
       </file>
       <file name="$USER_HOME$/dev/geoblink/private/app/map/right-panels/traffic-panel.html" timestamp="1466779414918">
         <mark key="[" line="80" column="31" />
@@ -338,7 +318,6 @@
         <mark key="^" line="211" column="6" />
         <mark key="." line="168" column="77" />
       </file>
-      <file name="$USER_HOME$/dev/geoblink/app-client/app/map/left-panel/left-panel-category/left-panel-category-tmpl.html" timestamp="1475163272646" />
       <file name="$USER_HOME$/dev/geoblink/private/app/bi/performance/multi-filter/multi-filter-tmpl.html" timestamp="1466675585316">
         <mark key="[" line="56" column="38" />
         <mark key="]" line="56" column="38" />
