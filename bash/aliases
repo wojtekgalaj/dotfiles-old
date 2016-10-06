@@ -7,7 +7,6 @@ alias peg='ps -ef | grep -v grep | grep'
 
 alias cc='clear'
 alias xx='exit'
-
 alias v='mvim'
 
 alias ggu='git pull --rebase upstream'
@@ -23,7 +22,6 @@ alias gc='git commit'
 alias ss='npm start'
 alias sss='gulp serve'
 alias tt='npm run test'
-
 
 alias ccf='npm run uglify && cp -rf dist ~/dev/packlink-pro-front/node_modules/pack.components/'
 alias cce='npm run uglify && cp -rf dist ~/dev/packlink-pro-ebay/node_modules/pack.components/'
@@ -41,17 +39,21 @@ alias cdc='cd ~/dev/pack.components'
 alias cdp='cd ~/dev/packoffice'
 alias cdt='cd ~/dev/front-tools'
 
-alias reset-tunnel="tunnel-kill && tunnel"
 alias gulp="nocorrect gulp"
 alias jspm='nocorrect jsmp'
 
+alias vimrc='vim ~/.vimrc'
+
+# geoblink stuff
 appStart() {
   local APP_DIR="$HOME/dev/geoblink"
   export NODE_ENV="local"
   [ -d "$APP_DIR" ] && npm run local --prefix $APP_DIR
 }
-
 alias tunnel="ssh -fN dev-tunnel-postgresql && ssh -fN dev-tunnel-redis && ssh -fN dev-tunnel-mongodb"
 alias tunnel-kill="pkill -f dev-tunnel"
-
+alias reset-tunnel="tunnel-kill && tunnel"
 alias app-go="tunnel-kill && tunnel && appStart"
+
+
+
