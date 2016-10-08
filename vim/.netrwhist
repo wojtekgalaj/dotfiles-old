@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/wojtek/bin/dotfiles'
+let g:netrw_dirhist_2='/Users/wojtek/bin'
+let g:netrw_dirhist_3='/Users/wojtek'
+let g:netrw_dirhist_4='/Users/wojtek/dev'
+let g:netrw_dirhist_5='/Users/wojtek/dev/dotvim'
