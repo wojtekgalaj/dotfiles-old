@@ -13,19 +13,27 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-sensible'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
 Plugin 'szw/vim-ctrlspace'
 Plugin 'mileszs/ack.vim'
 Plugin 'sickill/vim-pasta'
-Plugin 'vim-scripts/ZoomWin'
-Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mattn/emmet-vim'
 Plugin 'majutsushi/tagbar'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'Raimondi/delimitMate'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'skwp/greplace.vim'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'burnettk/vim-angular'
+Plugin '1995eaton/vim-better-javascript-completion'
+Plugin 'cakebaker/scss-syntax.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -46,16 +54,53 @@ filetype plugin indent on    " required
 " ---------------------------    END Vundle Setup  -------------------------------------------------
 " --------------------------------------------------------------------------------------------------
 
+
+" --------------------------------------------------------------------------------------------------
+" -----------------------------------    SNIPPETS  -------------------------------------------------
+" --------------------------------------------------------------------------------------------------
+noremap ,component :-1read $HOME/bin/dotfiles/vim/snippets/component.js<CR>
+noremap ,ctrl :-1read $HOME/bin/dotfiles/vim/snippets/controller.js<CR>
+noremap ,cl :-1read $HOME/bin/dotfiles/vim/snippets/console-log.js<CR>f)i
+" --------------------------------------------------------------------------------------------------
+" --------------------------------  END  SNIPPETS  -------------------------------------------------
+" --------------------------------------------------------------------------------------------------
+
+" Backup and swap file policies
+set backupcopy=yes
+set directory=~/.vim_swp//
+
+" Mouse and arrow key policies
+set mouse=a
+
 " Indentation
+set expandtab
 set tabstop=2
 set shiftwidth=2
 
 " Search related
 set ignorecase
 set smartcase
+set hlsearch
+
+" Allow deep file finding
+set path+=**
 
 " Other editor settings
 set nowrap
+highlight Comment cterm=italic
+
+" Use system clipboard
+set clipboard=unnamed
+
+" Colors
+set t_Co=256
+syntax on
+colorscheme distinguished
+
+" Secret stuff for working on my essey on how everyone sucks
+nn <F9> mzggg?G`z
+
+
 
 " Show different cursor depending on mode 
 " if using iTerm2
@@ -69,3 +114,63 @@ set hidden
 " Key Bindings
 
 let mapleader = "\<space>"
+
+" Easily switch between windows
+nnoremap <silent> <c-k> :wincmd k<cr>
+nnoremap <silent> <c-j> :wincmd j<cr>
+nnoremap <silent> <c-h> :wincmd h<cr>
+nnoremap <silent> <c-l> :wincmd l<cr>
+
+nnoremap <leader>w :wa<cr>
+
+nnoremap <Leader>a :Ack<Space>
+
+nnoremap <Leader>h :noh<cr>
+
+" Split windows
+nnoremap <Leader>s :sp<cr><C-w><C-w>
+nnoremap <Leader>v :vsp<cr><C-w><C-w>
+
+" Folding settings
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+set foldlevel=1         "this is just what i use
+
+" NERDTree
+let NERDTreeShowHidden=1
+set encoding=utf-8
+nnoremap <leader><Tab> :NERDTreeToggle<cr>
+nnoremap <leader><leader><Tab> :NERDTreeFind<cr>
+
+" CtrlP
+" 'c' The directory of current file
+" 'r' nearest ancestor with .git
+let g:ctrlp_working_path_mode='r'
+let g:ctrlp_custom_ignore = {'dir': '\v[\/](\.git|\.hg|\.svn|bower_components|node_modules|coverage|build)$', 'file': '\v\.(exe|so|dll)$'}
+let g:ctrlp_match_func = {'match': 'pymatcher#PyMatch'}
+
+" CTRL Space
+let g:ctrlspace_use_mouse_and_arrows_in_term = 1
+
+" Prevent cursor from moving after exiting insert mode
+let CursorColumnI = 0 "the cursor column position in INSERT
+autocmd InsertEnter * let CursorColumnI = col('.')
+autocmd CursorMovedI * let CursorColumnI = col('.')
+autocmd InsertLeave * if col('.') != CursorColumnI | call cursor(0, col('.')+1) | endif"
+
+" Syntastic setup
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['standard']
+let g:syntastic_html_checkers = []
+
+" Emmet
+let g:user_emmet_leader_key=','
+

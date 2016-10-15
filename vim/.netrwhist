@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/wojtek/bin/dotfiles'
-let g:netrw_dirhist_2='/Users/wojtek/bin'
-let g:netrw_dirhist_3='/Users/wojtek'
-let g:netrw_dirhist_4='/Users/wojtek/dev'
-let g:netrw_dirhist_5='/Users/wojtek/dev/dotvim'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/wojtek/bin/dotfiles/vim'
+let g:netrw_dirhist_2='/Users/wojtek/bin/dotfiles/vim/bundle'
+let g:netrw_dirhist_3='/Users/wojtek/bin/dotfiles/vim'
+let g:netrw_dirhist_4='/Users/wojtek/dev/geoblink/app-client/resources/images/map-markers'
+let g:netrw_dirhist_5='/Users/wojtek/dev/geoblink/app-client/resources/images'
+let g:netrw_dirhist_6='/Users/wojtek/dev/geoblink/app-client/resources/images/map-markers'
+let g:netrw_dirhist_7='/Users/wojtek/dev/geoblink'
