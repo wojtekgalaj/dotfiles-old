@@ -17,6 +17,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-commentary'
+Plugin 'tomtom/tlib_vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'szw/vim-ctrlspace'
@@ -26,6 +28,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mattn/emmet-vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'FelikZ/ctrlp-py-matcher'
 Plugin 'Raimondi/delimitMate'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'skwp/greplace.vim'
@@ -34,6 +37,11 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'burnettk/vim-angular'
 Plugin '1995eaton/vim-better-javascript-completion'
 Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'vim-addon-mw-utils'
+Plugin 'garbas/vim-snipmate'
+Plugin 'wojtekgalaj/vim-snippets'
+Plugin 'mxw/vim-jsx'
+Plugin 'wavded/vim-stylus'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -102,13 +110,13 @@ nn <F9> mzggg?G`z
 
 
 
-" Show different cursor depending on mode 
+" Show different cursor depending on mode
 " if using iTerm2
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
-" CTRL Space 
+" CTRL Space
 set hidden
 
 " Key Bindings
@@ -174,3 +182,5 @@ let g:syntastic_html_checkers = []
 " Emmet
 let g:user_emmet_leader_key=','
 
+" Clean trailing whitespace
+au BufWritePre * :%s/\s\+$//e
