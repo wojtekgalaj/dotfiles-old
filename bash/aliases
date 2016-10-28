@@ -55,5 +55,7 @@ alias tunnel-kill="pkill -f dev-tunnel"
 alias reset-tunnel="tunnel-kill && tunnel"
 alias app-go="tunnel-kill && tunnel && appStart"
 
+alias nxconf="cd /usr/local/etc/nginx"
+
 
 
