@@ -53,7 +53,7 @@ appStart() {
 alias tunnel="ssh -fN dev-tunnel-postgresql && ssh -fN dev-tunnel-redis && ssh -fN dev-tunnel-mongodb"
 alias tunnel-kill="pkill -f dev-tunnel"
 alias reset-tunnel="tunnel-kill && tunnel"
-alias app-go="tunnel-kill && tunnel && appStart"
+alias app-go="tunnel-kill; tunnel && appStart"
 
 alias nxconf="cd /usr/local/etc/nginx"
 
