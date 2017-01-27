@@ -7,7 +7,7 @@ alias peg='ps -ef | grep -v grep | grep'
 
 alias cc='clear'
 alias xx='exit'
-alias v='mvim'
+alias v='nvim'
 
 alias ggu='git pull --rebase upstream'
 alias diff='git difftool'
@@ -43,18 +43,33 @@ alias gulp="nocorrect gulp"
 alias jspm='nocorrect jsmp'
 
 alias vimrc='vim ~/.vimrc'
+alias wad="fswatch -o -Ie './src/*' . | xargs -n1 bash -c 'gulp build && cp -f dist/index.js ../geoblink/app-client/node_modules/angular-d3-directive/dist'"
 
 # geoblink stuff
-appStart() {
-  local APP_DIR="$HOME/dev/geoblink"
-  export NODE_ENV="local"
-  [ -d "$APP_DIR" ] && npm run local --prefix $APP_DIR
-}
-alias tunnel="ssh -fN dev-tunnel-postgresql && ssh -fN dev-tunnel-redis && ssh -fN dev-tunnel-mongodb"
-alias tunnel-kill="pkill -f dev-tunnel"
-alias reset-tunnel="tunnel-kill && tunnel"
-alias app-go="tunnel-kill; tunnel && appStart"
 
+appStart() {
+  local APP_DIR="$HOME/dev/geoblink" # <----------------- change to fit your needs
+  if [ -d "$APP_DIR" ]; then
+    pkill -f dev-tunnel && echo 'Killing existing tunnels'
+    echo 'Creating new tunnels'
+    ssh -fN dev-tunnel-postgresql-shared && echo '- dev-tunnel-postgresql-shared'
+    ssh -fN dev-tunnel-postgresql-esp && echo '- dev-tunnel-postgresql-esp'
+    ssh -fN dev-tunnel-postgresql-gbr && echo '- dev-tunnel-postgresql-gbr'
+    ssh -fN dev-tunnel-redis && echo '- dev-tunnel-redis'
+    ssh -fN dev-tunnel-mongodb && echo '- dev-tunnel-mongodb'
+    export NODE_ENV="local"
+    export POSTGRESQL_DATA_SHARED_HOST="localhost"
+    export POSTGRESQL_DATA_SHARED_PORT="54402"
+    export POSTGRESQL_DATA_ESP_HOST="localhost"
+    export POSTGRESQL_DATA_ESP_PORT="54342"
+    export POSTGRESQL_DATA_GBR_HOST="localhost"
+    export POSTGRESQL_DATA_GBR_PORT="54352"
+    echo "Starting the APP (NODE_ENV=$NODE_ENV)"
+    npm run local --prefix $APP_DIR
+    pkill -f dev-tunnel && echo 'Killing existing tunnels'
+  fi
+}
+alias gg="appStart"
 alias nxconf="cd /usr/local/etc/nginx"
 
 
