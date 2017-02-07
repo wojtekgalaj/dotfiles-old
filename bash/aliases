@@ -43,12 +43,12 @@ alias gulp="nocorrect gulp"
 alias jspm='nocorrect jsmp'
 
 alias vimrc='vim ~/.vimrc'
-alias wad="fswatch -o -Ie './src/*' . | xargs -n1 bash -c 'gulp build && cp -f dist/index.js ../geoblink/app-client/node_modules/angular-d3-directive/dist'"
+alias wad="fswatch -o -Ie './src/*' . | xargs -n1 bash -c 'gulp build && cp -f dist/index.js ../geoblink-app/app-client/node_modules/angular-d3-directive/dist'"
 
 # geoblink stuff
 
 appStart() {
-  local APP_DIR="$HOME/dev/geoblink" # <----------------- change to fit your needs
+  local APP_DIR="$HOME/dev/geoblink-app" # <----------------- change to fit your needs
   if [ -d "$APP_DIR" ]; then
     pkill -f dev-tunnel && echo 'Killing existing tunnels'
     echo 'Creating new tunnels'
