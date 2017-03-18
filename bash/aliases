@@ -71,6 +71,6 @@ appStart() {
 }
 alias gg="appStart"
 alias nxconf="cd /usr/local/etc/nginx"
-
+cleanup = branch --merged | grep -v "\*" | xargs -n 1 git branch -d
 
 
