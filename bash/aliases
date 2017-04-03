@@ -23,54 +23,14 @@ alias ss='npm start'
 alias sss='gulp serve'
 alias tt='npm run test'
 
-alias ccf='npm run uglify && cp -rf dist ~/dev/packlink-pro-front/node_modules/pack.components/'
-alias cce='npm run uglify && cp -rf dist ~/dev/packlink-pro-ebay/node_modules/pack.components/'
-alias ccp='npm run uglify && cp -rf dist ~/dev/packoffice/node_modules/pack.components/'
-alias fwf="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp -rf dist ~/dev/packlink-pro-front/node_modules/pack.components/'"
-alias fwe="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp -rf dist ~/dev/packlink-pro-ebay/node_modules/pack.components/'"
-alias fwp="fswatch -o -Ie './dist/*' . | xargs -n1 bash -c 'npm run uglify && cp -rf dist ~/dev/packoffice/node_modules/pack.components/'"
-
 alias server="python -m SimpleHTTPServer"
-
-alias cdf='cd ~/dev/pro-front'
-alias cde='cd ~/dev/ebay-front'
-alias cds='cd ~/dev/pro-shipping'
-alias cdc='cd ~/dev/pack.components'
-alias cdp='cd ~/dev/packoffice'
-alias cdt='cd ~/dev/front-tools'
 
 alias gulp="nocorrect gulp"
 alias jspm='nocorrect jsmp'
 
 alias vimrc='vim ~/.vimrc'
-alias wad="fswatch -o -Ie './src/*' . | xargs -n1 bash -c 'gulp build && cp -f dist/index.js ../geoblink-app/app-client/node_modules/angular-d3-directive/dist'"
 
-# geoblink stuff
-
-appStart() {
-  local APP_DIR="$HOME/dev/geoblink-app" # <----------------- change to fit your needs
-  if [ -d "$APP_DIR" ]; then
-    pkill -f dev-tunnel && echo 'Killing existing tunnels'
-    echo 'Creating new tunnels'
-    ssh -fN dev-tunnel-postgresql-shared && echo '- dev-tunnel-postgresql-shared'
-    ssh -fN dev-tunnel-postgresql-esp && echo '- dev-tunnel-postgresql-esp'
-    ssh -fN dev-tunnel-postgresql-gbr && echo '- dev-tunnel-postgresql-gbr'
-    ssh -fN dev-tunnel-redis && echo '- dev-tunnel-redis'
-    ssh -fN dev-tunnel-mongodb && echo '- dev-tunnel-mongodb'
-    export NODE_ENV="local"
-    export POSTGRESQL_DATA_SHARED_HOST="localhost"
-    export POSTGRESQL_DATA_SHARED_PORT="54402"
-    export POSTGRESQL_DATA_ESP_HOST="localhost"
-    export POSTGRESQL_DATA_ESP_PORT="54342"
-    export POSTGRESQL_DATA_GBR_HOST="localhost"
-    export POSTGRESQL_DATA_GBR_PORT="54352"
-    echo "Starting the APP (NODE_ENV=$NODE_ENV)"
-    npm run local --prefix $APP_DIR
-    pkill -f dev-tunnel && echo 'Killing existing tunnels'
-  fi
-}
-alias gg="appStart"
 alias nxconf="cd /usr/local/etc/nginx"
-cleanup = branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+alias cleanup='branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 
