@@ -39,7 +39,7 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'vim-addon-mw-utils'
 Plugin 'garbas/vim-snipmate'
 Plugin 'wojtekgalaj/vim-snippets'
-Plugin 'mxw/vim-jsx'
+Plugin 'MaxMEllon/vim-jsx-pretty'
 Plugin 'wavded/vim-stylus'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mtth/scratch.vim'
@@ -47,7 +47,6 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -141,6 +140,7 @@ nnoremap <leader>w :wa<cr>
 nnoremap <Leader>a :Ack<Space>
 nnoremap <Leader>h :noh<cr>
 nnoremap <Leader>m :Scratch<cr>
+nnoremap <Leader>j :%!python -m json.tool<cr>
 
 " Split windows
 nnoremap <Leader>s :sp<cr><C-w><C-w>
@@ -201,8 +201,11 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['standard']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_html_checkers = []
+
+let g:syntastic_quiet_messages = {
+    \ "!level":  "errors"}
 
 " Emmet
 let g:user_emmet_leader_key=','
