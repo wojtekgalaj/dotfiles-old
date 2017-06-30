@@ -17,8 +17,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-unimpaired'
 Plugin 'tomtom/tlib_vim'
-" Plugin 'scrooloose/syntastic'
 Plugin 'w0rp/ale'
 Plugin 'scrooloose/nerdtree'
 Plugin 'szw/vim-ctrlspace'
@@ -48,6 +48,8 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'mitermayer/vim-prettier'
+Plugin 'Valloric/MatchTagAlways'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -137,7 +139,7 @@ nnoremap <silent> <c-j> :wincmd j<cr>
 nnoremap <silent> <c-h> :wincmd h<cr>
 nnoremap <silent> <c-l> :wincmd l<cr>
 
-nnoremap <leader>w :wa<cr>
+nnoremap <Leader>w :wa<cr>
 nnoremap <Leader>a :Ack<Space>
 nnoremap <Leader>h :noh<cr>
 nnoremap <Leader>m :Scratch<cr>
@@ -156,6 +158,7 @@ set foldlevel=1         "this is just what i use
 " NERDTree
 let NERDTreeShowHidden=1
 let g:NERDTreeWinSize=60
+:let g:NERDTreeIgnore=['\~$', 'dist']
 set encoding=utf-8
 nnoremap <leader><Tab> :NERDTreeToggle<cr>
 nnoremap <leader><leader><Tab> :NERDTreeFind<cr>
@@ -184,15 +187,27 @@ set noshowmode
 " set statusline+=%{SyntasticStatuslineFlag()}
 " set statusline+=%*
 
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_html_checkers = []
+
+let g:syntastic_quiet_messages = {
+    \ "!level":  "errors"}
+
 " Ale setup
 let g:ale_set_loclist = 0
 let g:ale_set_quickfix = 1
 let g:ale_open_list = 1
 let g:ale_lint_on_text_changed = 'never'
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\   'html': [],
+\}
 
-" Fugitive shortcuts
-nnoremap <Leader>n :cnext<CR>
-nnoremap <Leader>m :cprev<CR>
+nnoremap <Leader>t :ALEToggle<cr>
 
 " LightLine setup
 let g:lightline = {
@@ -204,15 +219,6 @@ let g:lightline = {
   \ 'subseparator': { 'left': "\ue0b1", 'right': "\ue0b3" }
   \ }
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_html_checkers = []
-
-let g:syntastic_quiet_messages = {
-    \ "!level":  "errors"}
 
 " Emmet
 let g:user_emmet_leader_key=','
