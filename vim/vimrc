@@ -50,6 +50,8 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'mitermayer/vim-prettier'
 Plugin 'Valloric/MatchTagAlways'
+Plugin 'szw/vim-maximizer'
+Plugin 'gcmt/taboo.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -144,10 +146,23 @@ nnoremap <Leader>a :Ack<Space>
 nnoremap <Leader>h :noh<cr>
 nnoremap <Leader>m :Scratch<cr>
 nnoremap <Leader>j :%!python -m json.tool<cr>
+nnoremap <Leader>n :set relativenumber!<cr>
+nnoremap <silent><F3> :MaximizerToggle<CR>
+vnoremap <silent><F3> :MaximizerToggle<CR>gv
+inoremap <silent><F3> <C-o>:MaximizerToggle<CR>
 
 " Split windows
 nnoremap <Leader>s :sp<cr><C-w><C-w>
 nnoremap <Leader>v :vsp<cr><C-w><C-w>
+
+" Get some tabs going
+nnoremap tn :tabnew<cr>
+nnoremap tt :tabnew %<cr>
+nnoremap tc :tabclose<cr>
+nnoremap tj :tabnext<cr>
+nnoremap tk :tabprev<cr>
+nnoremap th :tabfirst<cr>
+nnoremap tl :tablast<cr>
 
 " Folding settings
 set foldmethod=indent   "fold based on indent
