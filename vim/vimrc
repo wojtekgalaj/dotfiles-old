@@ -12,21 +12,28 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+" tpope's set of defaults for vim
 Plugin 'tpope/vim-sensible'
+" awesome git wrapper
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
+" wrap text objects with whatever you want
 Plugin 'tpope/vim-surround'
+" search and replace for similar words
 Plugin 'tpope/vim-abolish'
+" pairs of mappings for stuff like :cnext :cprev
 Plugin 'tpope/vim-unimpaired'
+" dependency, don't remember whose :(
 Plugin 'tomtom/tlib_vim'
+" eslint visualiser
 Plugin 'w0rp/ale'
 Plugin 'scrooloose/nerdtree'
 Plugin 'szw/vim-ctrlspace'
 Plugin 'mileszs/ack.vim'
+" fix indentation when pasting stuff in
 Plugin 'sickill/vim-pasta'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mattn/emmet-vim'
-Plugin 'majutsushi/tagbar'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'FelikZ/ctrlp-py-matcher'
 Plugin 'Raimondi/delimitMate'
@@ -52,6 +59,16 @@ Plugin 'mitermayer/vim-prettier'
 Plugin 'Valloric/MatchTagAlways'
 Plugin 'szw/vim-maximizer'
 Plugin 'gcmt/taboo.vim'
+" Toggle code between one line and multiline
+Plugin 'AndrewRadev/splitjoin.vim'
+" Align code blocks
+Plugin 'godlygeek/tabular'
+" Typescript stuff
+Plugin 'leafgarland/typescript-vim'
+Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'Quramy/tsuquyomi'
+Plugin 'Valloric/YouCompleteMe'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -240,6 +257,11 @@ let g:lightline = {
 
 " Emmet
 let g:user_emmet_leader_key=','
+
+if !exists("g:ycm_semantic_triggers")
+  let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
 
 " Clean trailing whitespace
 au BufWritePre * :%s/\s\+$//e
