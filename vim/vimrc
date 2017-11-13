@@ -40,7 +40,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'skwp/greplace.vim'
 Plugin 'jelera/vim-javascript-syntax'
-Plugin 'othree/javascript-libraries-syntax.vim'
+" Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'burnettk/vim-angular'
 Plugin '1995eaton/vim-better-javascript-completion'
 Plugin 'cakebaker/scss-syntax.vim'
@@ -63,11 +63,8 @@ Plugin 'gcmt/taboo.vim'
 Plugin 'AndrewRadev/splitjoin.vim'
 " Align code blocks
 Plugin 'godlygeek/tabular'
-" Typescript stuff
-Plugin 'leafgarland/typescript-vim'
-Plugin 'HerringtonDarkholme/yats.vim'
-Plugin 'Quramy/tsuquyomi'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'leafgarland/typescript-vim'
+" Plugin 'ElmCast/elm-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -159,7 +156,7 @@ nnoremap <silent> <c-h> :wincmd h<cr>
 nnoremap <silent> <c-l> :wincmd l<cr>
 
 nnoremap <Leader>w :wa<cr>
-nnoremap <Leader>a :Ack<Space>
+nnoremap <Leader>a :Ack!<Space>
 nnoremap <Leader>h :noh<cr>
 nnoremap <Leader>m :Scratch<cr>
 nnoremap <Leader>j :%!python -m json.tool<cr>
@@ -193,7 +190,7 @@ set foldlevel=1         "this is just what i use
 " NERDTree
 let NERDTreeShowHidden=1
 let g:NERDTreeWinSize=60
-:let g:NERDTreeIgnore=['\~$', 'dist']
+:let g:NERDTreeIgnore=['\~$', 'dist', '.DS_Store']
 set encoding=utf-8
 nnoremap <leader><Tab> :NERDTreeToggle<cr>
 nnoremap <leader><leader><Tab> :NERDTreeFind<cr>
@@ -217,23 +214,12 @@ autocmd InsertLeave * if col('.') != CursorColumnI | call cursor(0, col('.')+1) 
 " Statusline setup
 set noshowmode
 
-" Syntastic setup
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_html_checkers = []
-
-let g:syntastic_quiet_messages = {
-    \ "!level":  "errors"}
 
 " Ale setup
-let g:ale_set_loclist = 0
+let g:ale_fixers = {'javascript': ['prettier_standard']}
+" let g:ale_fixers = {'javascript': ['prettier']}
+let g:ale_fix_on_save = 1
+let g:ale_set_loclist = 1
 let g:ale_set_quickfix = 1
 let g:ale_open_list = 1
 let g:ale_lint_on_text_changed = 'never'
@@ -265,3 +251,6 @@ let g:ycm_semantic_triggers['typescript'] = ['.']
 
 " Clean trailing whitespace
 au BufWritePre * :%s/\s\+$//e
+
+" Ack settings
+let g:ackprg = 'ag --nogroup --nocolor --column'

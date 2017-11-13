@@ -4,7 +4,7 @@ export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:/usr/local/git/bin
 export PATH=$PATH:./node_modules/.bin
-
+export ANDROID_HOME=~/Library/Android/sdk
 export CDPATH="~/bin:~/dev:~/dotvim"
 
 export EDITOR='vim'
