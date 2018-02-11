@@ -38,3 +38,5 @@ alias t=todolist
 alias hanadbt='neo.sh open-db-tunnel -h hana.ondemand.com -a a8167d750 -u S0017459686 -i yit -p 6gY8Q=MX'
 alias docker='nocorrect docker'
 alias mosh='nocorrect mosh'
+
+alias chrome-i="open -a \"/Applications/Google Chrome.app\" --args --disable-web-security  --user-data-dir"

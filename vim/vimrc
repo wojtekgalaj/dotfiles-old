@@ -40,23 +40,23 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'skwp/greplace.vim'
 Plugin 'jelera/vim-javascript-syntax'
-" Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'burnettk/vim-angular'
+Plugin 'othree/javascript-libraries-syntax.vim'
+" Plugin 'burnettk/vim-angular'
 Plugin '1995eaton/vim-better-javascript-completion'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'vim-addon-mw-utils'
 Plugin 'garbas/vim-snipmate'
 Plugin 'wojtekgalaj/vim-snippets'
 Plugin 'MaxMEllon/vim-jsx-pretty'
-Plugin 'wavded/vim-stylus'
-Plugin 'kchmck/vim-coffee-script'
+" Plugin 'wavded/vim-stylus'
+" Plugin 'kchmck/vim-coffee-script'
 Plugin 'mtth/scratch.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'mitermayer/vim-prettier'
-Plugin 'Valloric/MatchTagAlways'
+" Plugin 'Valloric/MatchTagAlways'
 Plugin 'szw/vim-maximizer'
 Plugin 'gcmt/taboo.vim'
 " Toggle code between one line and multiline
@@ -64,7 +64,10 @@ Plugin 'AndrewRadev/splitjoin.vim'
 " Align code blocks
 Plugin 'godlygeek/tabular'
 " Plugin 'leafgarland/typescript-vim'
-" Plugin 'ElmCast/elm-vim'
+Plugin 'ElmCast/elm-vim'
+Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'justinj/vim-pico8-syntax'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -113,7 +116,6 @@ set shiftwidth=2
 " Search related
 set ignorecase
 set smartcase
-set hlsearch
 
 " Allow deep file finding
 set path+=**
@@ -129,7 +131,7 @@ set clipboard=unnamed
 " Colors
 set t_Co=256
 syntax on
-colorscheme distinguished
+colorscheme monokai
 
 " Secret stuff for working on my essey on how everyone sucks
 nn <F9> mzggg?G`z
@@ -177,6 +179,11 @@ nnoremap tk :tabnext<cr>
 nnoremap tj :tabprev<cr>
 nnoremap th :tabfirst<cr>
 nnoremap tl :tablast<cr>
+" Center screen on next and previous search result
+nnoremap n nzz
+nnoremap N Nzz
+
+
 " Hide the tabline and use the list view in ctrl-space
 " To view the list of tabs press l
 set showtabline=0
@@ -216,13 +223,13 @@ set noshowmode
 
 
 " Ale setup
-let g:ale_fixers = {'javascript': ['prettier_standard']}
-" let g:ale_fixers = {'javascript': ['prettier']}
+let g:ale_set_highlights = 0
+let g:ale_fixers = {'javascript': ['prettier']}
 let g:ale_fix_on_save = 1
 let g:ale_set_loclist = 1
 let g:ale_set_quickfix = 1
-let g:ale_open_list = 1
 let g:ale_lint_on_text_changed = 'never'
+let g:ale_javascript_prettier_use_local_config = 1
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \   'html': [],
