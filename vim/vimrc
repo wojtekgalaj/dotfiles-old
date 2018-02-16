@@ -186,6 +186,7 @@ nnoremap N Nzz
 
 " Hide the tabline and use the list view in ctrl-space
 " To view the list of tabs press l
+nnoremap <c-space> :CtrlSpace<cr>
 set showtabline=0
 
 " Folding settings
@@ -207,7 +208,7 @@ nnoremap <leader><leader><Tab> :NERDTreeFind<cr>
 " 'r' nearest ancestor with .git
 let g:ctrlp_working_path_mode='r'
 let g:ctrlp_custom_ignore = {'dir': '\v[\/](\.git|\.hg|\.svn|bower_components|node_modules|coverage|build)$', 'file': '\v\.(exe|so|dll)$'}
-let g:ctrlp_match_func = {'match': 'pymatcher#PyMatch'}
+" let g:ctrlp_match_func = {'match': 'pymatcher#PyMatch'}
 
 " CTRL Space
 let g:ctrlspace_use_mouse_and_arrows_in_term = 1
@@ -222,12 +223,12 @@ autocmd InsertLeave * if col('.') != CursorColumnI | call cursor(0, col('.')+1) 
 set noshowmode
 
 
-" Ale setup
+" " Ale setup
 let g:ale_set_highlights = 0
 let g:ale_fixers = {'javascript': ['prettier']}
 let g:ale_fix_on_save = 1
-let g:ale_set_loclist = 1
-let g:ale_set_quickfix = 1
+" let g:ale_set_loclist = 1
+" let g:ale_set_quickfix = 1
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_javascript_prettier_use_local_config = 1
 let g:ale_linters = {
