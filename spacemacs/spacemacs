@@ -355,6 +355,9 @@ you should place your code here."
      '(progn
         (add-hook 'js2-mode-hook #'add-node-modules-path)
         (add-hook 'js2-mode-hook #'prettier-js-mode)))
+
+  ;; Flycheck setup
+  (setq flycheck-check-syntax-automatically '(mode-enabled save))
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
