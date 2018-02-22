@@ -357,8 +357,9 @@ you should place your code here."
   (add-hook 'web-mode-hook 'prettier-js-mode)
   (add-hook 'js2-mode-hook 'flycheck-mode)
 
-  ;; This fixes an issue where SPC / search would try to open wrong path
-  ;; (spacemacs/set-leader-keys (kbd "/") 'counsel-projectile-ag)
+  ;; This is here to try to prevent a problem where when jumping to project
+  ;; the contents of the killring would get pasted into the buffer
+  (define-key spacemacs-buffer-mode-map [down-mouse-1] nil)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
