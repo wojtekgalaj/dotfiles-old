@@ -334,7 +334,9 @@ you should place your code here."
        (add-hook 'js2-mode-hook #'emmet-mode)
        (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
        ))
+  (add-hook 'emmet-mode-hook (lambda () (setq emmet-indent-after-insert nil)))
 
+  (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
   (add-to-list 'auto-mode-alist '("**\\/.*\\.js\\'" . rjsx-mode))
   (add-to-list 'load-path "/Users/wojtekgalaj/dev/tern/emacs")
   (autoload 'tern-mode "tern.el" nil t)
@@ -347,10 +349,9 @@ you should place your code here."
   (setq js2-mode-show-parse-errors nil)
   (setq js2-mode-show-strict-warnings nil)
 
-  ;; Flycheck setup
+  (setq emmet-move-cursor-after-expanding nil) ;; default t
+
   (setq flycheck-check-syntax-automatically '(mode-enabled save))
-  ;; Enable emmet
-  (emmet-mode 1)
   (global-evil-surround-mode 1)
   (yas-global-mode 1)
   ;; Prettier setup
@@ -360,6 +361,10 @@ you should place your code here."
   ;; This is here to try to prevent a problem where when jumping to project
   ;; the contents of the killring would get pasted into the buffer
   (define-key spacemacs-buffer-mode-map [down-mouse-1] nil)
+  (global-unset-key (kbd "TAB") 'emmet-expand-yas)
+  (global-unset-key (kbd "TAB") 'emmet-expand-line)
+  (global-set-key (kbd "C-,") 'emmet-expand-yas)
+
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
