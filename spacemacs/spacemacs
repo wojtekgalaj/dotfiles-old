@@ -332,7 +332,6 @@ you should place your code here."
     '(progn
        (add-hook 'js2-mode-hook #'add-node-modules-path)
        (add-hook 'js2-mode-hook #'prettier-js-mode)
-       (add-hook 'js2-mode-hook #'emmet-mode)
        (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
        ))
   (add-hook 'emmet-mode-hook (lambda () (setq emmet-indent-after-insert nil)))
@@ -368,21 +367,28 @@ you should place your code here."
   ;; This is here to try to prevent a problem where when jumping to project
   ;; the contents of the killring would get pasted into the buffer
   (define-key spacemacs-buffer-mode-map [down-mouse-1] nil)
-  (global-unset-key (kbd "<TAB>") 'emmet-expand-yas)
-  (global-unset-key (kbd "<TAB>") 'emmet-expand-line)
-  (global-unset-key (kbd "<TAB>") 'indent-for-tab-command)
-  (global-set-key (kbd "C-,") 'emmet-expand-yas)
   (ranger-override-dired-mode t)
   (setq ranger-cleanup-eagerly t)
 
-  (use-package hippie-exp
-    :ensure nil
-    :defer t
-    :bind ("<TAB>" . hippie-expand)
-    :config
-    (setq-default hippie-expand-try-functions-list
-                  '(yas-hippie-try-expand emmet-expand-line)))
+  (use-package emmet-mode
+    :init
+    (add-hook 'css-mode-hook 'emmet-mode)
+    (add-hook 'sgml-mode-hook 'emmet-mode)
+    :config (unbind-key "?\t" emmet-mode-keymap))
 
+  (use-package hippie-exp
+    :bind ("?\t" . hippie-expand)
+    :config
+    (setq-default
+     hippie-expand-try-functions-list '(yas-hippie-try-expand emmet-expand-line)))
+
+  (use-package yasnippet
+    :init
+    (add-hook 'emacs-lisp-mode 'yas-minor-mode)
+    (add-hook 'js-mode-hook 'yas-minor-mode)
+    (add-hook 'org-mode-hook 'yas-minor-mode)
+    (add-hook 'sgml-mode-hook 'yas-minor-mode)
+    :config (yas-reload-all))
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
