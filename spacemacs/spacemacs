@@ -69,6 +69,7 @@ values."
                                       add-node-modules-path
                                       rjsx-mode
                                       prettier-js
+                                      ranger
                                       )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -335,7 +336,13 @@ you should place your code here."
        (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
        ))
   (add-hook 'emmet-mode-hook (lambda () (setq emmet-indent-after-insert nil)))
+  (add-hook 'org-mode-hook #'(lambda ()
 
+                               ;; make the lines in the buffer wrap around the edges of the screen.
+
+                               ;; to press C-c q  or fill-paragraph ever again!
+                               (visual-line-mode)
+                               (org-indent-mode)))
   (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
   (add-to-list 'auto-mode-alist '("**\\/.*\\.js\\'" . rjsx-mode))
   (add-to-list 'load-path "/Users/wojtekgalaj/dev/tern/emacs")
@@ -361,9 +368,20 @@ you should place your code here."
   ;; This is here to try to prevent a problem where when jumping to project
   ;; the contents of the killring would get pasted into the buffer
   (define-key spacemacs-buffer-mode-map [down-mouse-1] nil)
-  (global-unset-key (kbd "TAB") 'emmet-expand-yas)
-  (global-unset-key (kbd "TAB") 'emmet-expand-line)
+  (global-unset-key (kbd "<TAB>") 'emmet-expand-yas)
+  (global-unset-key (kbd "<TAB>") 'emmet-expand-line)
+  (global-unset-key (kbd "<TAB>") 'indent-for-tab-command)
   (global-set-key (kbd "C-,") 'emmet-expand-yas)
+  (ranger-override-dired-mode t)
+  (setq ranger-cleanup-eagerly t)
+
+  (use-package hippie-exp
+    :ensure nil
+    :defer t
+    :bind ("<TAB>" . hippie-expand)
+    :config
+    (setq-default hippie-expand-try-functions-list
+                  '(yas-hippie-try-expand emmet-expand-line)))
 
 )
 
@@ -378,7 +396,7 @@ you should place your code here."
  '(js-indent-level 2)
  '(package-selected-packages
    (quote
-    (tern helm-themes helm-swoop helm-projectile helm-mode-manager helm-gitignore helm-flx helm-descbinds helm-css-scss helm-ag ace-jump-helm-line js2-mode spacegray-theme flycheck-elm elm-mode picolisp-mode fuzzy company-web web-completion-data dash-functional company-statistics company auto-yasnippet ac-ispell auto-complete lua-mode add-node-modules-path yaml-mode xterm-color web-mode tagedit slim-mode shell-pop scss-mode sass-mode pug-mode multi-term mmm-mode markdown-toc markdown-mode less-css-mode haml-mode gh-md flycheck-pos-tip pos-tip flycheck eshell-z eshell-prompt-extras esh-help emmet-mode org-projectile org-category-capture org-present org-pomodoro alert log4e gntp org-mime org-download htmlize gnuplot prettier-js smeargle orgit magit-gitflow gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link evil-magit magit magit-popup git-commit ghub let-alist with-editor spinner adaptive-wrap web-beautify livid-mode skewer-mode simple-httpd json-mode json-snatcher json-reformat js2-refactor yasnippet multiple-cursors js-doc coffee-mode rjsx-mode ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make helm helm-core google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg undo-tree eval-sexp-fu highlight elisp-slime-nav dumb-jump popup f dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent ace-window ace-link avy)))
+    (ranger tern helm-themes helm-swoop helm-projectile helm-mode-manager helm-gitignore helm-flx helm-descbinds helm-css-scss helm-ag ace-jump-helm-line js2-mode spacegray-theme flycheck-elm elm-mode picolisp-mode fuzzy company-web web-completion-data dash-functional company-statistics company auto-yasnippet ac-ispell auto-complete lua-mode add-node-modules-path yaml-mode xterm-color web-mode tagedit slim-mode shell-pop scss-mode sass-mode pug-mode multi-term mmm-mode markdown-toc markdown-mode less-css-mode haml-mode gh-md flycheck-pos-tip pos-tip flycheck eshell-z eshell-prompt-extras esh-help emmet-mode org-projectile org-category-capture org-present org-pomodoro alert log4e gntp org-mime org-download htmlize gnuplot prettier-js smeargle orgit magit-gitflow gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link evil-magit magit magit-popup git-commit ghub let-alist with-editor spinner adaptive-wrap web-beautify livid-mode skewer-mode simple-httpd json-mode json-snatcher json-reformat js2-refactor yasnippet multiple-cursors js-doc coffee-mode rjsx-mode ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make helm helm-core google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg undo-tree eval-sexp-fu highlight elisp-slime-nav dumb-jump popup f dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent ace-window ace-link avy)))
  '(paradox-github-token t)
  '(standard-indent 2))
 (custom-set-faces
