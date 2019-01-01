@@ -371,10 +371,10 @@ you should place your code here."
     :init
     (add-hook 'css-mode-hook 'emmet-mode)
     (add-hook 'sgml-mode-hook 'emmet-mode)
-    :config (unbind-key "<C-return>" emmet-mode-keymap))
+    :config (unbind-key "<C-j>" emmet-mode-keymap))
 
   (use-package hippie-exp
-    :bind ("<C-return>" . hippie-expand)
+    :bind ("<C-j>" . hippie-expand)
     :config
     (setq-default
      hippie-expand-try-functions-list '(yas-hippie-try-expand emmet-expand-line)))
