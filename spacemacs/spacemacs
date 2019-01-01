@@ -63,6 +63,7 @@
                                       ranger
                                       indium
                                       speed-type
+                                      evil-terminal-cursor-changer
                                       )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -397,6 +398,10 @@ you should place your code here."
 
   (autoload 'notmuch "notmuch" "notmuch mail" t)
   (setq-default typescript-indent-level 2)
+  (unless (display-graphic-p)
+    (require 'evil-terminal-cursor-changer)
+    (evil-terminal-cursor-changer-activate) ; or (etcc-on)
+    )
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
