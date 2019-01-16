@@ -6,6 +6,7 @@ export PATH=$PATH:/usr/local/git/bin
 export PATH=$PATH:./node_modules/.bin
 export ANDROID_HOME=~/Library/Android/sdk
 export CDPATH="~/bin:~/dev:~/dotvim"
+export VISUAL="vim"
 
 export EDITOR='vim'
 
