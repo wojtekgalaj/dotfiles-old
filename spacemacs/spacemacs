@@ -406,8 +406,10 @@ you should place your code here."
     (require 'evil-terminal-cursor-changer)
     (evil-terminal-cursor-changer-activate) ; or (etcc-on)
     )
+
   ;; KEYBINDINGS
   (global-set-key (kbd "C-k") 'evil-jump-forward)
+  (global-set-key (kbd "C-@") 'yas-expand)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
