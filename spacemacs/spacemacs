@@ -401,7 +401,6 @@ you should place your code here."
 
   (spaceline-toggle-minor-modes-off)
 
-  (autoload 'notmuch "notmuch" "notmuch mail" t)
   (setq-default typescript-indent-level 2)
   (unless (display-graphic-p)
     (require 'evil-terminal-cursor-changer)
