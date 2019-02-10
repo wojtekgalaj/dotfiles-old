@@ -396,16 +396,21 @@ you should place your code here."
       (yas-reload-all)
       )
 
-  (setq spacemacs-default-jump-handlers
-        (remove 'evil-goto-definition spacemacs-default-jump-handlers))
 
   (spaceline-toggle-minor-modes-off)
 
-  (setq-default typescript-indent-level 2)
+
   (unless (display-graphic-p)
     (require 'evil-terminal-cursor-changer)
     (evil-terminal-cursor-changer-activate) ; or (etcc-on)
     )
+
+  ;; SETTINGS
+  (setq helm-buffer-max-length 60)
+  (setq-default typescript-indent-level 2)
+  (setq spacemacs-default-jump-handlers
+        (remove 'evil-goto-definition spacemacs-default-jump-handlers))
+
 
   ;; KEYBINDINGS
   (global-set-key (kbd "C-k") 'evil-jump-forward)
