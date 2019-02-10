@@ -46,7 +46,8 @@
      emacs-lisp
      restclient
      gtags
-     git
+     (git :variables
+          git-magit-status-fullscreen t)
      dash
      org
      themes-megapack
