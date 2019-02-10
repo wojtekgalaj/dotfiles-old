@@ -44,3 +44,7 @@ alias chrome-i="open -a \"/Applications/Google Chrome.app\" --args --disable-web
 alias reset-spotlight="sudo mdutil -a -i off && sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist && sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist && sudo mdutil -a -i on"
 alias undomerge="git reset --hard ORIG_HEAD"
 alias weather="curl -s http://wttr.in"
+alias edoom="emacs --with-profile doom"
+alias doomcli="~/doom-emacs/bin/doom"
+alias doomdoctor="~/doom-emacs/bin/doom-doctor"
+alias myemacs="emacs --with-profile vanilla"
