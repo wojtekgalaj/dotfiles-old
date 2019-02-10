@@ -1,34 +1,4 @@
-(package-initialize)
-
-(require 'package)
-(add-to-list 'package-archives
-	     '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-
-
-(load-theme 'zenburn t)
-
-;Init evil mode
-(add-to-list 'load-path "~/.emacs.d/evil")
-(require 'evil)
-(evil-mode 1)
-
-;Stash backup files in separate directory
-(setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
-
-
-; Change cursor shape when running emacs in the terminal
-(unless (display-graphic-p)
-      (use-package evil-terminal-cursor-changer
-        :ensure t
-        :init
-        (setq evil-motion-state-cursor 'box)  ; █
-        (setq evil-visual-state-cursor 'box)  ; █
-        (setq evil-normal-state-cursor 'box)  ; █
-        (setq evil-insert-state-cursor 'bar)  ; ⎸
-        (setq evil-emacs-state-cursor  'hbar) ; _
-        :config
-        (etcc-on)
-        ))
+(org-babel-load-file "~/.emacs.d/config.org")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
